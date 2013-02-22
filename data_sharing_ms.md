@@ -37,7 +37,7 @@ is why...
 In ecology and evolution, reluctance to share data has largely resulted from [Parr & Cummings 2005](http://www.aseanbiodiversity.info/Abstract/51005017.pdf):
 
 1. Desire to use one's data for subsequent publication without competition
-2. Perceived logistical barriers
+2. Perceived logistical barriers; considered 'illusory' by Parr & Cummings (2005)
 
 While the first of these reasons is short sighted, counter-productive, and slows progress in science,
 the second reason is increasingly less justified as high profile archives for data, code, etc. are

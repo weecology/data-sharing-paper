@@ -66,6 +66,7 @@ can take several forms:
 * The most common form of data in ecology and evolution is tabular data
 * Should follow: one type of information per column, one data point-
   standard database structure rules
+* Note: Should we comment on image or audio file formats?
 
 
 6. Provide a raw form of the data

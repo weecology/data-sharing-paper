@@ -30,6 +30,7 @@ The most important thing is that you share your data at all, and this
 is why...
 
 * Increased attention/citation [Piwowar et al. 2007](http://www.plosone.org/article/info:doi%2F10.1371%2Fjournal.pone.0000308)
+* Increased collaborations
 * Increasingly required for [funding](http://www.nsf.gov/bfa/dias/policy/dmp.jsp) and publication
 * [May become required by law (e.g. FASTR)](http://www.taxpayeraccess.org/action/FASTR_calltoaction.shtml)
 * [More info on FASTR](http://www.creativecommons.org/weblog/entry/36699)
@@ -53,6 +54,7 @@ can take several forms:
 * Descriptive names in the data files themselves
 * Written description
 * Machine readable
+* Images such as maps of data collection
 
 
 3. Perform basic quality control
@@ -96,6 +98,7 @@ far is a surprising lack of consistency and well reasoned discussion.
 * Linking tables for things like
     * Taxonomy
 	* Location
+* Clearly defined spatial and temporal extents of the study
 
 9. Use an established and liberal license 
 -----------------------------------------
@@ -111,6 +114,7 @@ far is a surprising lack of consistency and well reasoned discussion.
 * Visibility
 * Searchability
 * Etc.
+* Do we need to include a list of repos here?
 
 Concluding remarks
 ------------------

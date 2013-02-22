@@ -101,7 +101,7 @@ far is a surprising lack of consistency and well reasoned discussion.
 * [About creative commons licenses] (http://creativecommons.org/licenses/)
 
 
-10. Use a established repository
+10. Use an established repository
 -------------------------------
 
 [Kowalczyk & Shankar (2011)](http://onlinelibrary.wiley.com/doi/10.1002/aris.2011.1440450113/pdf) state that, in order for data sharing to be effective, data should be findable over time via consistent pointers (e.g. DOI's), accessible and protected from long-term loss, and of sufficient quality. 
@@ -112,7 +112,7 @@ far is a surprising lack of consistency and well reasoned discussion.
 * Visibility
 * Searchability
 * Etc.
-* Do we need to include a list of repos here?
+* Do we need to include a list of repos here? Yes. Plan to discuss general features of a few, and in relation to the above.
 
 Concluding remarks
 ------------------

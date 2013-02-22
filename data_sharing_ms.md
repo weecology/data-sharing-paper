@@ -104,7 +104,11 @@ far is a surprising lack of consistency and well reasoned discussion.
 10. Use a established repository
 -------------------------------
 
-* Long-term preservation
+[Kowalczyk & Shankar (2011)](http://onlinelibrary.wiley.com/doi/10.1002/aris.2011.1440450113/pdf) state that, in order for data sharing to be effective, data should be findable over time via consistent pointers (e.g. DOI's), accessible and protected from long-term loss, and of sufficient quality. 
+
+* Long-term preservation, i.e. longevity:
+	* Make sure your data has a digital object identifier (DOI). DOIs are permanent unique identifiers that are independent of physical location and ownership
+	* Archives that provide DOI's: DataONE, figshare, Ecological Archives, Dryad
 * Visibility
 * Searchability
 * Etc.

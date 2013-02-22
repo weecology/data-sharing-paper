@@ -36,9 +36,10 @@ The first key to using data is understanding what it is. Metadata is
 information about the data that helps users understand the data. This
 can take several forms:
 
+* Descriptive names in the data files themselves
 * Written description
 * Machine readable
-* Descriptive names in the data files themselves
+
 
 3. Perform basic quality control
 --------------------------------

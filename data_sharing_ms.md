@@ -91,6 +91,7 @@ far is a surprising lack of consistency and well reasoned discussion.
 -----------------------------------------
 
 * http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/
+* [About creative commons licenses] (http://creativecommons.org/licenses/)
 
 
 10. Use a established repository

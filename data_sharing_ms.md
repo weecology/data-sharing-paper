@@ -4,7 +4,7 @@ Ten simple ways to make it easier to re(use) your data
 Themes
 ------
 1. Make individual files as easy to understand and work with as possible
-2. Make it as easy as possible to combine you data with other datasets
+2. Make it as easy as possible to combine your data with other datasets
 3. Make it easy to find and use your data
 
 Introduction
@@ -28,21 +28,11 @@ Introduction
 
 The most important thing is that you share your data at all, and this
 is why...
-
-* Increased attention/citation [Piwowar et al. 2007](http://www.plosone.org/article/info:doi%2F10.1371%2Fjournal.pone.0000308)
+* Increased attention/citation [Piwowar et al. 2007] (http://www.plosone.org/article/info:doi%2F10.1371%2Fjournal.pone.0000308)
 * Increased collaborations
-* Increasingly required for [funding](http://www.nsf.gov/bfa/dias/policy/dmp.jsp) and publication
-* [May become required by law (e.g. FASTR)](http://www.taxpayeraccess.org/action/FASTR_calltoaction.shtml)
-* [More info on FASTR](http://www.creativecommons.org/weblog/entry/36699)
-
-In ecology and evolution, reluctance to share data has largely resulted from [Parr & Cummings 2005](http://www.aseanbiodiversity.info/Abstract/51005017.pdf):
-
-1. Desire to use one's data for subsequent publication without competition
-2. Perceived logistical barriers
-
-While the first of these reasons is short sighted, counter-productive, and slows progress in science,
-the second reason is increasingly less justified as high profile archives for data, code, etc. are
-becoming more numerous and receiving greater attention.
+* Increasingly required for [funding] (http://www.nsf.gov/bfa/dias/policy/dmp.jsp) and publication
+* [May become required by law (e.g. FASTR)] (http://www.taxpayeraccess.org/action/FASTR_calltoaction.shtml)
+* http://www.creativecommons.org/weblog/entry/36699
 
 2. Provide metadata
 -------------------
@@ -104,7 +94,7 @@ far is a surprising lack of consistency and well reasoned discussion.
 -----------------------------------------
 
 * http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/
-* About [creative commons licenses](http://creativecommons.org/licenses/)
+* [About creative commons licenses] (http://creativecommons.org/licenses/)
 
 
 10. Use a established repository

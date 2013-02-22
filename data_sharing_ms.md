@@ -71,8 +71,11 @@ can take several forms:
 6. Provide a raw form of the data
 ---------------------------------
 
-Your fancy model/correction might be best for your purposes, but it
+* Your fancy model/correction might be best for your purposes, but it
 can make it difficult to combine your data with other studies.
+* How should very large data files be compressed?
+	* .zip
+	* .tar.gz
 
 
 7. Use good null values

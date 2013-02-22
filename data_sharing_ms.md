@@ -33,6 +33,15 @@ is why...
 * [May become required by law (e.g. FASTR)] (http://www.taxpayeraccess.org/action/FASTR_calltoaction.shtml)
 * http://www.creativecommons.org/weblog/entry/36699
 
+In ecology and evolution, reluctance to share data has largely resulted from [Parr & Cummings 2005](http://www.aseanbiodiversity.info/Abstract/51005017.pdf):
+
+1. Desire to use one's data for subsequent publication without competition
+2. Perceived logistical barriers
+
+While the first of these reasons is short sighted, counter-productive, and slows progress in science,
+the second reason is increasingly less justified as high profile archives for data, code, etc. are
+becoming more numerous and receiving greater attention.
+
 2. Provide metadata
 -------------------
 

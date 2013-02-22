@@ -28,6 +28,10 @@ Introduction
 
 The most important thing is that you share your data at all, and this
 is why...
+* Increased attention/citation [Piwowar et al. 2007] (http://www.plosone.org/article/info:doi%2F10.1371%2Fjournal.pone.0000308)
+* Increasingly required for funding and publication
+* [May become required by law (e.g. FASTR)] (http://www.taxpayeraccess.org/action/FASTR_calltoaction.shtml)
+* http://www.creativecommons.org/weblog/entry/36699
 
 2. Provide metadata
 -------------------

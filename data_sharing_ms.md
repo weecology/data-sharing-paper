@@ -58,9 +58,15 @@ can take several forms:
 * Images such as maps of data collection
 
 
-3. Perform basic quality control
---------------------------------
+3. Provide an unprocessed form of the data
+------------------------------------------
 
+* Your fancy model/correction might be best for your purposes, but it
+can make it difficult to combine your data with other studies.
+* How should very large data files be compressed?
+	* .zip
+	* .tar.gz
+	
 
 4. Use standard formats that will work across systems
 ------------------------------------------------------
@@ -69,6 +75,7 @@ can take several forms:
 * no spaces
 * no special characters
 * etc.
+
 
 5. Use standard data structures
 -------------------------------
@@ -80,24 +87,14 @@ can take several forms:
 * Note: Should we comment on image or audio file formats?
 
 
-6. Provide a raw form of the data
----------------------------------
-
-* Your fancy model/correction might be best for your purposes, but it
-can make it difficult to combine your data with other studies.
-* How should very large data files be compressed?
-	* .zip
-	* .tar.gz
-
-
-7. Use good null values
+6. Use good null values
 -----------------------
 
 If we can figure out what these are. To be honest all I've found so
 far is a surprising lack of consistency and well reasoned discussion.
 
 
-8. Make it easy to combine your data with other datasets
+7. Make it easy to combine your data with other datasets
 --------------------------------------------------------
 
 * Linking tables for things like
@@ -105,14 +102,13 @@ far is a surprising lack of consistency and well reasoned discussion.
 	* Location
 * Clearly defined spatial and temporal extents of the study
 
-9. Use an established and liberal license 
------------------------------------------
 
-* http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/
-* [About creative commons licenses] (http://creativecommons.org/licenses/)
+8. Perform basic quality control
+--------------------------------
 
 
-10. Use an established repository
+
+9. Use an established repository
 -------------------------------
 
 [Kowalczyk & Shankar (2011)](http://onlinelibrary.wiley.com/doi/10.1002/aris.2011.1440450113/pdf) state that, in order for data sharing to be effective, data should be findable over time via consistent pointers (e.g. DOI's), accessible and protected from long-term loss, and of sufficient quality. 
@@ -124,6 +120,14 @@ far is a surprising lack of consistency and well reasoned discussion.
 * Searchability
 * Etc.
 * Do we need to include a list of repos here? Yes. Plan to discuss general features of a few, and in relation to the above.
+
+
+10. Use an established and liberal license 
+-----------------------------------------
+
+* http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/
+* [About creative commons licenses] (http://creativecommons.org/licenses/)
+
 
 Concluding remarks
 ------------------

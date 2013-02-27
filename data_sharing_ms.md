@@ -107,7 +107,18 @@ far is a surprising lack of consistency and well reasoned discussion.
 --------------------------------
 
 * do some quick 'unit tests' of your data
-
+    * If a column is numeric, make sure there are no character values (and vice-versa)
+    * Check that empty cells are actually supposed to be empty
+	* or use the appropriate null value to fill them in
+* Check that you have avoided some or all of the pitfalls and problems listed above
+    * unprocessed data, standard formats and data structures, appropriate null values
+* If you are aware of any problems in your data, problems listed above that you did not address, or items that could be easily misinterpreted, make sure that you have noted them in your metadata
+* Double-enter your data, and do a check for mismatched lines
+    * Should help you find typos and misreads from the data sheet, or questionable values that will need to be noted as problems in the data
+* Practice data review
+    * Have your advisor/labmate/collaborator/friend scan your data and metadata. If they can't tell you what your data is about or don't understand it, then you need to work on clarity
+    * You may have poor descriptions in your metadata, uninformative column names, or confusing data structure
+    * Start at the top and try again
 
 9. Use an established repository
 -------------------------------

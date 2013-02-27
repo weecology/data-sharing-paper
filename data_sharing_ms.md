@@ -66,6 +66,7 @@ can take several forms:
     * How did you denote data that might be problematic/uncertain?
 
 * Mention development of metadata standards? 
+    * Standards are still in development (EML), but the important thing is that you _have_ metadata
 
 
 3. Provide an unprocessed form of the data

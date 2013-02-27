@@ -63,6 +63,7 @@ can take several forms:
 * Do you have any suggestions for how to use the data?
 * What problems should someone using your data be aware of?
     * How did you denote data that might be problematic/uncertain?
+* Mention development of metadata standards? 
 
 
 3. Provide an unprocessed form of the data

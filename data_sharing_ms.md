@@ -57,6 +57,13 @@ can take several forms:
 * Machine readable
 * Images such as maps of data collection
 
+* Metadata should give the What? When? Where? and How? for your data
+* How was the data collected? 
+    * Does this affect the recorded values in a way that a new user should be aware of?
+* Do you have any suggestions for how to use the data?
+* What problems should someone using your data be aware of?
+    * How did you denote data that might be problematic/uncertain?
+
 
 3. Provide an unprocessed form of the data
 ------------------------------------------

@@ -1,6 +1,10 @@
 Ten simple ways to make it easier to re(use) your data
 ======================================================
 
+Authors
+-------
+
+
 Themes
 ------
 1. Make individual files as easy to understand and work with as possible

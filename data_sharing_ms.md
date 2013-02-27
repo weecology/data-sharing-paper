@@ -72,6 +72,9 @@ can take several forms:
 * Mention development of metadata standards? 
     * Standards are still in development (EML), but the important thing is that you _have_ metadata
 
+* layout and presentation should be easy to read
+    * don't 'bury' important details
+    * don't make it overly wordy or confusing
 
 3. Provide an unprocessed form of the data
 ------------------------------------------

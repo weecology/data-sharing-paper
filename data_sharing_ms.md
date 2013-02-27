@@ -62,7 +62,9 @@ can take several forms:
     * Does this affect the recorded values in a way that a new user should be aware of?
 * Do you have any suggestions for how to use the data?
 * What problems should someone using your data be aware of?
+    * _i.e.,_ missing data, changes to sampling regime mid-study, personnel turnover, habitat disturbance, change in environmental conditions, data anomalies
     * How did you denote data that might be problematic/uncertain?
+
 * Mention development of metadata standards? 
 
 

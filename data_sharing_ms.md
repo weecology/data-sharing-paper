@@ -106,6 +106,7 @@ far is a surprising lack of consistency and well reasoned discussion.
 8. Perform basic quality control
 --------------------------------
 
+*do some quick 'unit tests' of your data
 
 
 9. Use an established repository

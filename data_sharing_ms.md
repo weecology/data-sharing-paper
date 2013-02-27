@@ -57,12 +57,16 @@ can take several forms:
 * Machine readable
 * Images such as maps of data collection
 
+* Metadata should improve _ease_ of use
+    * spans distance between collector and secondary user
+    * how to find the data, determine its proper use, and how to access it
 * Metadata should give the What? When? Where? and How? for your data
 * How was the data collected? 
     * Does this affect the recorded values in a way that a new user should be aware of?
 * Do you have any suggestions for how to use the data?
 * What problems should someone using your data be aware of?
     * _i.e.,_ missing data, changes to sampling regime mid-study, personnel turnover, habitat disturbance, change in environmental conditions, data anomalies
+    * Some statement denoting your perception of the data's quality
     * How did you denote data that might be problematic/uncertain?
 
 * Mention development of metadata standards? 

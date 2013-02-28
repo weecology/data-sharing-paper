@@ -116,6 +116,8 @@ far is a surprising lack of consistency and well reasoned discussion.
 8. Perform basic quality control
 --------------------------------
 
+Data, just like any other scientific product, should undergo some level of quality control (Reichmann _et al._ 2011). At its most basic, quality control could consist of a few quick 'unit tests' of the data. These kind of tests can be easily implemented using spreadsheet, SQL, or coding software to scan the data for specific errors. For example, if a column should contain numeric values, check that there are no non-numeric values in the data. Another common issue with ecological data is that it often contains missing values. A quick test is to check that empty cells actually represent missing data, and not mistakes in data entry. If the values are truly missing, use the appropriate null values to indicate such (blank or NULL?). Scan your data for consistency in unit of measurement, data type (_e.g.,_ numeric, character), naming scheme (_e.g.,_ taxonomy, location). Inconsistencies could lead to secondary use errors.
+
 * do some quick 'unit tests' of your data
     * If a column is numeric, make sure there are no character values (and vice-versa)
     * Check that empty cells are actually supposed to be empty

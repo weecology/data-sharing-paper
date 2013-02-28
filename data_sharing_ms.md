@@ -52,7 +52,7 @@ becoming more numerous and receiving greater attention.
 2. Provide metadata
 -------------------
 
-The first key to using data is understanding what it is. Metadata is information about the data that enables long-term reuse of the data set by the original investigators and secondary use by other scientists. Ideally, metadata should improve ease of use of the dataset through providing 1) the what, when, where, and how of data collection 2) suggestions on the suitability of the data for answering specific questions, and 3) warnings to users on known problems in the data [Michener et al. 1997] (http://www.esajournals.org/doi/pdf/10.1890/1051-0761(1997)007%5B0330%3ANMFTES%5D2.0.CO%3B2).  Although specific metadata standards are being developed (_e.g.,_ EML, DIF, DC, FGDC), the important thing is that you _have_ metadata.
+The first key to using data is understanding what it is. Metadata is information about the data that enables long-term reuse of the data set by the original investigators and secondary use by other scientists. Ideally, metadata should improve ease of use of the dataset through providing 1) the what, when, where, and how of data collection 2) suggestions on the suitability of the data for answering specific questions, and 3) warnings to users on known problems in the data (Michener et al. 1997).  Although specific metadata standards are being developed (_e.g.,_ EML, DIF, DC, FGDC), the important thing is that you _have_ metadata.
 
 The first key to using data is understanding what it is. Metadata is
 information about the data that helps users understand the data. This
@@ -81,6 +81,9 @@ can take several forms:
 * layout and presentation should be easy to read
     * don't 'bury' important details
     * don't make it overly wordy or confusing
+
+* Michener, W. K., J. W. Brunt, J. J. Helly, T. B. Kirchner, and S. G. Stafford. 1997. Nongeospatial metadata for the ecological sciences. Ecological Applications. __7__:330-342
+* Zimmerman, A. S. 2003. Data sharing and secondary use of scientific data: Experiences of Ecologists. Dissertation. University of Michigan.
 
 3. Provide an unprocessed form of the data
 ------------------------------------------

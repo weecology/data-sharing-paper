@@ -52,36 +52,18 @@ becoming more numerous and receiving greater attention.
 2. Provide metadata
 -------------------
 
-The first key to using data is understanding what it is. Metadata is information about the data that enables long-term reuse of the data set by the original investigators and secondary use by other scientists. Ideally, metadata should improve ease of use of the dataset through providing 1) the what, when, where, and how of data collection 2) suggestions on the suitability of the data for answering specific questions, and 3) warnings to users on known problems in the data (Michener et al. 1997).  Although specific metadata standards are being developed (_e.g.,_ EML, DIF, DC, FGDC), the important thing is that you _have_ metadata.
+The first key to using data is understanding what it is. Metadata is information about the data that enables long-term reuse of the data set by the original investigators and secondary use by other scientists. Specific metadata standards are being developed (_e.g.,_ EML, DIF, DC, FGDC), but the most important thing is that you _have_ metadata.
 
-The first key to using data is understanding what it is. Metadata is
-information about the data that helps users understand the data. This
-can take several forms:
+Metadata can take several forms, including descriptive names in the data files themselves, a written description of the data, and images (_i.e.,_ maps, photographs). Ideally, metadata should improve ease of use of the dataset through providing 1) the what, when, where, and how of data collection 2) suggestions on the suitability of the data for answering specific questions, 3) warnings to users on known problems in the data, and 4) how to find and access the data (Michener et al. 1997, Zimmerman 2003). 
 
-* Descriptive names in the data files themselves
-* Written description
-* Machine readable
-* Images such as maps of data collection
+Good metadata does not have to be associated with high monetary or time costs. Cultivating good habits of describing the data during planning and collection stages can help keep the original investigator organized and make eventual publication of the data easier and more efficient.For example, metadata should include a clear description of what data was collected, where and when it was collected, and why it was collected. Clear descriptive information will help future users to understand if the data is appropriate to use for a new project or if data collection methods may affect the values in a way that would affect the new user's results. It is also critical that the metadata includes any problems in the data that a future user should be aware of, such as missing data, mid-study changes to sampling regime, personnel turnover, habitat disturbance, change in environmental conditions, or data anomalies (Zimmerman 2003). This section of the metadata should include information on how problematic or uncertain data was flagged and a statement on the original investigator's perception of data quality.
 
-* Metadata should improve _ease_ of use
-    * spans distance between collector and secondary user
-    * how to find the data, determine its proper use, and how to access it
-* Metadata should give the What? When? Where? and How? for your data
-* How was the data collected? 
-    * Does this affect the recorded values in a way that a new user should be aware of?
-* Do you have any suggestions for how to use the data?
-* What problems should someone using your data be aware of?
-    * _i.e.,_ missing data, changes to sampling regime mid-study, personnel turnover, habitat disturbance, change in environmental conditions, data anomalies
-    * Some statement denoting your perception of the data's quality
-    * How did you denote data that might be problematic/uncertain?
-
-* Mention development of metadata standards? 
-    * Standards are still in development (EML), but the important thing is that you _have_ metadata
 
 * layout and presentation should be easy to read
     * don't 'bury' important details
     * don't make it overly wordy or confusing
 
+__citations__
 * Michener, W. K., J. W. Brunt, J. J. Helly, T. B. Kirchner, and S. G. Stafford. 1997. Nongeospatial metadata for the ecological sciences. Ecological Applications. __7__:330-342
 * Zimmerman, A. S. 2003. Data sharing and secondary use of scientific data: Experiences of Ecologists. Dissertation. University of Michigan.
 

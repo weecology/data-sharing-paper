@@ -118,12 +118,14 @@ far is a surprising lack of consistency and well reasoned discussion.
 
 Data, just like any other scientific product, should undergo some level of quality control (Reichmann _et al._ 2011). At its most basic, quality control could consist of a few quick 'unit tests' of the data. These kind of tests can be easily implemented using spreadsheet, SQL, or coding software to scan the data for specific errors. For example, if a column should contain numeric values, check that there are no non-numeric values in the data. Another common issue with ecological data is that it often contains missing values. A quick test is to check that empty cells actually represent missing data, and not mistakes in data entry. If the values are truly missing, use the appropriate null values to indicate such (blank or NULL?). Scan your data for consistency in unit of measurement, data type (_e.g.,_ numeric, character), naming scheme (_e.g.,_ taxonomy, location). Data inconsistencies could lead to secondary use errors. Problems or uncertainty in the data should be appropriately fixed or described in the metadata. 
 
-A more rigorous level of quality control is to double-enter data and use SQL or coding software to check for mismatched lines between the two entries. Manual double-entry of data is superior to single-entry because it increases the ability to catch typos, reader/recorder error, and the identification of questionable data (Paulsen 2012). 
+A more rigorous level of quality control is to double-enter data and use SQL or coding software to check for mismatched lines between the two entries. Manual double-entry of data is more time-intensive than single entry, but is considered superior because it increases data accuracy by catching typographical errors, reader/recorder error, out-of-range values, and identifying questionable data (Paulsen 2012, Lampe _et al._ 1998). 
 
 Before publishing the data, practice "data review". This can be as simple as asking a collaborator or another scientist unaffiliated with your specific project to scan your metadata and data. If they can't tell you what your data is about within 20 minutes, then you may need to recheck your data for the common problems and pitfalls listed above. You may have poor descriptions in your metadata, uninformative column names, or confusing data structure. Try to identify where your data is unclear or confusing and target those sections of your metadata or data structure.
 
 __citations__
 * Paulsen A., Overgaard S., Lauritsen J. M. 2012. Quality of Data Entry Using Single Entry, Double Entry and Automated Forms Processing–An Example Based on a Study of Patient-Reported Outcomes. PLoS ONE. __7__:e35087. doi:10.1371/journal.pone.0035087
+
+* Lampe, A. J. and J. M. Weiler. 1998. Data capture from the sponsors' and investigators' perspectives: balancing quality, speed, and cost. __32__:871-886.
 
 9. Use an established repository
 -------------------------------

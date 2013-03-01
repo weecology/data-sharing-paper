@@ -42,23 +42,9 @@ own data.
 1. Share your data
 ------------------
 
-The most important thing is that you share your data at all, and this
-is why...
-* Increased attention/citation [Piwowar et al. 2007](http://www.plosone.org/article/info:doi%2F10.1371%2Fjournal.pone.0000308)
-* Increased collaborations
-* Increasingly required for [funding](http://www.nsf.gov/bfa/dias/policy/dmp.jsp) and publication
-* [May become required by law (e.g. FASTR)](http://www.taxpayeraccess.org/action/FASTR_calltoaction.shtml)
-* [More info on FASTR](http://www.creativecommons.org/weblog/entry/36699)
+Share your data.  If you only follow one tenet of our manuscript it should be this one.  We believe that data sharing benefits both the community and the data sharer.    Specifically, sharing data can increase citation numbers and recognition by peers in the scientific community [@Piwowar2007](http://www.plosone.org/article/info:doi%2F10.1371%2Fjournal.pone.0000308). These benefits will likely result in new collaborations and increased productivity. Shared datasets are also more easily reused in the future by the data sharer because they are documented and standardized. Additionally, although some researchers still resist data sharing, it is increasingly required for funding [@nsfpolicy](http://www.nsf.gov/bfa/dias/policy/dmp.jsp), [@nihpolicy](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html), [@nsercpolicy](http://www.nserc-crsng.gc.ca/Professors-Professeurs/FinancialAdminGuide-GuideAdminFinancier/Responsibilities-Responsabilites_eng.asp), [@fwfpolicy](http://www.fwf.ac.at/en/public_relations/oai/index.html), publications [@dryadmembers](https://www.datadryad.org/pages/members), [@Piwowar2008](http://ocs.library.utoronto.ca//index.php/Elpub/2008/paper/view/684), and potentially by law (e.g. FASTR [@FASTR](http://www.taxpayeraccess.org/action/FASTR_calltoaction.shtml)) [More info on FASTR](http://www.creativecommons.org/weblog/entry/36699).  Therefore, those that do not share will likely be left behind, and they will impede the rate of progress in their intellectual fields [@Piwowar2011](http://www.nature.com.dist.lib.usu.edu/nature/journal/v473/n7347/full/473285a.html), [@Parr2005](http://www.aseanbiodiversity.info/Abstract/51005017.pdf).
 
-In ecology and evolution, reluctance to share data has largely resulted from [Parr & Cummings 2005](http://www.aseanbiodiversity.info/Abstract/51005017.pdf):
-
-1. Desire to use one's data for subsequent publication without competition
-2. Perceived logistical barriers; considered 'illusory' by Parr & Cummings (2005)
-
-While the first of these reasons is short sighted, counter-productive, and slows progress in science,
-the second reason is increasingly less justified as high profile archives for data, code, etc. are
-becoming more numerous and receiving greater attention.
-
+A survey of the Ecological Society of America suggests that reluctance to share data is largely due to perceived fears of: 1) competition for publications based on the shared data, 2) a lack of recognition for shared data, and 3) logistical barriers [@Palmer2004](http://www.esa.org/ecovisions/ppfiles/EcologicalVisionsReport.pdf). The first reason is largely short-sided because many data sharing initiatives allow for data embargos which can last for several years while the authors develop their publications and thus avoid competition for deriving publications from the data.  Additionally, data sets are citable entities and therefore recognition is provided to the data provider in the form of increased citation metrics. Lastly, logistical barriers to data sharing are diminishing as high profile archives for data and code are becoming more numerous and receiving greater attention [@Parr2005](http://www.aseanbiodiversity.info/Abstract/51005017.pdf).
 
 
 2. Provide metadata
@@ -100,10 +86,11 @@ Figure will be added in a separate file once I am happy with it.
 5. Use standard data structures
 -------------------------------
 
-* There are lots of different kinds of data and they should conform to standards
-* The most common form of data in ecology and evolution is tabular data
-* Should follow: one type of information per column, one data point-
-  standard database structure rules
+The structure of data can become a major barrier to reuse if it does not conform to widely recognized standards.  This is particularly true in ecology and evolution where the datasets can cover a wide variety of heterogeneous types of information.  Certain data types in ecology and evolution already have well established standard structures such as FASTA files for nucleotide or peptide sequences [@FASTA](http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick phylogenetic tree format; however, this is generally not the case and here we will describe a set of general rules for structuring tabular data.  We focus on tabular data in this section simply because it is likely the most widely encountered data type in ecology and evolution, and it presents the data sharer with the most flexibility in structure and therefore has the potential to provide the data user with the most obstacles.
+ 
+Tabular data refers to a regular two-dimensional array of rows and columns.  Within this structure, each row should represent a single unique data-record, and each column should refer a single type of information associated with each record.  {More to come here} 
+
+* Note: Should we mention when a relational database is going to be needed rather than simple tabular data?
 * Note: Should we comment on image or audio file formats?
 
 
@@ -205,7 +192,7 @@ A more rigorous level of quality control is to double-enter data and use SQL or 
 Before publishing the data, practice "data review". This can be as simple as asking a collaborator or another scientist unaffiliated with your specific project to scan your metadata and data. If they can't tell you what your data is about within 20 minutes, then you may need to recheck your data for the common problems and pitfalls listed above. You may have poor descriptions in your metadata, uninformative column names, or confusing data structure. Try to identify where your data is unclear or confusing and target those sections of your metadata or data structure.
 
 __citations__
-* Paulsen A., Overgaard S., Lauritsen J. M. 2012. Quality of Data Entry Using Single Entry, Double Entry and Automated Forms Processing–An Example Based on a Study of Patient-Reported Outcomes. PLoS ONE. __7__:e35087. doi:10.1371/journal.pone.0035087
+* Paulsen A., Overgaard S., Lauritsen J. M. 2012. Quality of Data Entry Using Single Entry, Double Entry and Automated Forms Processingâ€“An Example Based on a Study of Patient-Reported Outcomes. PLoS ONE. __7__:e35087. doi:10.1371/journal.pone.0035087
 
 * Lampe, A. J. and J. M. Weiler. 1998. Data capture from the sponsors' and investigators' perspectives: balancing quality, speed, and cost. __32__:871-886.
 

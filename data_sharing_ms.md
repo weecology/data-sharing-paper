@@ -14,14 +14,14 @@ Themes
 Introduction
 ------------
 
-There is an increasing recognition of the importance of sharing the data related
-to scientific research (). The sharing of scientific data is beneficial because
-it allows the replication of the original research results, the reuse of the
-data in meta-analyses and synthetic science, and the use of data in ways not
-originally conceived of by the authors. In ecology and evolutionary biology this
-sharing occurs through a computation of standardized repositories like GenBank
-(http://www.ncbi.nlm.nih.gov/genbank/) and repositories that can hold any of the
-diverse forms of ecological and evolutionary data like Dryad
+Sharing data is increasingly recognized as an important component of the
+scientific process (). The sharing of scientific data is beneficial because it
+allows the replication of the original research results, the reuse of the data
+in meta-analyses and synthetic science, and the use of data in ways not
+originally conceived of by the data collectors. In ecology and evolutionary
+biology this sharing occurs through a combination of standardized repositories
+like GenBank (http://www.ncbi.nlm.nih.gov/genbank/) and repositories that can
+hold any of the diverse forms of ecological and evolutionary data like Dryad
 (http://datadryad.org/), Ecological Archives
 (http://esapubs.org/archive/default.htm), and Figshare (http://figshare.com).
 
@@ -32,11 +32,10 @@ more difficult to work with existing data and therefore makes the data less
 useful than it could be [@jones2006, @reichman2011].
 
 Here we provide a list of 10 simple ways to make it easier to reuse the data
-that you share, thus maximizing the benefits of sharing that data. These
-recommendations focus on making your data available, understandable, and easy to
-work with. This means that the recommendations not only make it easier for
-others to use your data, but they will make it easier for you to work with your
-own data.
+that you share. These recommendations focus on making your data available,
+understandable, and easy to work with. This means that the recommendations not
+only make it easier for others to use your data, but also make it easier
+to work with your own data.
 
 
 1. Share your data

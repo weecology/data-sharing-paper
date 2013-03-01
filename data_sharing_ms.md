@@ -77,10 +77,11 @@ can make it difficult to combine your data with other studies.
 5. Use standard data structures
 -------------------------------
 
-* There are lots of different kinds of data and they should conform to standards
-* The most common form of data in ecology and evolution is tabular data
-* Should follow: one type of information per column, one data point-
-  standard database structure rules
+The structure of data can become a major barrier to reuse if it does not conform to widely recognized standards.  This is particularly true in ecology and evolution where the datasets can cover a wide variety of heterogeneous types of information.  Certain data types in ecology and evolution already have well established standard structures such as FASTA files for nucleotide or peptide sequences [@FASTA](http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick phylogenetic tree format; however, this is generally not the case and here we will describe a set of general rules for structuring tabular data.  We focus on tabular data in this section simply because it is likely the most widely encountered data type in ecology and evolution, and it presents the data sharer with the most flexibility in structure and therefore has the potential to provide the data user with the most obstacles.
+ 
+Tabular data refers to a regular two-dimensional array of rows and columns.  Within this structure, each row should represent a single unique data-record, and each column should refer a single type of information associated with each record.  {More to come here} 
+
+* Note: Should we mention when a relational database is going to be needed rather than simple tabular data?
 * Note: Should we comment on image or audio file formats?
 
 

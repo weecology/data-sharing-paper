@@ -69,11 +69,11 @@ __citations__
 3. Provide an unprocessed form of the data
 ------------------------------------------
 
-* Your fancy model/correction might be best for your purposes, but it
-can make it difficult to combine your data with other studies.
-* How should very large data files be compressed?
-	* .zip
-	* .tar.gz
+Most often, the data that are presented in a manuscript table or even used in the analysis are modified in some way from the original form in which they were collected. Unprocessed data are data presented in the form that resulted directly from the data collection effort. It may be important here to distinguish between a methods protocol that processes samples to retrieve data and an analytical or computational processing that manipulates unprocessed data into useful summary statistics, standard indices or metrics for your analysis. As much as a model or mathematical correction might be best for your purposes, these sort of modifications to unprocessed data can make the difference for the reuse of your data.
+
+This is not to say that your data are best suited for a meta-analysis in the raw form, but as unprocessed was the starting point for you so should that option be available to future work. Of course, your work to develop and process the data is equally important. Indeed, some metrics and indices are widely used across disciplines. In any case where data is modified from its original form or summarized (i.e. averaged) for an analysis or publication, we encourage that you also make this data available. Better yet, include computer scripts that process the data to the form you used alongside the unprocessed data. This way, any one can observe the process by which you arrived at the values used in your analysis.
+
+One concern we anticipate is that unprocessed data files can be extremely large. Later on, we urge you to use a data repository, which often can store and share such large files. Otherwise, we recommend the .zip or .tar.gz compression formats to reduce the bit size of your data.
 	
 
 4. Use standard formats that will work across systems
@@ -175,10 +175,7 @@ The null values that are most compatible with software commonly in use by ecolog
 7. Make it easy to combine your data with other datasets
 --------------------------------------------------------
 
-* Linking tables for things like
-    * Taxonomy
-	* Location
-* Clearly defined spatial and temporal extents of the study
+When working with large data collection efforts or when otherwise representing your data with limited space, it is common to develop codes or abbreviations which then appear in the data. In ecology and evolution codes often appear in place of site locations or taxonomy. Without clear definitions these codes are unintelligible and restrict reuse. As is common in standard database structure (cite?) we suggest the inclusion of linking tables which include fields for the item code and then additional fields which unambiguously describe the item. For species, this would include a table with the species codes followed by their most current family, genus, and species epithet. For site location, this would include a table with the site code followed by a GPS coordinate, spatial extent, temporal duration, and other appropriate site-specific details. These tables should be included directly with your data and mentioned as part of your meta-data. 
 
 
 8. Perform basic quality control

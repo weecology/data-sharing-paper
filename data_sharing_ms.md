@@ -81,12 +81,9 @@ can make it difficult to combine your data with other studies.
 
 4. Use standard formats that will work across systems
 ------------------------------------------------------
+Using standard formats makes your data directly compatible with different software that will work across different systems.  Figure # illustrates some common formatting problems that can obstruct data use.
 
-* csv
-* no spaces
-* no special characters
-* etc.
-
+Figure will be added in a separate file once I am happy with it.
 
 5. Use standard data structures
 -------------------------------
@@ -100,9 +97,81 @@ can make it difficult to combine your data with other studies.
 
 6. Use good null values
 -----------------------
+Performing analyses on datasets with missing data can be problematic.  This can be compounded by the use of inappropriate null values.  Null values are characters that are placed into to a field to indicate the presence of missing data.  Unfortunately, there are many different ways to indicate a missing value, and very little agreement on which null value to use.
 
-If we can figure out what these are. To be honest all I've found so
-far is a surprising lack of consistency and well reasoned discussion.
+The null values that are most compatible with software commonly in use by ecologists are a blank, NULL, or NA.  Blanks are the most compatible across different software, and are easily spotted in a visual examination of the data.  However, there can be hidden spaces in a blank cell, so be certain that if you use this option, you check for hidden spaces during the quality control check or strip excess white space computationally.  If, for some reason, you are performing calculations with Microsoft Excel, be aware that Excel will treat blanks as if they were zeros.  If you are going to be working primarily in R, and are not going to be using a relational database, using NA makes the most sense, as long as you are not also using NA as an abbreviation for North America.  If you are working with SQL, a blank or NULL would be the best option.  Having to use a null value can sometimes be avoided by making sure that the data is structured in a standard database format.  Whichever null value that you choose to use, make sure that you only use one, and that you use it consistently throughout the data set.  In addition, indicate your choice of null value clearly in the metadata. 
+
+<table>
+<table border="1">
+    <tr>
+        <th>Null values	</td>
+		<th>Problems</td>
+		<th>Compatibility</td>
+		<th>Recommendation</td>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>Indistinguishable from a true zero</td>
+		<td></td>
+		<td>Never use</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Hard to distinguish if the value is not there because it was missing, or because it was collected, but overlooked on entry.  A  line that looks blank can contain a hidden space, which results in computational errors.  Counted as a zero for calculation purposes in Microsoft Excel.</td>
+		<td>Will work with Python and SQL</td>
+		<td>Good option, if not performing calculations in Microsoft Excel.</td>
+	</tr>
+	<tr>
+		<td>999, -999, 9999, -9999</td>
+		<td>Not recognized as a null value by many programs without user input, can be inadvertently entered into calculations.</td>
+		<td></td>
+		<td>Avoid</td>
+	</tr>
+	<tr>
+		<td>NA, na</td>
+		<td>Also an abbreviation for North America, can cause problems with data type (turn a numerical column into a text column).  NA is more commonly recognized than na.</td>
+		<td>Used by R</td>
+		<td>Good option</td>
+	</tr>
+	<tr>
+		<td>N/A</td>
+		<td>An alternate form of NA, but not machine readable.</td>
+		<td></td>
+		<td>Avoid</td>
+	</tr>
+	<tr>
+		<td>NULL</td>
+		<td>Can cause problems with data type (turn a numerical column into a text column)</td>
+		<td>Used by SQL</td>
+		<td>Good option</td>
+	</tr>
+	<tr>
+		<td>None</td>
+		<td>Can cause problems with data type (turn a numerical column into a text column)</td>
+		<td>Recognized by Python</td>
+		<td>Avoid</td>
+	</tr>
+	<tr>
+		<td>No data</td>
+		<td>Can cause problems with data type (turn a numerical column into a text column), contains a space</td>
+		<td></td>
+		<td>Avoid</td>
+	</tr>
+	<tr>
+		<td>Missing</td>
+		<td>Can cause problems with data type (turn a numerical column into a text column)</td>
+		<td></td>
+		<td>Avoid</td>
+	</tr>
+	<tr>
+		<td>-,+</td>
+		<td>Can cause problems with data type (turn a numerical column into a text column)</td>
+		<td></td>
+		<td>Never use</td>
+    </tr>
+</table>
+
+
 
 
 7. Make it easy to combine your data with other datasets

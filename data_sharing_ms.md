@@ -92,12 +92,9 @@ can make it difficult to combine your data with other studies.
 
 4. Use standard formats that will work across systems
 ------------------------------------------------------
+Using standard formats makes your data directly compatible with different software that will work across different systems.  Figure # illustrates some common formatting problems that can obstruct data use.
 
-* csv
-* no spaces
-* no special characters
-* etc.
-
+Figure will be added in a separate file once I am happy with it.
 
 5. Use standard data structures
 -------------------------------

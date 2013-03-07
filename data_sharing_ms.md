@@ -78,9 +78,11 @@ One concern we anticipate is that unprocessed data files can be extremely large.
 
 4. Use standard formats that will work across systems
 ------------------------------------------------------
-Using standard formats makes your data directly compatible with different software that will work across different systems.  Figure # illustrates some common formatting problems that can obstruct data use.
+Using standard formats makes your data directly compatible with different systems and software.  Both the format of the file itself and the contents of the file are important to take into consideration.  Most ecological data can be stored effectively in a .csv file.  This can be opened by any type of software, and this is a file type that never goes out of date.  Proprietary formats such as .xls and .xlsx are difficult to use for people not working with Microsoft Office, are often difficult to load into other programs, and can become obsolete, such that you may not be able to access your own data years later as the format becomes unsupported by newer versions of the software.
 
-Figure will be added in a separate file once I am happy with it.
+The second major consideration when applying standard formats is formatting the contents of the file.  Figure # illustrates some common formatting problems that can obstruct data use.  These errors can cause the data to become unusable without a great deal of reformatting, which obstructs use of the data both by the original collector of the data and others who might want to reuse the data later.
+
+Figure # : standard_format_errors.pdf
 
 5. Use standard data structures
 -------------------------------

@@ -124,7 +124,7 @@ A more rigorous level of quality control is to double-enter data and use SQL or 
 Before publishing the data, practice "data review". This can be as simple as asking a collaborator or another scientist unaffiliated with your specific project to scan your metadata and data. If they can't tell you what your data is about within 20 minutes, then you may need to recheck your data for the common problems and pitfalls listed above. You may have poor descriptions in your metadata, uninformative column names, or confusing data structure. Try to identify where your data is unclear or confusing and target those sections of your metadata or data structure.
 
 __citations__
-* Paulsen A., Overgaard S., Lauritsen J. M. 2012. Quality of Data Entry Using Single Entry, Double Entry and Automated Forms Processing–An Example Based on a Study of Patient-Reported Outcomes. PLoS ONE. __7__:e35087. doi:10.1371/journal.pone.0035087
+* Paulsen A., Overgaard S., Lauritsen J. M. 2012. Quality of Data Entry Using Single Entry, Double Entry and Automated Forms Processingï¿½An Example Based on a Study of Patient-Reported Outcomes. PLoS ONE. __7__:e35087. doi:10.1371/journal.pone.0035087
 
 * Lampe, A. J. and J. M. Weiler. 1998. Data capture from the sponsors' and investigators' perspectives: balancing quality, speed, and cost. __32__:871-886.
 
@@ -141,12 +141,159 @@ __citations__
 * Etc.
 * Do we need to include a list of repos here? Yes. Plan to discuss general features of a few, and in relation to the above.
 
+Ecological and evolutionary data take many forms. Molecular sequences, GIS and remotely sensed environmental data,
+phylogenetic data, and census and capture data from populations and communities, among others are commonly used in
+ecological and evolutionary research. Likewise, there are many online facilities, i.e. repositories, available for
+sharing most any type of data. Some of these repositories, such as those hosting molecular sequence data (e.g. DDBJ,
+GenBank, MG-RAST), are highly specific and standardized in terms of data type, format, etc. Other repositories host
+a wide variety of ecological and evolutionary data and are much less standardized (e.g. Dryad, KNB, PANGAEA). 
+Additionally, some repositories do not exclusively apply to biological sciences, but offer a host of powerful user
+options such as version control and social networking (e.g. Figshare, Github). Repositories also vary in their terms
+of use, rights maintained by providers, and in their accessibility to the public (Table ?). Choice of repository may
+also depend on requirements of funding agencies and journals, as well as the preferences of data providers/owners for
+specific rights and terms of use, i.e. licensing options.
+
+
+
+<table>
+<table border="1">
+    <tr>
+        <th>Repository</td>
+		<th>License</td>
+		<th>Assigns DOI</td>
+        <th>Metadata</td>
+        <th>Access</td>
+		<th>Notes</td>
+	</tr>
+	<tr>
+		<td>Dryad</td>
+		<td>Creative Commons Zero (CC0)</td>
+        <td>Yes</td>
+		<td>suggested</td>
+		<td>open</td>
+		<td>Ecology & Evolution data</td>
+	</tr>
+	<tr>
+		<td>Ecological Society of America (ESA) data registry</td>
+		<td>N</td>
+        <td>Yes</td>
+		<td>compliant with EML</td>
+		<td>varies among datasets</td>
+		<td>data related to ESA publications</td>
+	</tr>
+    <tr>
+		<td>Ecological Archives</td>
+		<td>N</td>
+        <td>Yes</td>
+		<td>required</td>
+		<td>open</td>
+		<td>publishes supplemental material and data papers</td>
+	</tr>
+    <tr>
+		<td>Knowledge Network for Biocomplexity (KNB)</td>
+		<td>N</td>
+        <td>Yes</td>
+		<td>compliant with EML</td>
+		<td>varies among datasets</td>
+		<td>partners with ESA, NCEAS, DataONE</td>
+	</tr>
+	<tr>
+		<td>National Center for Ecological Analysis and Synthesis (NCEAS)</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+	<tr>
+		<td>Paleobiology Database</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+    <tr>
+		<td>USA National Phenology Network</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+	<tr>
+		<td>Data Basin</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+	<tr>
+		<td>Pangaea</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+	<tr>
+		<td>CKAN Bioportal</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+	<tr>
+		<td>CKAN Climate Data</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+    </tr>
+    <tr>
+		<td>Global Biodiversity Information Facility (GBIF)</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+    </tr>
+    <tr>
+		<td>Github</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+    </tr>
+    <tr>
+		<td>Figshare</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+    </tr>
+</table>
+
+
 
 10. Use an established and liberal license 
 -----------------------------------------
 
 * http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/
 * [About creative commons licenses] (http://creativecommons.org/licenses/)
+
+Repositories have provisions for licensing (i.e. legally established intellectual property rights, copyright,
+database right, terms of use) that are designed to protect those providing and hosting data and to clarify the
+terms under which data is used (cite). Likewise, some repositories offer a variety of licensing options.
+These can allow data sharers to share openly with the public, to allow only registered database users to access
+their data, to make their data immediately available, to enforce an embargo time from publication, etc. Data sharers
+should familiarize themselves with the policies and options of a particular repository.  
+
 
 
 Concluding remarks

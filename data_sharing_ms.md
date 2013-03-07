@@ -128,7 +128,163 @@ __citations__
 
 * Lampe, A. J. and J. M. Weiler. 1998. Data capture from the sponsors' and investigators' perspectives: balancing quality, speed, and cost. __32__:871-886.
 
+9. Use an established repository
+-------------------------------
 
+For data sharing to be effective, data should be findable over time, accessible and protected from long-term loss,
+and of sufficient quality [(Kowalczyk & Shankar 2011)](http://onlinelibrary.wiley.com/doi/10.1002/aris.2011.1440450113/pdf).
+Likewise, in an era of scientific data deluge, data sharers should consider whether their data is highly visible to,
+and can be easily found by, intended users. To these ends, data sharers should consider the diverse options offered by
+many freely usable online storage facilities (i.e. repositories). 
+
+There are repositories available for sharing most any type of biological or environmental data. Some repositories,
+such as those hosting molecular sequences (e.g. DDBJ, GenBank, MG-RAST), are highly standardized in terms of data type,
+format, QA/QC, etc. Other repositories host a wide variety of biological and environmental data and are much less
+standardized (e.g. Dryad, KNB, PANGAEA). Additionally, some repositories are not exclusively designed for the natural
+sciences but offer several advantages such as version control, collaboration, and social networking (e.g. Figshare,
+Github). Repositories also vary in their terms of use, data rights, licensing, and in being open or restricted access
+(Table ?). Choice of repository may also depend on requirements of funding agencies and journals. However, regardless
+of the repository, data sharers should ensure their dataset has an associated digital object identifier (DOI). DOIs are
+permanent unique identifiers that are independent of physical location and site ownership.
+
+Table ?. Popular repositories into which individuals can deposit datasets. These are not repositories exclusively used by members of institutions or repositories that only accept data from institutions or museums (e.g. Vertnet, Manis, Herpnet).  
+<table>
+<table border="1">
+    <tr>
+        <th>Repository</td>
+		<th>License</td>
+		<th>Assigns DOI</td>
+        <th>Metadata</td>
+        <th>Access</td>
+		<th>Notes</td>
+	</tr>
+	<tr>
+		<td>Dryad</td>
+		<td>Creative Commons Zero (CC0)</td>
+        <td>Yes</td>
+		<td>suggested</td>
+		<td>open</td>
+		<td>Ecology & Evolution data</td>
+	</tr>
+	<tr>
+		<td>Ecological Society of America (ESA) data registry</td>
+		<td>No</td>
+        <td>Yes</td>
+		<td>compliant with EML</td>
+		<td>varies among datasets</td>
+		<td>data related to ESA publications</td>
+	</tr>
+    <tr>
+		<td>Ecological Archives</td>
+		<td>No</td>
+        <td>Yes</td>
+		<td>required</td>
+		<td>open</td>
+		<td>publishes supplemental material and data papers</td>
+	</tr>
+    <tr>
+		<td>Knowledge Network for Biocomplexity (KNB)</td>
+		<td>No</td>
+        <td>Yes</td>
+		<td>compliant with EML</td>
+		<td>varies among datasets</td>
+		<td>partners with ESA, NCEAS, DataONE</td>
+	</tr>
+	<tr>
+		<td>Paleobiology Database</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+    <tr>
+		<td>USA National Phenology Network</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+	<tr>
+		<td>Data Basin</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+	<tr>
+		<td>Pangaea</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+	<tr>
+		<td>CKAN Bioportal</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+	<tr>
+		<td>CKAN Climate Data</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+    </tr>
+    <tr>
+		<td>Global Biodiversity Information Facility (GBIF)</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+    </tr>
+    <tr>
+		<td>Github</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+    </tr>
+    <tr>
+		<td>Figshare</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+    </tr>
+</table>
+
+10. Use an established and liberal license 
+-----------------------------------------
+
+Responsible data sharing requires clear communication of the rights and responsibilities of data providers, repositories,
+and data users. This means clarifying rights retained or waived by the provider, unambiguous terms under which data can
+be used and redistributed, and providing means for accountability under conditions that attract
+[copyright](http://www.copyright.gov/circs/circ1.pdf). Increasingly, this means explicitly licensing one's data,
+i.e. legally waive or retain certain rights and restrictions to users.
+
+Most, if not all, repositories include provisions for terms of use. Currently, few repositories include provisions for
+explicit licensing (Table section 9). Some that do, require users to use one or more established
+[Creative Commons licenses](http://creativecommons.org/licenses/)
+(e.g. [Dryad](http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/), Figshare).
+Others capable of hosting data and computing code allow users to include Creative Commons and
+[Open Source licenses](http://opensource.org/licenses) (e.g. Github). Data sharers should familiarize themselves with
+the policies and licensing options of a particular repository, as well as forms of data that attract copyright. More
+can be learned about copyright by visiting The [University of Michigan website](http://www.lib.umich.edu/copyright/facts-and-data),
+the website of the [Australian National Data Service](http://www.ands.org.au/guides/copyright-and-data-awareness.html),
+and the [Digital Curation Center](http://www.dcc.ac.uk/resources/how-guides/license-research-data#x1-140007).
+More can be learned about licensing by visiting websites of the [Creative Commons](http://wiki.creativecommons.org/FAQ#Can_I_use_a_Creative_Commons_license_for_software.3F)
+and [Open Source Initiative](http://opensource.org/faq).
 
 
 Concluding remarks

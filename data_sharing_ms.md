@@ -49,11 +49,11 @@ A survey of the Ecological Society of America suggests that reluctance to share 
 2. Provide metadata
 -------------------
 
-The first key to using data is understanding what it is. Metadata is information about the data that enables long-term reuse of the data set by the original investigators and secondary use by other scientists. Specific metadata standards are being developed (_e.g.,_ EML, DIF, DC, FGDC, _Ecological Archives_ metadata standard; Reichman _et al._ 2011, Whitlock 2011), but the most important thing is to _have_ metadata. Datasets that might be relevant to another's work will likely be overlooked if the metadata is unclear or doesn't exist (Fraser & Gluck 1999, Zimmerman 2003). Metadata can take several forms, including descriptive names in the data files themselves, a written description of the data, and images (_i.e.,_ maps, photographs). Ideally, metadata should improve ease of use of the dataset through providing 1) the what, when, where, and how of data collection 2) suggestions on the suitability of the data for answering specific questions, 3) warnings to users on known problems in the data, and 4) how to find and access the data (Michener _et al._ 1997, Zimmerman 2003). 
+The first key to using data is understanding what it is. Metadata is information about the data that enables long-term reuse of the data set by the original investigators and secondary use by other scientists. Datasets that might be relevant to another's work will likely be overlooked if the metadata is unclear or doesn't exist (Fraser & Gluck 1999, Zimmerman 2003). Metadata can take several forms, including descriptive names in the data files themselves, a written description of the data, and images (_i.e.,_ maps, photographs). Ideally, metadata should improve ease of use of the dataset through providing 1) the what, when, where, and how of data collection, 2) how to find and access the data, 3) suggestions on the suitability of the data for answering specific questions, and 4) warnings to users on known problems or inconsistencies in the data (Michener _et al._ 1997, Zimmerman 2003). 
 
-Good metadata does not have to be associated with high monetary or time costs. Cultivating good habits of describing the data during planning and collection stages can help keep the original investigator organized and make eventual publication of the data easier.For example, metadata should include a clear description of what, where, when, why, and how the data was collected. Clear descriptive information will help future users (including the original investigator!) to understand if the data is appropriate to use for a new project or if data collection methods may affect the values in a way that would affect the new user's results. It is also critical that the metadata includes any problems in the data that a future user should be aware of, such as missing data, mid-study changes to sampling regime, personnel turnover, habitat disturbance, change in environmental conditions, or data anomalies (Zimmerman 2003). This section of the metadata should include information on how problematic or uncertain data was flagged.
+Good metadata does not have to be associated with high monetary or time investment. Cultivating good habits of describing the data during planning and data collection stages can help keep the original investigator organized and make eventual publication of the data easier. Clear descriptive information on data collection methods and data structure (e.g., units of measurement, data type, linked columns) will help future users, including the original investigator, to understand if the data is appropriate to use for a new project and how to avoid biasing results by including uncertain or missing data. It is also critical that the metadata includes detailed description of problems or inconsistencies in the data that a future user should be aware of, such as missing data, mid-study changes to sampling regime, personnel turnover, habitat disturbance, change in environmental conditions, or data anomalies (Zimmerman 2003), as well as the specific identifier used to flag problematic data. 
 
-Similar to any other scientific publication, metadata should be logically organized, complete and clear enough to enable interpretation and use of the data, and contain a statement on the overall quality and integrity of the data. Metadata that is poorly organized, incomplete, or buries important details in wordy or confusing text hinders secondary use or may lead to critical errors in future work (Zimmerman 2007).
+Similar to any other scientific publication, metadata should be logically organized, complete and clear enough to enable interpretation and use of the data, and contain a statement on the overall quality and integrity of the data. Metadata that is poorly organized, incomplete, or buries important details in wordy or confusing text hinders secondary use or may lead to critical errors in future work (Zimmerman 2007). Specific metadata standards are being developed (_e.g.,_ EML, DIF, DC, FGDC, Ecological Archives metadata standard; Reichman _et al._ 2011, Whitlock 2011), but the most important thing is to _have_ metadata.
 
 __citations__
 * http://knb.ecoinformatics.org/eml_metadata_guide.html
@@ -69,18 +69,20 @@ __citations__
 3. Provide an unprocessed form of the data
 ------------------------------------------
 
-* Your fancy model/correction might be best for your purposes, but it
-can make it difficult to combine your data with other studies.
-* How should very large data files be compressed?
-	* .zip
-	* .tar.gz
+Most often, the data that are presented in a manuscript table or even used in the analysis are modified in some way from the original form in which they were collected. Unprocessed data are data presented in the form that resulted directly from the data collection effort. It may be important here to distinguish between a methods protocol that processes samples to retrieve data and an analytical or computational processing that manipulates unprocessed data into useful summary statistics, standard indices or metrics for your analysis. As much as a model or mathematical correction might be best for your purposes, these sort of modifications to unprocessed data can make the difference for the reuse of your data.
+
+This is not to say that your data are best suited for a meta-analysis in the raw form, but as unprocessed was the starting point for you so should that option be available to future work. Of course, your work to develop and process the data is equally important. Indeed, some metrics and indices are widely used across disciplines. In any case where data is modified from its original form or summarized (i.e. averaged) for an analysis or publication, we encourage that you also make this data available. Better yet, include computer scripts that process the data to the form you used alongside the unprocessed data. This way, any one can observe the process by which you arrived at the values used in your analysis.
+
+One concern we anticipate is that unprocessed data files can be extremely large. Later on, we urge you to use a data repository, which often can store and share such large files. Otherwise, we recommend the .zip or .tar.gz compression formats to reduce the bit size of your data.
 	
 
 4. Use standard formats that will work across systems
 ------------------------------------------------------
-Using standard formats makes your data directly compatible with different software that will work across different systems.  Figure # illustrates some common formatting problems that can obstruct data use.
+Using standard formats makes your data directly compatible with different systems and software.  Both the format of the file itself and the contents of the file are important to take into consideration.  Most ecological data can be stored effectively in a .csv file.  This can be opened by any type of software, and this is a file type that never goes out of date.  Proprietary formats such as .xls and .xlsx are difficult to use for people not working with Microsoft Office, are often difficult to load into other programs, and can become obsolete, such that you may not be able to access your own data years later as the format becomes unsupported by newer versions of the software.
 
-Figure will be added in a separate file once I am happy with it.
+The second major consideration when applying standard formats is formatting the contents of the file.  Figure # illustrates some common formatting problems that can obstruct data use.  These errors can cause the data to become unusable without a great deal of reformatting, which obstructs use of the data both by the original collector of the data and others who might want to reuse the data later.
+
+Figure # : standard_format_errors.pdf
 
 5. Use standard data structures
 -------------------------------
@@ -184,20 +186,17 @@ The null values that are most compatible with software commonly in use by ecolog
 7. Make it easy to combine your data with other datasets
 --------------------------------------------------------
 
-* Linking tables for things like
-    * Taxonomy
-	* Location
-* Clearly defined spatial and temporal extents of the study
+When working with large data collection efforts or when otherwise representing your data with limited space, it is common to develop codes or abbreviations which then appear in the data. In ecology and evolution codes often appear in place of site locations or taxonomy. Without clear definitions these codes are unintelligible and restrict reuse. As is common in standard database structure (cite?) we suggest the inclusion of linking tables which include fields for the item code and then additional fields which unambiguously describe the item. For species, this would include a table with the species codes followed by their most current family, genus, and species epithet. For site location, this would include a table with the site code followed by a GPS coordinate, spatial extent, temporal duration, and other appropriate site-specific details. These tables should be included directly with your data and mentioned as part of your meta-data. 
 
 
 8. Perform basic quality control
 --------------------------------
 
-Data, just like any other scientific product, should undergo some level of quality control (Reichmann _et al._ 2011). At its most basic, quality control could consist of a few quick 'unit tests' of the data. These kind of tests can be easily implemented using spreadsheet, SQL, or coding software to scan the data for specific errors. For example, if a column should contain numeric values, check that there are no non-numeric values in the data. Another common issue with ecological data is that it often contains missing values. A quick test is to check that empty cells actually represent missing data, and not mistakes in data entry. If the values are truly missing, use the appropriate null values to indicate such (blank or NULL?). Scan your data for consistency in unit of measurement, data type (_e.g.,_ numeric, character), naming scheme (_e.g.,_ taxonomy, location). Data inconsistencies could lead to secondary use errors. Problems or uncertainty in the data should be appropriately fixed or described in the metadata. 
+Data, just like any other scientific product, should undergo some level of quality control (Reichmann _et al._ 2011). At its most basic, quality control could consist of a few quick 'unit tests' of the data. These kind of tests can be easily implemented using spreadsheet, SQL, or coding software to scan the data for specific errors. For example, if a column should contain numeric values, check that there are no non-numeric values in the data. Ecological data often contains missing values. For good quality control, check that empty cells actually represent missing data, and not mistakes in data entry. If the values are truly missing, indicate using the appropriate null values. Scan your data for consistency in unit of measurement, data type (_e.g.,_ numeric, character), naming scheme (_e.g.,_ taxonomy, location). Problems or uncertainty in the data should be appropriately resolved before sharing your data, or described in detail in the metadata to avoid secondary use errors. 
 
 A more rigorous level of quality control is to double-enter data and use SQL or coding software to check for mismatched lines between the two entries. Manual double-entry of data is more time-intensive than single entry, but is considered superior because it increases data accuracy by catching typographical errors, reader/recorder error, out-of-range values, and identifying questionable data (Paulsen 2012, Lampe _et al._ 1998). 
 
-Before publishing the data, practice "data review". This can be as simple as asking a collaborator or another scientist unaffiliated with your specific project to scan your metadata and data. If they can't tell you what your data is about within 20 minutes, then you may need to recheck your data for the common problems and pitfalls listed above. You may have poor descriptions in your metadata, uninformative column names, or confusing data structure. Try to identify where your data is unclear or confusing and target those sections of your metadata or data structure.
+Before publishing the data, practice "data review". This can be as simple as asking a collaborator or another scientist unaffiliated with your specific project to scan your metadata and data. If they can't tell you what your data is about within 20 minutes, then you may need to recheck for the common problems and pitfalls listed above. You may have poor descriptions in your metadata, uninformative column names, or confusing data structure. Try to identify where your data is unclear or confusing and target those sections of your metadata or data structure. Informal data review may have added benefits of giving your data increased exposure and creating a culture of scientists who are better enabled to share and use other's data. 
 
 __citations__
 * Paulsen A., Overgaard S., Lauritsen J. M. 2012. Quality of Data Entry Using Single Entry, Double Entry and Automated Forms Processing–An Example Based on a Study of Patient-Reported Outcomes. PLoS ONE. __7__:e35087. doi:10.1371/journal.pone.0035087
@@ -207,23 +206,183 @@ __citations__
 9. Use an established repository
 -------------------------------
 
-[Kowalczyk & Shankar (2011)](http://onlinelibrary.wiley.com/doi/10.1002/aris.2011.1440450113/pdf) state that, in order for data sharing to be effective, data should be findable over time via consistent pointers (e.g. DOI's), accessible and protected from long-term loss, and of sufficient quality. 
+For data sharing to be effective, data should be findable over time, accessible and protected from long-term loss,
+and of sufficient quality [(Kowalczyk & Shankar 2011)](http://onlinelibrary.wiley.com/doi/10.1002/aris.2011.1440450113/pdf).
+Likewise, in an era of scientific data deluge, data sharers should consider whether their data is highly visible to,
+and can be easily found by, intended users. To these ends, data sharers should consider the diverse options offered by
+many freely usable online storage facilities (i.e. repositories). 
 
-* Long-term preservation, i.e. longevity:
-	* Make sure your data has a digital object identifier (DOI). DOIs are permanent unique identifiers that are independent of physical location and ownership
-	* Archives that provide DOI's: DataONE, figshare, Ecological Archives, Dryad
-* Visibility
-* Searchability
-* Etc.
-* Do we need to include a list of repos here? Yes. Plan to discuss general features of a few, and in relation to the above.
+There are repositories available for sharing most any type of biological or environmental data. Some repositories,
+such as those hosting molecular sequences (e.g. DDBJ, GenBank, MG-RAST), are highly standardized in terms of data type,
+format, QA/QC, etc. Other repositories host a wide variety of biological and environmental data and are much less
+standardized (e.g. Dryad, KNB, PANGAEA). Additionally, some repositories are not exclusively designed for the natural
+sciences but offer several advantages such as version control, collaboration, and social networking (e.g. Figshare,
+Github). Repositories also vary in their terms of use, data rights, licensing, and in being open or restricted access
+(Table ?). Choice of repository may also depend on requirements of funding agencies and journals. However, regardless
+of the repository, data sharers should ensure their dataset has an associated digital object identifier (DOI). DOIs are
+permanent unique identifiers that are independent of physical location and site ownership.
 
+Table ?. Popular repositories into which individuals can deposit datasets. These are not repositories exclusively used by members of institutions or repositories that only accept data from institutions or museums (e.g. Vertnet, Manis, Herpnet).  
+<table>
+<table border="1">
+    <tr>
+        <th>Repository</td>
+		<th>License</td>
+		<th>Assigns DOI</td>
+        <th>Metadata</td>
+        <th>Access</td>
+		<th>Notes</td>
+	</tr>
+	<tr>
+		<td>Dryad</td>
+		<td>Creative Commons Zero (CC0)</td>
+        <td>Yes</td>
+		<td>suggested</td>
+		<td>open</td>
+		<td>Ecology & Evolution data</td>
+	</tr>
+	<tr>
+		<td>Ecological Society of America (ESA) data registry</td>
+		<td>No</td>
+        <td>Yes</td>
+		<td>compliant with EML</td>
+		<td>varies among datasets</td>
+		<td>data related to ESA publications</td>
+	</tr>
+    <tr>
+		<td>Ecological Archives</td>
+		<td>No</td>
+        <td>Yes</td>
+		<td>required</td>
+		<td>open</td>
+		<td>publishes supplemental material and data papers</td>
+	</tr>
+    <tr>
+		<td>Knowledge Network for Biocomplexity (KNB)</td>
+		<td>No</td>
+        <td>Yes</td>
+		<td>compliant with EML</td>
+		<td>varies among datasets</td>
+		<td>partners with ESA, NCEAS, DataONE</td>
+	</tr>
+	<tr>
+		<td>Paleobiology Database</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+    <tr>
+		<td>USA National Phenology Network</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+	<tr>
+		<td>Data Basin</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+	<tr>
+		<td>Pangaea</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+	<tr>
+		<td>CKAN Bioportal</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+	</tr>
+	<tr>
+		<td>CKAN Climate Data</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+    </tr>
+    <tr>
+		<td>Global Biodiversity Information Facility (GBIF)</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+    </tr>
+    <tr>
+		<td>Github</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+    </tr>
+    <tr>
+		<td>Figshare</td>
+		<td>.</td>
+        <td>.</td>
+		<td>.</td>
+		<td>.</td>
+		<td>.</td>
+    </tr>
+</table>
 
 10. Use an established and liberal license 
 -----------------------------------------
 
-* http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/
-* [About creative commons licenses] (http://creativecommons.org/licenses/)
+Responsible data sharing requires clear communication of the rights and responsibilities of data providers, repositories,
+and data users. This means clarifying rights retained or waived by the provider, unambiguous terms under which data can
+be used and redistributed, and providing means for accountability under conditions that attract
+[copyright](http://www.copyright.gov/circs/circ1.pdf). Increasingly, this means explicitly licensing one's data,
+i.e. legally waive or retain certain rights and restrictions to users.
+
+Most, if not all, repositories include provisions for terms of use. Currently, few repositories include provisions for
+explicit licensing (Table section 9). Some that do, require users to use one or more established
+[Creative Commons licenses](http://creativecommons.org/licenses/)
+(e.g. [Dryad](http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/), Figshare).
+Others capable of hosting data and computing code allow users to include Creative Commons and
+[Open Source licenses](http://opensource.org/licenses) (e.g. Github). Data sharers should familiarize themselves with
+the policies and licensing options of a particular repository, as well as forms of data that attract copyright. More
+can be learned about copyright by visiting The [University of Michigan website](http://www.lib.umich.edu/copyright/facts-and-data),
+the website of the [Australian National Data Service](http://www.ands.org.au/guides/copyright-and-data-awareness.html),
+and the [Digital Curation Center](http://www.dcc.ac.uk/resources/how-guides/license-research-data#x1-140007).
+More can be learned about licensing by visiting websites of the [Creative Commons](http://wiki.creativecommons.org/FAQ#Can_I_use_a_Creative_Commons_license_for_software.3F)
+and [Open Source Initiative](http://opensource.org/faq).
 
 
 Concluding remarks
 ------------------
+
+Data sharing has the potential to transform the way we conduct ecological and
+evolutionary research. As a result there are an increasing number of initiatives
+at the federal, funding agency, and journal levels to encourage or require the
+sharing of the data associated with scientific research. However, making the
+data available is only the first step. To make data sharing as useful as
+possible it is necessary to make the data usable with as little effort as
+possible. This allows scientists to spend their time doing science
+rather than cleaning up data.
+
+We have provided a list of 10 practices that require only a small additional
+time investment but substantially improve the useability of data. Most of these
+recommendations are simply good practice for working with data regardless of
+whether that data is shared or not. This means that following these
+recommendations (2-8) make the data more useful for those who collected it as
+well as those who may use it in a secondary capacity. Well formatted and
+structured data makes it easier to use the data in a variety of different
+analysis programs. Well documented data makes it easier to use the data whether
+the person using it is a lab mate, a meta-analyst, or the scientist that
+collected the data a few years after it was collected. By following these
+practices we can assure that the data collected in ecology and evolution can be
+used to its full potential to improve our understanding of biological systems. 

@@ -79,10 +79,19 @@ can make it difficult to combine your data with other studies.
 
 The structure of data can become a major barrier to reuse if it does not conform to widely recognized standards.  This is particularly true in ecology and evolution where the datasets can cover a wide variety of heterogeneous types of information.  Certain data types in ecology and evolution already have well established standard structures such as FASTA files for nucleotide or peptide sequences [@FASTA](http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick phylogenetic tree format; however, this is generally not the case and here we will describe a set of general rules for structuring tabular data.  We focus on tabular data in this section simply because it is likely the most widely encountered data type in ecology and evolution, and it presents the data sharer with the most flexibility in structure and therefore has the potential to provide the data user with the most obstacles.
  
-Tabular data refers to a regular two-dimensional array of rows and columns.  Within this structure, each row should represent a single unique data-record, and each column should refer a single type of information associated with each record.  {More to come here} 
+Tabular data refers to a regular two-dimensional array of rows and columns.  Within this structure, each row represents a single record, and each column represents a single variable that is associated with each record. Every record must be associated with the same number of variables such that the data array is regular and not ragged.
 
-* Note: Should we mention when a relational database is going to be needed rather than simple tabular data?
-* Note: Should we comment on image or audio file formats?
+One of the most common mistakes in tabular data structure is to make the columns the records and the rows the variables. This makes visually examining the data more difficult because typically there are many more records than variables. Additionally some statistical programs (e.g., R-language) assume that data is structured in the opposite way so it can lead to importation problems. 
+
+Another common mistake when structuring tabular data is to combine two characteristics of a data record into a single column. For example a record may be associated with a particular treatment and a particular year. Rather than have separate columns for each unique combination or a treatment and a year the data one only needs a single treatment column and a single year column. By creating columns that only capture information on a single data characteristic (e.g., treatment or year but not both) we can increase the visual interpretability of the data and simplify data aggregation tasks. 
+
+Column names should also be carefully considered to ensure that they are informative, intuitive, and concise.  Spaces should be avoided in column names because these can cause data import problems. Eliminate spaces in column names by using camel-case (e.g, rainAvg) or underscore-case (e.g., rain_avg).  
+
+Lastly, it is often useful to associate each row with one column that acts as a unique identifier so that specific data records and be easily and accurately referenced for data queries and comparisons.
+
+* Note: it seems like unique id aspect of the table is potentially useful to mention in the quality control section because it allows for easier error tracking.  
+
+* Note: should we recommend what a useful data code is for the unique identifier and what is not? For example text strings are problematic because it is visually difficult to order them sequentially.  A combination of letters and numbers can be useful visually to communicate not only the sequence of the record but also other information (e.g., TGP-00001 was the 1st record collected at TGP), but will be more difficult to handle programmatically.  
 
 
 6. Use good null values

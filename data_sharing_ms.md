@@ -63,8 +63,8 @@ It is also critical that the metadata includes detailed description of problems 
 Similar to any other scientific publication, metadata should be logically organized, complete and clear enough to enable interpretation and use of the data, and contain a statement on the overall quality and integrity of the data. 
 Metadata that is poorly organized, incomplete, or buries important details in wordy or confusing text hinders secondary use or may lead to critical errors in future work (Zimmerman 2007). 
 Specific metadata standards are being developed (_e.g.,_ EML, DIF, DC, FGDC, Ecological Archives metadata standard; Reichman _et al._ 2011, Whitlock 2011), but the most important thing is to _have_ metadata.
-In the best case scenario, metadata should be machine-readable, which allows computers to handle data automatically (cites). 
-High-level standards can be constructed after data has been published, but allows broader and more efficient use of shared data (cites).
+In the best case scenario, metadata should be machine-readable, which allows computers to handle data automatically. 
+High-level standards can be constructed after data has been published, but allows broader and more efficient use of shared data ([@Brunt2002](http://pal.lternet.edu/biblio/lterfinalms/228lterc.pdf),[@Jones](http://www.pnamp.org/sites/default/files/Jones2006_AREES.pdf), [@KNB] (http://knb.ecoinformatics.org/eml_metadata_guide.html).
 Tools for constructing machine-readable metadata (cites).
 
 __citations__

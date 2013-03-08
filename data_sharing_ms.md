@@ -173,7 +173,7 @@ The null values that are most compatible with software commonly in use by ecolog
 		<td>Avoid</td>
 	</tr>
 	<tr>
-		<td>-,+</td>
+		<td>-,+,.</td>
 		<td>Can cause problems with data type (turn a numerical column into a text column)</td>
 		<td></td>
 		<td>Never use</td>

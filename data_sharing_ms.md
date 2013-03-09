@@ -62,13 +62,19 @@ It is also critical that the metadata includes detailed description of problems 
 
 Similar to any other scientific publication, metadata should be logically organized, complete and clear enough to enable interpretation and use of the data, and contain a statement on the overall quality and integrity of the data. 
 Metadata that is poorly organized, incomplete, or buries important details in wordy or confusing text hinders secondary use or may lead to critical errors in future work (Zimmerman 2007). 
-Specific metadata standards are being developed (_e.g.,_ EML, DIF, DC, FGDC, Ecological Archives metadata standard; Reichman _et al._ 2011, Whitlock 2011), but the most important thing is to _have_ metadata.
+Specific metadata standards are being developed (_e.g.,_ Ecological Metadata Language [@EML](http://knb.ecoinformatics.org/software/eml/), 
+Directory Interchange Format [@DIF](http://gcmd.gsfc.nasa.gov/add/difguide/index.html), 
+Darwin Core [@DWC](http://rs.tdwg.org/dwc/),[@Wieczorek2012](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0029715), 
+Dublin Core Metadata Initiative [@DCMI](http://dublincore.org/metadata-basics/), 
+Federal Geographic Data Committee [@FGDC](http://www.fgdc.gov/metadata/geospatial-metadata-standards), 
+Ecological Archives metadata standard [@EcolArchiv](http://esapubs.org/archive/instruct_d.htm); Reichman _et al._ 2011, Whitlock 2011), 
+but the most important thing is to _have_ metadata.
 In the best case scenario, metadata should be machine-readable, which allows computers to handle data automatically. 
 High-level standards can be constructed after data has been published, but allows broader and more efficient use of shared data ([@Brunt2002](http://pal.lternet.edu/biblio/lterfinalms/228lterc.pdf),[@Jones](http://www.pnamp.org/sites/default/files/Jones2006_AREES.pdf), [@KNB] (http://knb.ecoinformatics.org/eml_metadata_guide.html).
 Tools for constructing machine-readable metadata (_e.g._, [@Morpho] (http://knb.ecoinformatics.org/morpho portal.jsp), cites).
 
 __citations__
-* http://knb.ecoinformatics.org/eml_metadata_guide.html
+* software for DIF https://marinemetadata.org/references/dif
 * http://faculty.washington.edu/tewksjj/wordpress/wp-content/uploads/2012/03/Hampton2012.pdf
 * Fraser, B. and M. Gluck. 1999. Usability of geospatial metadata _or_ space-time matters. Bulletin of the American Society for Information Science. __25__:24-28.
 * Michener, W. K. and J. W. Brunt. 2000. _Ecological Data: Design, Management and Processing_. Blackwell Science. Malden, MA.

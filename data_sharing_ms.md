@@ -65,10 +65,11 @@ Metadata that is poorly organized, incomplete, or buries important details in wo
 Specific metadata standards are being developed (_e.g.,_ EML, DIF, DC, FGDC, Ecological Archives metadata standard; Reichman _et al._ 2011, Whitlock 2011), but the most important thing is to _have_ metadata.
 In the best case scenario, metadata should be machine-readable, which allows computers to handle data automatically. 
 High-level standards can be constructed after data has been published, but allows broader and more efficient use of shared data ([@Brunt2002](http://pal.lternet.edu/biblio/lterfinalms/228lterc.pdf),[@Jones](http://www.pnamp.org/sites/default/files/Jones2006_AREES.pdf), [@KNB] (http://knb.ecoinformatics.org/eml_metadata_guide.html).
-Tools for constructing machine-readable metadata (cites).
+Tools for constructing machine-readable metadata (_e.g._, [@Morpho] (http://knb.ecoinformatics.org/morpho portal.jsp), cites).
 
 __citations__
 * http://knb.ecoinformatics.org/eml_metadata_guide.html
+* http://faculty.washington.edu/tewksjj/wordpress/wp-content/uploads/2012/03/Hampton2012.pdf
 * Fraser, B. and M. Gluck. 1999. Usability of geospatial metadata _or_ space-time matters. Bulletin of the American Society for Information Science. __25__:24-28.
 * Michener, W. K. and J. W. Brunt. 2000. _Ecological Data: Design, Management and Processing_. Blackwell Science. Malden, MA.
 * Michener, W. K., J. W. Brunt, J. J. Helly, T. B. Kirchner, and S. G. Stafford. 1997. Nongeospatial metadata for the ecological sciences. Ecological Applications. __7__:330-342

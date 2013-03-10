@@ -255,7 +255,7 @@ Github). Repositories also vary in their terms of use, data rights, licensing, a
 of the repository, data sharers should ensure their dataset has an associated digital object identifier (DOI). DOIs are
 permanent unique identifiers that are independent of physical location and site ownership.
 
-Table ?. Popular repositories into which individuals can deposit datasets. These are not repositories exclusively used by members of institutions or repositories that only accept data from institutions or museums (e.g. Vertnet, Manis, Herpnet).  
+Table ?. Popular repositories into which individuals can deposit datasets. These are not repositories exclusively used by members of institutions or repositories that only accept data from institutions or museums (e.g. Vertnet).  
 <table>
 <table border="1">
     <tr>
@@ -270,105 +270,73 @@ Table ?. Popular repositories into which individuals can deposit datasets. These
 		<td>Dryad</td>
 		<td>Creative Commons Zero (CC0)</td>
         <td>Yes</td>
-		<td>suggested</td>
-		<td>open</td>
+		<td>Suggested</td>
+		<td>Open</td>
 		<td>Ecology & Evolution data</td>
 	</tr>
 	<tr>
 		<td>Ecological Society of America (ESA) data registry</td>
 		<td>No</td>
         <td>Yes</td>
-		<td>compliant with EML</td>
-		<td>varies among datasets</td>
-		<td>data related to ESA publications</td>
+		<td>Compliant with EML</td>
+		<td>Varies among datasets</td>
+		<td>Data related to ESA publications</td>
 	</tr>
     <tr>
 		<td>Ecological Archives</td>
 		<td>No</td>
         <td>Yes</td>
-		<td>required</td>
-		<td>open</td>
-		<td>publishes supplemental material and data papers</td>
+		<td>Required</td>
+		<td>Open</td>
+		<td>Publishes supplemental material and data papers</td>
 	</tr>
     <tr>
 		<td>Knowledge Network for Biocomplexity (KNB)</td>
 		<td>No</td>
         <td>Yes</td>
-		<td>compliant with EML</td>
-		<td>varies among datasets</td>
-		<td>partners with ESA, NCEAS, DataONE</td>
+		<td>Compliant with EML</td>
+		<td>Varies among datasets</td>
+		<td>Partners with ESA, NCEAS, DataONE</td>
 	</tr>
 	<tr>
 		<td>Paleobiology Database</td>
-		<td>.</td>
-        <td>.</td>
-		<td>.</td>
-		<td>.</td>
-		<td>.</td>
+		<td>Various Creative Commons</td>
+        <td>No</td>
+		<td>Optional</td>
+		<td>Varies among datasets</td>
+		<td>Has several analysis tools</td>
 	</tr>
     <tr>
-		<td>USA National Phenology Network</td>
-		<td>.</td>
-        <td>.</td>
-		<td>.</td>
-		<td>.</td>
-		<td>.</td>
-	</tr>
-	<tr>
 		<td>Data Basin</td>
-		<td>.</td>
-        <td>.</td>
-		<td>.</td>
-		<td>.</td>
-		<td>.</td>
+		<td>Various Creative Commons</td>
+        <td>No</td>
+		<td>Optional</td>
+		<td>Open</td>
+		<td>Data are GIS and must be ESRI files. 1GB of free space</td>
 	</tr>
 	<tr>
 		<td>Pangaea</td>
-		<td>.</td>
-        <td>.</td>
-		<td>.</td>
-		<td>.</td>
-		<td>.</td>
+		<td>Creative Commons</td>
+        <td>Yes</td>
+		<td>Required</td>
+		<td>Varies</td>
+		<td>Editors participate in QA/QC</td>
 	</tr>
 	<tr>
-		<td>CKAN Bioportal</td>
-		<td>.</td>
-        <td>.</td>
-		<td>.</td>
-		<td>.</td>
-		<td>.</td>
-	</tr>
-	<tr>
-		<td>CKAN Climate Data</td>
-		<td>.</td>
-		<td>.</td>
-		<td>.</td>
-		<td>.</td>
-		<td>.</td>
-    </tr>
-    <tr>
-		<td>Global Biodiversity Information Facility (GBIF)</td>
-		<td>.</td>
-        <td>.</td>
-		<td>.</td>
-		<td>.</td>
-		<td>.</td>
-    </tr>
-    <tr>
 		<td>Github</td>
-		<td>.</td>
-        <td>.</td>
-		<td>.</td>
-		<td>.</td>
-		<td>.</td>
+		<td>Licensed by user</td>
+        <td>N/A</td>
+		<td>N/A</td>
+		<td>User decides</td>
+		<td>Users create repositories that can be public or private</td>
     </tr>
     <tr>
 		<td>Figshare</td>
-		<td>.</td>
-        <td>.</td>
-		<td>.</td>
-		<td>.</td>
-		<td>.</td>
+		<td>CC0 if public</td>
+        <td>Yes</td>
+		<td>No</td>
+		<td>Open if public</td>
+		<td>Accepts datasets, preprints, figures, presentations</td>
     </tr>
 </table>
 

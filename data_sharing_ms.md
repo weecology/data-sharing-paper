@@ -49,14 +49,33 @@ A survey of the Ecological Society of America suggests that reluctance to share 
 2. Provide metadata
 -------------------
 
-The first key to using data is understanding what it is. Metadata is information about the data that enables long-term reuse of the data set by the original investigators and secondary use by other scientists. Datasets that might be relevant to another's work will likely be overlooked if the metadata is unclear or doesn't exist (Fraser & Gluck 1999, Zimmerman 2003). Metadata can take several forms, including descriptive names in the data files themselves, a written description of the data, and images (_i.e.,_ maps, photographs). Ideally, metadata should improve ease of use of the dataset through providing 1) the what, when, where, and how of data collection, 2) how to find and access the data, 3) suggestions on the suitability of the data for answering specific questions, and 4) warnings to users on known problems or inconsistencies in the data (Michener _et al._ 1997, Zimmerman 2003). 
+The first key to using data is understanding what it is. 
+Metadata is information about the data that enables long-term reuse of the data set by the original investigators and secondary use by other scientists. 
+Datasets that might be relevant to another's work will likely be overlooked if the metadata is unclear or doesn't exist (Fraser & Gluck 1999, Zimmerman 2003). 
+Metadata can take several forms, including descriptive names in the data files themselves, a written description of the data, and images (_i.e.,_ maps, photographs). 
+Ideally, metadata should improve ease of use of the dataset through providing 1) the what, when, where, and how of data collection, 2) how to find and access the data, 3) suggestions on the suitability of the data for answering specific questions, and 4) warnings to users on known problems or inconsistencies in the data (Michener _et al._ 1997, Zimmerman 2003). 
 
-Good metadata does not have to be associated with high monetary or time investment. Cultivating good habits of describing the data during planning and data collection stages can help keep the original investigator organized and make eventual publication of the data easier. Clear descriptive information on data collection methods and data structure (e.g., units of measurement, data type, linked columns) will help future users, including the original investigator, to understand if the data is appropriate to use for a new project and how to avoid biasing results by including uncertain or missing data. It is also critical that the metadata includes detailed description of problems or inconsistencies in the data that a future user should be aware of, such as missing data, mid-study changes to sampling regime, personnel turnover, habitat disturbance, change in environmental conditions, or data anomalies (Zimmerman 2003), as well as the specific identifier used to flag problematic data. 
+Good metadata does not have to be associated with high monetary or time investment. 
+Cultivating good habits of describing the data during planning and data collection stages can help keep the original investigator organized and make eventual publication of the data easier. 
+Clear descriptive information on data collection methods and data structure (e.g., units of measurement, data type, linked columns) will help future users, including the original investigator, to understand if the data is appropriate to use for a new project and how to avoid biasing results by including uncertain or missing data. 
+It is also critical that the metadata includes detailed description of problems or inconsistencies in the data that a future user should be aware of, such as missing data, mid-study changes to sampling regime, personnel turnover, habitat disturbance, change in environmental conditions, or data anomalies (Zimmerman 2003), as well as the specific identifier used to flag problematic data. 
 
-Similar to any other scientific publication, metadata should be logically organized, complete and clear enough to enable interpretation and use of the data, and contain a statement on the overall quality and integrity of the data. Metadata that is poorly organized, incomplete, or buries important details in wordy or confusing text hinders secondary use or may lead to critical errors in future work (Zimmerman 2007). Specific metadata standards are being developed (_e.g.,_ EML, DIF, DC, FGDC, Ecological Archives metadata standard; Reichman _et al._ 2011, Whitlock 2011), but the most important thing is to _have_ metadata.
+Similar to any other scientific publication, metadata should be logically organized, complete and clear enough to enable interpretation and use of the data, and contain a statement on the overall quality and integrity of the data. 
+Metadata that is poorly organized, incomplete, or buries important details in wordy or confusing text hinders secondary use or may lead to critical errors in future work (Zimmerman 2007). 
+Specific metadata standards are being developed (_e.g.,_ Ecological Metadata Language [@EML](http://knb.ecoinformatics.org/software/eml/), 
+Directory Interchange Format [@DIF](http://gcmd.gsfc.nasa.gov/add/difguide/index.html), 
+Darwin Core [@DWC](http://rs.tdwg.org/dwc/),[@Wieczorek2012](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0029715), 
+Dublin Core Metadata Initiative [@DCMI](http://dublincore.org/metadata-basics/), 
+Federal Geographic Data Committee [@FGDC](http://www.fgdc.gov/metadata/geospatial-metadata-standards), 
+Ecological Archives metadata standard [@EcolArchiv](http://esapubs.org/archive/instruct_d.htm); Reichman _et al._ 2011, Whitlock 2011), 
+but the most important thing is to _have_ metadata.
+In the best case scenario, metadata should be machine-readable, which allows computers to handle data automatically. 
+High-level standards can be constructed after data has been published, but allows broader and more efficient use of shared data ([@Brunt2002](http://pal.lternet.edu/biblio/lterfinalms/228lterc.pdf),[@Jones](http://www.pnamp.org/sites/default/files/Jones2006_AREES.pdf), [@KNB] (http://knb.ecoinformatics.org/eml_metadata_guide.html).
+Tools for constructing machine-readable metadata (_e.g._, [@Morpho] (http://knb.ecoinformatics.org/morpho portal.jsp), cites).
 
 __citations__
-* http://knb.ecoinformatics.org/eml_metadata_guide.html
+* software for DIF https://marinemetadata.org/references/dif
+* http://faculty.washington.edu/tewksjj/wordpress/wp-content/uploads/2012/03/Hampton2012.pdf
 * Fraser, B. and M. Gluck. 1999. Usability of geospatial metadata _or_ space-time matters. Bulletin of the American Society for Information Science. __25__:24-28.
 * Michener, W. K. and J. W. Brunt. 2000. _Ecological Data: Design, Management and Processing_. Blackwell Science. Malden, MA.
 * Michener, W. K., J. W. Brunt, J. J. Helly, T. B. Kirchner, and S. G. Stafford. 1997. Nongeospatial metadata for the ecological sciences. Ecological Applications. __7__:330-342
@@ -89,10 +108,19 @@ Figure # : standard_format_errors.pdf
 
 The structure of data can become a major barrier to reuse if it does not conform to widely recognized standards.  This is particularly true in ecology and evolution where the datasets can cover a wide variety of heterogeneous types of information.  Certain data types in ecology and evolution already have well established standard structures such as FASTA files for nucleotide or peptide sequences [@FASTA](http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick phylogenetic tree format; however, this is generally not the case and here we will describe a set of general rules for structuring tabular data.  We focus on tabular data in this section simply because it is likely the most widely encountered data type in ecology and evolution, and it presents the data sharer with the most flexibility in structure and therefore has the potential to provide the data user with the most obstacles.
  
-Tabular data refers to a regular two-dimensional array of rows and columns.  Within this structure, each row should represent a single unique data-record, and each column should refer a single type of information associated with each record.  {More to come here} 
+Tabular data refers to a regular two-dimensional array of rows and columns.  Within this structure, each row represents a single record, and each column represents a single variable that is associated with each record. Every record must be associated with the same number of variables such that the data array is regular and not ragged.
 
-* Note: Should we mention when a relational database is going to be needed rather than simple tabular data?
-* Note: Should we comment on image or audio file formats?
+One of the most common mistakes in tabular data structure is to make the columns the records and the rows the variables. This makes visually examining the data more difficult because typically there are many more records than variables. Additionally some statistical programs (e.g., R-language) assume that data is structured in the opposite way so it can lead to importation problems. 
+
+Another common mistake when structuring tabular data is to combine two characteristics of a data record into a single column. For example a record may be associated with a particular treatment and a particular year. Rather than have separate columns for each unique combination or a treatment and a year the data one only needs a single treatment column and a single year column. By creating columns that only capture information on a single data characteristic (e.g., treatment or year but not both) we can increase the visual interpretability of the data and simplify data aggregation tasks. 
+
+Column names should also be carefully considered to ensure that they are informative, intuitive, and concise.  Spaces should be avoided in column names because these can cause data import problems. Eliminate spaces in column names by using camel-case (e.g, rainAvg) or underscore-case (e.g., rain_avg).  
+
+Lastly, it is often useful to associate each row with one column that acts as a unique identifier so that specific data records and be easily and accurately referenced for data queries and comparisons.
+
+* Note: it seems like unique id aspect of the table is potentially useful to mention in the quality control section because it allows for easier error tracking.  
+
+* Note: should we recommend what a useful data code is for the unique identifier and what is not? For example text strings are problematic because it is visually difficult to order them sequentially.  A combination of letters and numbers can be useful visually to communicate not only the sequence of the record but also other information (e.g., TGP-00001 was the 1st record collected at TGP), but will be more difficult to handle programmatically.  
 
 
 6. Use good null values
@@ -164,7 +192,7 @@ The null values that are most compatible with software commonly in use by ecolog
 		<td>Avoid</td>
 	</tr>
 	<tr>
-		<td>-,+</td>
+		<td>-,+,.</td>
 		<td>Can cause problems with data type (turn a numerical column into a text column)</td>
 		<td></td>
 		<td>Never use</td>
@@ -183,11 +211,25 @@ When working with large data collection efforts or when otherwise representing y
 8. Perform basic quality control
 --------------------------------
 
-Data, just like any other scientific product, should undergo some level of quality control (Reichmann _et al._ 2011). At its most basic, quality control could consist of a few quick 'unit tests' of the data. These kind of tests can be easily implemented using spreadsheet, SQL, or coding software to scan the data for specific errors. For example, if a column should contain numeric values, check that there are no non-numeric values in the data. Ecological data often contains missing values. For good quality control, check that empty cells actually represent missing data, and not mistakes in data entry. If the values are truly missing, indicate using the appropriate null values. Scan your data for consistency in unit of measurement, data type (_e.g.,_ numeric, character), naming scheme (_e.g.,_ taxonomy, location). Problems or uncertainty in the data should be appropriately resolved before sharing your data, or described in detail in the metadata to avoid secondary use errors. 
+Data, just like any other scientific product, should undergo some level of quality control (Reichmann _et al._ 2011). 
+At its most basic, quality control could consist of a few quick 'unit tests' of the data. 
+These kind of tests can be easily implemented using spreadsheet, SQL, or coding software to scan the data for specific errors. 
+For example, if a column should contain numeric values, check that there are no non-numeric values in the data. 
+Ecological data often contains missing values. 
+For good quality control, check that empty cells actually represent missing data, and not mistakes in data entry. 
+If the values are truly missing, indicate using the appropriate null values. 
+Scan your data for consistency in unit of measurement, data type (_e.g.,_ numeric, character), naming scheme (_e.g.,_ taxonomy, location). 
+Problems or uncertainty in the data should be appropriately resolved before sharing your data, or described in detail in the metadata to avoid secondary use errors. 
 
-A more rigorous level of quality control is to double-enter data and use SQL or coding software to check for mismatched lines between the two entries. Manual double-entry of data is more time-intensive than single entry, but is considered superior because it increases data accuracy by catching typographical errors, reader/recorder error, out-of-range values, and identifying questionable data (Paulsen 2012, Lampe _et al._ 1998). 
+A more rigorous level of quality control is to double-enter data and use SQL or coding software to check for mismatched lines between the two entries. 
+Manual double-entry of data is more time-intensive than single entry, but is considered superior because it increases data accuracy by catching typographical errors, reader/recorder error, out-of-range values, and identifying questionable data (Paulsen 2012, Lampe _et al._ 1998). 
 
-Before publishing the data, practice "data review". This can be as simple as asking a collaborator or another scientist unaffiliated with your specific project to scan your metadata and data. If they can't tell you what your data is about within 20 minutes, then you may need to recheck for the common problems and pitfalls listed above. You may have poor descriptions in your metadata, uninformative column names, or confusing data structure. Try to identify where your data is unclear or confusing and target those sections of your metadata or data structure. Informal data review may have added benefits of giving your data increased exposure and creating a culture of scientists who are better enabled to share and use other's data. 
+Before publishing the data, practice "data review". 
+This can be as simple as asking a collaborator or another scientist unaffiliated with your specific project to scan your metadata and data. 
+If they can't tell you what your data is about within 20 minutes, then you may need to recheck for the common problems and pitfalls listed above. 
+You may have poor descriptions in your metadata, uninformative column names, or confusing data structure. 
+Try to identify where your data is unclear or confusing and target those sections of your metadata or data structure. 
+Informal data review may have added benefits of giving your data increased exposure and creating a culture of scientists who are better enabled to share and use other's data. 
 
 __citations__
 * Paulsen A., Overgaard S., Lauritsen J. M. 2012. Quality of Data Entry Using Single Entry, Double Entry and Automated Forms Processing–An Example Based on a Study of Patient-Reported Outcomes. PLoS ONE. __7__:e35087. doi:10.1371/journal.pone.0035087

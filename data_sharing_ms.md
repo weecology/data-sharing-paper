@@ -107,20 +107,76 @@ Figure # : standard_format_errors.pdf
 -------------------------------
 
 The structure of data can become a major barrier to reuse if it does not conform to widely recognized standards.  This is particularly true in ecology and evolution where the datasets can cover a wide variety of heterogeneous types of information.  Certain data types in ecology and evolution already have well established standard structures such as FASTA files for nucleotide or peptide sequences [@FASTA](http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick phylogenetic tree format; however, this is generally not the case and here we will describe a set of general rules for structuring tabular data.  We focus on tabular data in this section simply because it is likely the most widely encountered data type in ecology and evolution, and it presents the data sharer with the most flexibility in structure and therefore has the potential to provide the data user with the most obstacles.
- 
-Tabular data refers to a regular two-dimensional array of rows and columns.  Within this structure, each row represents a single record, and each column represents a single variable that is associated with each record. Every record must be associated with the same number of variables such that the data array is regular and not ragged.
 
-One of the most common mistakes in tabular data structure is to make the columns the records and the rows the variables. This makes visually examining the data more difficult because typically there are many more records than variables. Additionally some statistical programs (e.g., R-language) assume that data is structured in the opposite way so it can lead to importation problems. 
+Tabular data refers to a regular two-dimensional array of rows and columns.  Within this structure, each row represents a single record, and each column represents a variable that is associated with each record.  We provide five simple guidelines that help ensure tabular data is properly structured for ease of data importation and analysis:
 
-Another common mistake when structuring tabular data is to combine two characteristics of a data record into a single column. For example a record may be associated with a particular treatment and a particular year. Rather than have separate columns for each unique combination or a treatment and a year the data one only needs a single treatment column and a single year column. By creating columns that only capture information on a single data characteristic (e.g., treatment or year but not both) we can increase the visual interpretability of the data and simplify data aggregation tasks. 
+* No duplicate rows
+* Every row-column combination contains one value
+* One variable per type of information
+* No redundant information
+* Column names that are clean, clear, and concise
 
-Column names should also be carefully considered to ensure that they are informative, intuitive, and concise.  Spaces should be avoided in column names because these can cause data import problems. Eliminate spaces in column names by using camel-case (e.g, rainAvg) or underscore-case (e.g., rain_avg).  
+The first two guidelines are self-explanatory, each row should contain information on a unique record and only a single piece of information for each variable.  The third rule is to avoid creating cross-tab structured data [@cross](http://en.wikipedia.org/wiki/Cross_tabulation). We visually illustrat this concept in Table #:
 
-Lastly, it is often useful to associate each row with one column that acts as a unique identifier so that specific data records and be easily and accurately referenced for data queries and comparisons.
+Table #. The example in (A) demonstrates the wrong way to structure data using cross-tabs, and (B) demonstrates the correct way to structure the information in (A).
 
-* Note: it seems like unique id aspect of the table is potentially useful to mention in the quality control section because it allows for easier error tracking.  
+A.
+<table>
+<table border="1">
+    <tr>
+        <th>Species    </td>
+        <th>Habitat1</td>
+        <th>Habitat2</td>
+        <th>Habitat3</td>
+    </tr>
+    <tr>
+        <th>1</td>
+        <th>0</td>
+        <th>3</td>
+        <th>0</td>
+    </tr>
+    <tr>
+        <th>2</td>
+        <th>2</td>
+        <th>0</td>
+        <th>1</td>
+    </tr>
+</table>
 
-* Note: should we recommend what a useful data code is for the unique identifier and what is not? For example text strings are problematic because it is visually difficult to order them sequentially.  A combination of letters and numbers can be useful visually to communicate not only the sequence of the record but also other information (e.g., TGP-00001 was the 1st record collected at TGP), but will be more difficult to handle programmatically.  
+B. 
+<table>
+<table border="1">
+    <tr>
+        <th>Species    </td>
+        <th>Habitat</td>
+        <th>Abundance</td>
+    </tr>
+    <tr>
+        <th>1</td>
+        <th>2</td>
+        <th>3</td>
+    </tr>
+    <tr>
+        <th>2</td>
+        <th>1</td>
+        <th>2</td>
+    </tr>
+    <tr>
+        <th>2</td>
+        <th>3</td>
+        <th>1</td>
+    </tr>
+</table>
+
+If tabular data are currently in a cross-tab structure, it is straightfoward to restructure the data using established algorithms (e.g., melt() function in the R package reshape [@Wickham2007](http://www.jstatsoft.org/v21/i12/paper))
+
+Database size can be minimized by avoiding redundancy when it is superfluous.  For example, consider a table with two columns: one for site and a one for year. It would be redundant to include a third column that has a site-year combination; however, in certain circumstances a small amount of redundancy in the dataset can be beneficial (e.g., a separate column for genus, species, and the full latin binomial). 
+
+Column names should also be carefully considered. Specifically, column names should be **clean** of any special characters, it should be intuitively **clear** what they refer to, and they should be **concise** so that they are easy to reference from the command line.  Additionally, spaces should be avoided in column names because these can cause data import problems. Eliminate spaces in column names by using camel-case (e.g, rainAvg) or underscore-case (e.g., rain_avg).  
+
+Notes:
+
+* from an ecologist's perspective would "variable" be better than "field" when refering to columns?
 
 
 6. Use good null values

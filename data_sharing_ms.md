@@ -57,7 +57,7 @@ Ideally, metadata should improve ease of use of the dataset through providing 1)
 
 Good metadata does not have to be associated with high monetary or time investment. 
 Cultivating good habits of describing the data during planning and data collection stages can help keep the original investigator organized and make eventual publication of the data easier. 
-Clear descriptive information on data collection methods and data structure (e.g., units of measurement, data type, linked columns) will help future users, including the original investigator, to understand if the data is appropriate to use for a new project and how to avoid biasing results by including uncertain or missing data. 
+Clear descriptive information on data collection methods and data structure (e.g., units of measurement, data type, linked columns) will help future users, including the original investigator, to understand if the data is appropriate to use for a new project and how to avoid errors in using the data. 
 It is also critical that the metadata includes detailed description of problems or inconsistencies in the data that a future user should be aware of, such as missing data, mid-study changes to sampling regime, personnel turnover, habitat disturbance, change in environmental conditions, or data anomalies (Zimmerman 2003), as well as the specific identifier used to flag problematic data. 
 
 Similar to any other scientific publication, metadata should be logically organized, complete and clear enough to enable interpretation and use of the data, and contain a statement on the overall quality and integrity of the data. 
@@ -69,11 +69,14 @@ Dublin Core Metadata Initiative [@DCMI](http://dublincore.org/metadata-basics/),
 Federal Geographic Data Committee [@FGDC](http://www.fgdc.gov/metadata/geospatial-metadata-standards), 
 Ecological Archives metadata standard [@EcolArchiv](http://esapubs.org/archive/instruct_d.htm); Reichman _et al._ 2011, Whitlock 2011), 
 but the most important thing is to _have_ metadata.
-In the best case scenario, metadata should be machine-readable, which allows computers to handle data automatically. 
+In the best case scenario, metadata should be machine-readable, which allows computers to handle data automatically (software can find, read, and compare metadata). 
 High-level standards can be constructed after data has been published, but allows broader and more efficient use of shared data ([@Brunt2002](http://pal.lternet.edu/biblio/lterfinalms/228lterc.pdf),[@Jones](http://www.pnamp.org/sites/default/files/Jones2006_AREES.pdf), [@KNB] (http://knb.ecoinformatics.org/eml_metadata_guide.html).
-Tools for constructing machine-readable metadata (_e.g._, [@Morpho] (http://knb.ecoinformatics.org/morpho portal.jsp), cites).
+Tools for constructing machine-readable metadata can be found online and include: 
+[KNB Morpho](http://knb.ecoinformatics.org/morpho portal.jsp), 
+[USGS xtme](http://geology.usgs.gov/tools/metadata/tools/doc/xtme.html), and [FGDC workbook](http://www.fgdc.gov/metadata/documents/workbook_0501_bmk.pdf).
 
 __citations__
+* USGS metadata FAQs - http://geology.usgs.gov/tools/metadata/tools/doc/faq.html
 * software for DIF https://marinemetadata.org/references/dif
 * http://faculty.washington.edu/tewksjj/wordpress/wp-content/uploads/2012/03/Hampton2012.pdf
 * Fraser, B. and M. Gluck. 1999. Usability of geospatial metadata _or_ space-time matters. Bulletin of the American Society for Information Science. __25__:24-28.

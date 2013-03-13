@@ -1,49 +1,37 @@
 Ten simple ways to make it easier to re(use) your data
 ======================================================
 
-Authors
--------
-
-
-Themes
-------
-1. Make individual files as easy to understand and work with as possible
-2. Make it as easy as possible to combine your data with other datasets
-3. Make it easy to find and use your data
-
 Introduction
 ------------
 
-Sharing data is increasingly recognized as an important component of the
-scientific process (). The sharing of scientific data is beneficial because it
-allows the replication of the original research results, the reuse of the data
-in meta-analyses and synthetic science, and the use of data in ways not
-originally conceived of by the data collectors. In ecology and evolutionary
-biology this sharing occurs through a combination of standardized repositories
-like GenBank (http://www.ncbi.nlm.nih.gov/genbank/) and repositories that can
-hold any of the diverse forms of ecological and evolutionary data like Dryad
-(http://datadryad.org/), Ecological Archives
-(http://esapubs.org/archive/default.htm), and Figshare (http://figshare.com).
+Sharing data is increasingly recognized as an important component of the scientific process ().
+The sharing of scientific data is beneficial because it allows the replication of the original research results, the reuse of the data in meta-analyses and synthetic science, and the use of data in ways not originally conceived of by the data collectors.
+In ecology and evolutionary biology this sharing occurs through a combination of standardized repositories like GenBank (http://www.ncbi.nlm.nih.gov/genbank/) and repositories that can hold any of the diverse forms of ecological and evolutionary data like Dryad (http://datadryad.org/), Ecological Archives (http://esapubs.org/archive/default.htm), and Figshare (http://figshare.com).
 
-While data sharing is increasingly common and straightforward, much of the
-shared data is not easily reused because it does not follow best practices in
-terms of data structure, metadata, and licensing [@jones2006]. This makes it
-more difficult to work with existing data and therefore makes the data less
-useful than it could be [@jones2006, @reichman2011].
+While data sharing is increasingly common and straightforward, much of the shared data is not easily reused because it does not follow best practices in terms of data structure, metadata, and licensing [@jones2006].
+This makes it more difficult to work with existing data and therefore makes the data less useful than it could be [@jones2006, @reichman2011].
 
-Here we provide a list of 10 simple ways to make it easier to reuse the data
-that you share. These recommendations focus on making your data available,
-understandable, and easy to work with. This means that the recommendations not
-only make it easier for others to use your data, but also make it easier
-to work with your own data.
+Here we provide a list of 10 simple ways to make it easier to reuse the data that you share.
+These recommendations focus on making your data available, understandable, and easy to work with.
+This means that the recommendations not only make it easier for others to use your data, but also make it easier to work with your own data.
 
 
 1. Share your data
 ------------------
 
-Share your data.  If you only follow one tenet of our manuscript it should be this one.  We believe that data sharing benefits both the community and the data sharer.    Specifically, sharing data can increase citation numbers and recognition by peers in the scientific community [@Piwowar2007](http://www.plosone.org/article/info:doi%2F10.1371%2Fjournal.pone.0000308). These benefits will likely result in new collaborations and increased productivity. Shared datasets are also more easily reused in the future by the data sharer because they are documented and standardized. Additionally, although some researchers still resist data sharing, it is increasingly required for funding [@nsfpolicy](http://www.nsf.gov/bfa/dias/policy/dmp.jsp), [@nihpolicy](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html), [@nsercpolicy](http://www.nserc-crsng.gc.ca/Professors-Professeurs/FinancialAdminGuide-GuideAdminFinancier/Responsibilities-Responsabilites_eng.asp), [@fwfpolicy](http://www.fwf.ac.at/en/public_relations/oai/index.html), publications [@dryadmembers](https://www.datadryad.org/pages/members), [@Piwowar2008](http://ocs.library.utoronto.ca//index.php/Elpub/2008/paper/view/684), and potentially by law (e.g. FASTR [@FASTR](http://www.taxpayeraccess.org/action/FASTR_calltoaction.shtml)) [More info on FASTR](http://www.creativecommons.org/weblog/entry/36699).  Therefore, those that do not share will likely be left behind, and they will impede the rate of progress in their intellectual fields [@Piwowar2011](http://www.nature.com.dist.lib.usu.edu/nature/journal/v473/n7347/full/473285a.html), [@Parr2005](http://www.aseanbiodiversity.info/Abstract/51005017.pdf).
+Share your data.
+If you only follow one tenet of our manuscript it should be this one.
+We believe that data sharing benefits both the community and the data sharer.
+Specifically, sharing data can increase citation numbers and recognition by peers in the scientific community [@Piwowar2007](http://www.plosone.org/article/info:doi%2F10.1371%2Fjournal.pone.0000308).
+These benefits will likely result in new collaborations and increased productivity.
+Shared datasets are also more easily reused in the future by the data sharer because they are documented and standardized.
+Additionally, although some researchers still resist data sharing, it is increasingly required for funding [@nsfpolicy](http://www.nsf.gov/bfa/dias/policy/dmp.jsp), [@nihpolicy](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html), [@nsercpolicy](http://www.nserc-crsng.gc.ca/Professors-Professeurs/FinancialAdminGuide-GuideAdminFinancier/Responsibilities-Responsabilites_eng.asp), [@fwfpolicy](http://www.fwf.ac.at/en/public_relations/oai/index.html), publications [@dryadmembers](https://www.datadryad.org/pages/members), [@Piwowar2008](http://ocs.library.utoronto.ca//index.php/Elpub/2008/paper/view/684), and potentially by law (e.g. FASTR [@FASTR](http://www.taxpayeraccess.org/action/FASTR_calltoaction.shtml)) [More info on FASTR](http://www.creativecommons.org/weblog/entry/36699).
+Therefore, those that do not share will likely be left behind, and they will impede the rate of progress in their intellectual fields [@Piwowar2011](http://www.nature.com.dist.lib.usu.edu/nature/journal/v473/n7347/full/473285a.html), [@Parr2005](http://www.aseanbiodiversity.info/Abstract/51005017.pdf).
 
-A survey of the Ecological Society of America suggests that reluctance to share data is largely due to perceived fears of: 1) competition for publications based on the shared data, 2) a lack of recognition for shared data, and 3) logistical barriers [@Palmer2004](http://www.esa.org/ecovisions/ppfiles/EcologicalVisionsReport.pdf). The first reason is largely short-sided because many data sharing initiatives allow for data embargos which can last for several years while the authors develop their publications and thus avoid competition for deriving publications from the data.  Additionally, data sets are citable entities and therefore recognition is provided to the data provider in the form of increased citation metrics. Lastly, logistical barriers to data sharing are diminishing as high profile archives for data and code are becoming more numerous and receiving greater attention [@Parr2005](http://www.aseanbiodiversity.info/Abstract/51005017.pdf).
+A survey of the Ecological Society of America suggests that reluctance to share data is largely due to perceived fears of: 1) competition for publications based on the shared data, 2) a lack of recognition for shared data, and 3) logistical barriers [@Palmer2004](http://www.esa.org/ecovisions/ppfiles/EcologicalVisionsReport.pdf).
+The first reason is largely short-sided because many data sharing initiatives allow for data embargos which can last for several years while the authors develop their publications and thus avoid competition for deriving publications from the data.
+Additionally, data sets are citable entities and therefore recognition is provided to the data provider in the form of increased citation metrics.
+Lastly, logistical barriers to data sharing are diminishing as high profile archives for data and code are becoming more numerous and receiving greater attention [@Parr2005](http://www.aseanbiodiversity.info/Abstract/51005017.pdf).
 
 
 2. Provide metadata
@@ -65,15 +53,12 @@ Metadata that is poorly organized, incomplete, or buries important details in wo
 Specific metadata standards exist (_e.g.,_ Ecological Metadata Language [@EML](http://knb.ecoinformatics.org/software/eml/), 
 Directory Interchange Format [@DIF](http://gcmd.gsfc.nasa.gov/add/difguide/index.html), 
 Darwin Core [@DWC](http://rs.tdwg.org/dwc/),[@Wieczorek2012](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0029715), 
-Dublin Core Metadata Initiative [@DCMI](http://dublincore.org/metadata-basics/), 
+Dublin Core Metadata Initiative [@DCMI](http://dublincore.org/metadata-basics/),
 Federal Geographic Data Committee [@FGDC](http://www.fgdc.gov/metadata/geospatial-metadata-standards), 
-Ecological Archives metadata standard [@EcolArchiv](http://esapubs.org/archive/instruct_d.htm); Reichman _et al._ 2011, Whitlock 2011), 
-but the most important thing is to _have_ metadata.
+Ecological Archives metadata standard [@EcolArchiv](http://esapubs.org/archive/instruct_d.htm); Reichman _et al._ 2011, Whitlock 2011), but the most important thing is to _have_ metadata.
 In the best case scenario, metadata should be machine-readable, which allows computers to handle data automatically (software can find, read, and compare metadata). 
 High-level standards can be constructed after data has been published, and allows broader and more efficient use of shared data ([@Brunt2002](http://pal.lternet.edu/biblio/lterfinalms/228lterc.pdf),[@Jones](http://www.pnamp.org/sites/default/files/Jones2006_AREES.pdf), [@KNB] (http://knb.ecoinformatics.org/eml_metadata_guide.html).
-Tools for constructing machine-readable metadata can be found online and include: 
-[KNB Morpho](http://knb.ecoinformatics.org/morpho portal.jsp), 
-[USGS xtme](http://geology.usgs.gov/tools/metadata/tools/doc/xtme.html), and [FGDC workbook](http://www.fgdc.gov/metadata/documents/workbook_0501_bmk.pdf).
+Tools for constructing machine-readable metadata can be found online and include: [KNB Morpho](http://knb.ecoinformatics.org/morpho portal.jsp), [USGS xtme](http://geology.usgs.gov/tools/metadata/tools/doc/xtme.html), and [FGDC workbook](http://www.fgdc.gov/metadata/documents/workbook_0501_bmk.pdf).
 
 __citations__
 * USGS metadata FAQs - http://geology.usgs.gov/tools/metadata/tools/doc/faq.html
@@ -91,27 +76,48 @@ __citations__
 3. Provide an unprocessed form of the data
 ------------------------------------------
 
-Most often, the data that are presented in a manuscript table or even used in the analysis are modified in some way from the original form in which they were collected. Unprocessed data are data presented in the form that resulted directly from the data collection effort. It may be important here to distinguish between a methods protocol that processes samples to retrieve data and an analytical or computational processing that manipulates unprocessed data into useful summary statistics, standard indices or metrics for your analysis. As much as a model or mathematical correction might be best for your purposes, these sort of modifications to unprocessed data can make the difference for the reuse of your data.
+Most often, the data that are presented in a manuscript table or even used in the analysis are modified in some way from the original form in which they were collected.
+Unprocessed data are data presented in the form that resulted directly from the data collection effort.
+It may be important here to distinguish between a methods protocol that processes samples to retrieve data and an analytical or computational processing that manipulates unprocessed data into useful summary statistics, standard indices or metrics for your analysis.
+As much as a model or mathematical correction might be best for your purposes, these sort of modifications to unprocessed data can make the difference for the reuse of your data.
 
-This is not to say that your data are best suited for a meta-analysis in the raw form, but as unprocessed was the starting point for you so should that option be available to future work. Of course, your work to develop and process the data is equally important. Indeed, some metrics and indices are widely used across disciplines. In any case where data is modified from its original form or summarized (i.e. averaged) for an analysis or publication, we encourage that you also make this data available. Better yet, include computer scripts that process the data to the form you used alongside the unprocessed data. This way, any one can observe the process by which you arrived at the values used in your analysis.
+This is not to say that your data are best suited for a meta-analysis in the raw form, but as unprocessed was the starting point for you so should that option be available to future work.
+Of course, your work to develop and process the data is equally important.
+Indeed, some metrics and indices are widely used across disciplines.
+In any case where data is modified from its original form or summarized (i.e. averaged) for an analysis or publication, we encourage that you also make this data available.
+Better yet, include computer scripts that process the data to the form you used alongside the unprocessed data.
+This way, any one can observe the process by which you arrived at the values used in your analysis.
 
-One concern we anticipate is that unprocessed data files can be extremely large. Later on, we urge you to use a data repository, which often can store and share such large files. Otherwise, we recommend the .zip or .tar.gz compression formats to reduce the bit size of your data.
+One concern we anticipate is that unprocessed data files can be extremely large.
+Later on, we urge you to use a data repository, which often can store and share such large files.
+Otherwise, we recommend the .zip or .tar.gz compression formats to reduce the bit size of your data.
 	
 
 4. Use standard formats that will work across systems
 ------------------------------------------------------
-Using standard formats makes your data directly compatible with different systems and software.  Both the format of the file itself and the contents of the file are important to take into consideration.  Most ecological data can be stored effectively in a .csv file.  This can be opened by any type of software, and this is a file type that never goes out of date.  Proprietary formats such as .xls and .xlsx are difficult to use for people not working with Microsoft Office, are often difficult to load into other programs, and can become obsolete, such that you may not be able to access your own data years later as the format becomes unsupported by newer versions of the software.
+Using standard formats makes your data directly compatible with different systems and software.
+Both the format of the file itself and the contents of the file are important to take into consideration.
+Most ecological data can be stored effectively in a .csv file.
+This can be opened by any type of software, and this is a file type that never goes out of date.
+Proprietary formats such as .xls and .xlsx are difficult to use for people not working with Microsoft Office, are often difficult to load into other programs, and can become obsolete, such that you may not be able to access your own data years later as the format becomes unsupported by newer versions of the software.
 
-The second major consideration when applying standard formats is formatting the contents of the file.  Figure # illustrates some common formatting problems that can obstruct data use.  These errors can cause the data to become unusable without a great deal of reformatting, which obstructs use of the data both by the original collector of the data and others who might want to reuse the data later.
+The second major consideration when applying standard formats is formatting the contents of the file.
+Figure # illustrates some common formatting problems that can obstruct data use.
+These errors can cause the data to become unusable without a great deal of reformatting, which obstructs use of the data both by the original collector of the data and others who might want to reuse the data later.
 
 Figure # : standard_format_errors.pdf
 
 5. Use standard data structures
 -------------------------------
 
-The structure of data can become a major barrier to reuse if it does not conform to widely recognized standards.  This is particularly true in ecology and evolution where the datasets can cover a wide variety of heterogeneous types of information.  Certain data types in ecology and evolution already have well established standard structures such as FASTA files for nucleotide or peptide sequences [@FASTA](http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick phylogenetic tree format; however, this is generally not the case and here we will describe a set of general rules for structuring tabular data.  We focus on tabular data in this section simply because it is likely the most widely encountered data type in ecology and evolution, and it presents the data sharer with the most flexibility in structure and therefore has the potential to provide the data user with the most obstacles.
+The structure of data can become a major barrier to reuse if it does not conform to widely recognized standards.
+This is particularly true in ecology and evolution where the datasets can cover a wide variety of heterogeneous types of information.
+Certain data types in ecology and evolution already have well established standard structures such as FASTA files for nucleotide or peptide sequences [@FASTA](http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick phylogenetic tree format; however, this is generally not the case and here we will describe a set of general rules for structuring tabular data.
+We focus on tabular data in this section simply because it is likely the most widely encountered data type in ecology and evolution, and it presents the data sharer with the most flexibility in structure and therefore has the potential to provide the data user with the most obstacles.
 
-Tabular data refers to a regular two-dimensional array of rows and columns.  Within this structure, each row represents a single record, and each column represents a variable that is associated with each record.  We provide five simple guidelines that help ensure tabular data is properly structured for ease of data importation and analysis:
+Tabular data refers to a regular two-dimensional array of rows and columns.
+Within this structure, each row represents a single record, and each column represents a variable that is associated with each record.
+We provide five simple guidelines that help ensure tabular data is properly structured for ease of data importation and analysis:
 
 * No duplicate rows
 * Every row-column combination contains one value
@@ -119,7 +125,9 @@ Tabular data refers to a regular two-dimensional array of rows and columns.  Wit
 * No redundant information
 * Column names that are clean, clear, and concise
 
-The first two guidelines are self-explanatory, each row should contain information on a unique record and only a single piece of information for each variable.  The third rule is to avoid creating cross-tab structured data [@cross](http://en.wikipedia.org/wiki/Cross_tabulation). We visually illustrat this concept in Table #:
+The first two guidelines are self-explanatory, each row should contain information on a unique record and only a single piece of information for each variable.
+The third rule is to avoid creating cross-tab structured data [@cross](http://en.wikipedia.org/wiki/Cross_tabulation).
+We visually illustrat this concept in Table #:
 
 Table #. The example in (A) demonstrates the wrong way to structure data using cross-tabs, and (B) demonstrates the correct way to structure the information in (A).
 
@@ -173,9 +181,15 @@ B.
 
 If tabular data are currently in a cross-tab structure, it is straightfoward to restructure the data using established algorithms (e.g., melt() function in the R package reshape [@Wickham2007](http://www.jstatsoft.org/v21/i12/paper))
 
-Database size can be minimized by avoiding redundancy when it is superfluous.  For example, consider a table with two columns: one for site and a one for year. It would be redundant to include a third column that has a site-year combination; however, in certain circumstances a small amount of redundancy in the dataset can be beneficial (e.g., a separate column for genus, species, and the full latin binomial). 
+Database size can be minimized by avoiding redundancy when it is superfluous.
+For example, consider a table with two columns: one for site and a one for year.
+It would be redundant to include a third column that has a site-year combination; however, in certain circumstances a small amount of redundancy in the dataset can be beneficial (e.g., a separate column for genus, species, and the full latin binomial). 
 
-Column names should also be carefully considered. Specifically, column names should be **clean** of any special characters, it should be intuitively **clear** what they refer to, and they should be **concise** so that they are easy to reference from the command line.  Additionally, spaces should be avoided in column names because these can cause data import problems. Eliminate spaces in column names by using camel-case (e.g, rainAvg) or underscore-case (e.g., rain_avg).  
+Column names should also be carefully considered.
+Specifically, column names should be **clean** of any special characters, it should be intuitively **clear** what they refer to, and they should be **concise** so that they are easy to reference from the command line.
+Additionally, spaces should be avoided in column names because these can cause data import problems.
+Eliminate spaces in column names by using camel-case (e.g, rainAvg) or underscore-case (e.g., rain_avg).
+ 
 
 Notes:
 
@@ -184,11 +198,24 @@ Notes:
 
 6. Use good null values
 -----------------------
-Performing analyses on datasets with missing data can be problematic.  This can be compounded by the use of inappropriate null values.  Null values are characters that are placed into to a field to indicate the presence of missing data.  Unfortunately, there are many different ways to indicate a missing value, and very little agreement on which null value to use.
+Performing analyses on datasets with missing data can be problematic.
+This can be compounded by the use of inappropriate null values.
+Null values are characters that are placed into to a field to indicate the presence of missing data.
+Unfortunately, there are many different ways to indicate a missing value, and very little agreement on which null value to use.
 
-The null values that are most compatible with software commonly in use by ecologists are a blank, NULL, or NA.  Blanks are the most compatible across different software, and are easily spotted in a visual examination of the data.  However, there can be hidden spaces in a blank cell, so be certain that if you use this option, you check for hidden spaces during the quality control check or strip excess white space computationally.  If, for some reason, you are performing calculations with Microsoft Excel, be aware that Excel will treat blanks as if they were zeros.  If you are going to be working primarily in R, and are not going to be using a relational database, using NA makes the most sense, as long as you are not also using NA as an abbreviation for North America.  If you are working with SQL, a blank or NULL would be the best option.  Having to use a null value can sometimes be avoided by making sure that the data is structured in a standard database format.  Whichever null value that you choose to use, make sure that you only use one, and that you use it consistently throughout the data set.  In addition, indicate your choice of null value clearly in the metadata. 
+The null values that are most compatible with software commonly in use by ecologists are a blank, NULL, or NA.
+Blanks are the most compatible across different software, and are easily spotted in a visual examination of the data.
+However, there can be hidden spaces in a blank cell, so be certain that if you use this option, you check for hidden spaces during the quality control check or strip excess white space computationally.
+If, for some reason, you are performing calculations with Microsoft Excel, be aware that Excel will treat blanks as if they were zeros.
+If you are going to be working primarily in R, and are not going to be using a relational database, using NA makes the most sense, as long as you are not also using NA as an abbreviation for North America.
+If you are working with SQL, a blank or NULL would be the best option.
+Having to use a null value can sometimes be avoided by making sure that the data is structured in a standard database format.
+Whichever null value that you choose to use, make sure that you only use one, and that you use it consistently throughout the data set.
+In addition, indicate your choice of null value clearly in the metadata. 
 
-Table #.  This table contains information on commonly used null values and provides a recommendation as to use.  Null values are indicated as being a null value for specific software if they work consistently and correctly with that software. For example, the null value "Null" works correctly for certain applications in R, but does not work in others, so it is not presented as part of the table.
+Table #.  This table contains information on commonly used null values and provides a recommendation as to use.
+Null values are indicated as being a null value for specific software if they work consistently and correctly with that software.
+For example, the null value "Null" works correctly for certain applications in R, but does not work in others, so it is not presented as part of the table.
 
 <table>
 <table border="1">
@@ -266,7 +293,13 @@ Table #.  This table contains information on commonly used null values and provi
 7. Make it easy to combine your data with other datasets
 --------------------------------------------------------
 
-When working with large data collection efforts or when otherwise representing your data with limited space, it is common to develop codes or abbreviations which then appear in the data. In ecology and evolution codes often appear in place of site locations or taxonomy. Without clear definitions these codes are unintelligible and restrict reuse. As is common in standard database structure (cite?) we suggest the inclusion of linking tables which include fields for the item code and then additional fields which unambiguously describe the item. For species, this would include a table with the species codes followed by their most current family, genus, and species epithet. For site location, this would include a table with the site code followed by a GPS coordinate, spatial extent, temporal duration, and other appropriate site-specific details. These tables should be included directly with your data and mentioned as part of your meta-data. 
+When working with large data collection efforts or when otherwise representing your data with limited space, it is common to develop codes or abbreviations which then appear in the data.
+In ecology and evolution codes often appear in place of site locations or taxonomy.
+Without clear definitions these codes are unintelligible and restrict reuse.
+As is common in standard database structure (cite?) we suggest the inclusion of linking tables which include fields for the item code and then additional fields which unambiguously describe the item.
+For species, this would include a table with the species codes followed by their most current family, genus, and species epithet.
+For site location, this would include a table with the site code followed by a GPS coordinate, spatial extent, temporal duration, and other appropriate site-specific details.
+These tables should be included directly with your data and mentioned as part of your meta-data. 
 
 
 8. Perform basic quality control
@@ -300,23 +333,20 @@ __citations__
 9. Use an established repository
 -------------------------------
 
-For data sharing to be effective, data should be findable over time, accessible and protected from long-term loss,
-and of sufficient quality [(Kowalczyk & Shankar 2011)](http://onlinelibrary.wiley.com/doi/10.1002/aris.2011.1440450113/pdf).
-Likewise, in an era of scientific data deluge, data sharers should consider whether their data is highly visible to,
-and can be easily found by, intended users. To these ends, data sharers should consider the diverse options offered by
-many freely usable online storage facilities (i.e. repositories). 
+For data sharing to be effective, data should be findable over time, accessible and protected from long-term loss, and of sufficient quality [(Kowalczyk & Shankar 2011)](http://onlinelibrary.wiley.com/doi/10.1002/aris.2011.1440450113/pdf).
+Likewise, in an era of scientific data deluge, data sharers should consider whether their data is highly visible to, and can be easily found by, intended users.
+To these ends, data sharers should consider the diverse options offered by many freely usable online storage facilities (i.e. repositories). 
 
-There are repositories available for sharing most any type of biological or environmental data. Some repositories,
-such as those hosting molecular sequences (e.g. DDBJ, GenBank, MG-RAST), are highly standardized in terms of data type,
-format, QA/QC, etc. Other repositories host a wide variety of biological and environmental data and are much less
-standardized (e.g. Dryad, KNB, PANGAEA). Additionally, some repositories are not exclusively designed for the natural
-sciences but offer several advantages such as version control, collaboration, and social networking (e.g. Figshare,
-Github). Repositories also vary in their terms of use, data rights, licensing, and in being open or restricted access
-(Table ?). Choice of repository may also depend on requirements of funding agencies and journals. However, regardless
-of the repository, data sharers should ensure their dataset has an associated digital object identifier (DOI). DOIs are
-permanent unique identifiers that are independent of physical location and site ownership.
+There are repositories available for sharing most any type of biological or environmental data.
+Some repositories, such as those hosting molecular sequences (e.g. DDBJ, GenBank, MG-RAST), are highly standardized in terms of data type, format, QA/QC, etc. Other repositories host a wide variety of biological and environmental data and are much less standardized (e.g. Dryad, KNB, PANGAEA).
+Additionally, some repositories are not exclusively designed for the natural sciences but offer several advantages such as version control, collaboration, and social networking (e.g. Figshare, Github).
+Repositories also vary in their terms of use, data rights, licensing, and in being open or restricted access (Table ?).
+Choice of repository may also depend on requirements of funding agencies and journals.
+However, regardless of the repository, data sharers should ensure their dataset has an associated digital object identifier (DOI).
+DOIs are permanent unique identifiers that are independent of physical location and site ownership.
 
-Table ?. Popular repositories into which individuals can deposit datasets. These are not repositories exclusively used by members of institutions or repositories that only accept data from institutions or museums (e.g. Vertnet).  
+Table ?. Popular repositories into which individuals can deposit datasets.
+These are not repositories exclusively used by members of institutions or repositories that only accept data from institutions or museums (e.g. Vertnet).  
 <table>
 <table border="1">
     <tr>
@@ -404,47 +434,31 @@ Table ?. Popular repositories into which individuals can deposit datasets. These
 10. Use an established and liberal license 
 -----------------------------------------
 
-Responsible data sharing requires clear communication of the rights and responsibilities of data providers, repositories,
-and data users. This means clarifying rights retained or waived by the provider, unambiguous terms under which data can
-be used and redistributed, and providing means for accountability under conditions that attract
-[copyright](http://www.copyright.gov/circs/circ1.pdf). Increasingly, this means explicitly licensing one's data,
-i.e. legally waive or retain certain rights and restrictions to users.
+Responsible data sharing requires clear communication of the rights and responsibilities of data providers, repositories, and data users.
+This means clarifying rights retained or waived by the provider, unambiguous terms under which data can be used and redistributed, and providing means for accountability under conditions that attract [copyright](http://www.copyright.gov/circs/circ1.pdf).
+Increasingly, this means explicitly licensing one's data, i.e. legally waive or retain certain rights and restrictions to users.
 
-Most, if not all, repositories include provisions for terms of use. Currently, few repositories include provisions for
-explicit licensing (Table section 9). Some that do, require users to use one or more established
-[Creative Commons licenses](http://creativecommons.org/licenses/)
-(e.g. [Dryad](http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/), Figshare).
-Others capable of hosting data and computing code allow users to include Creative Commons and
-[Open Source licenses](http://opensource.org/licenses) (e.g. Github). Data sharers should familiarize themselves with
-the policies and licensing options of a particular repository, as well as forms of data that attract copyright. More
-can be learned about copyright by visiting The [University of Michigan website](http://www.lib.umich.edu/copyright/facts-and-data),
-the website of the [Australian National Data Service](http://www.ands.org.au/guides/copyright-and-data-awareness.html),
-and the [Digital Curation Center](http://www.dcc.ac.uk/resources/how-guides/license-research-data#x1-140007).
-More can be learned about licensing by visiting websites of the [Creative Commons](http://wiki.creativecommons.org/FAQ#Can_I_use_a_Creative_Commons_license_for_software.3F)
-and [Open Source Initiative](http://opensource.org/faq).
+Most, if not all, repositories include provisions for terms of use.
+Currently, few repositories include provisions for explicit licensing (Table section 9).
+Some that do, require users to use one or more established [Creative Commons licenses](http://creativecommons.org/licenses/) (e.g. [Dryad](http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/), Figshare).
+Others capable of hosting data and computing code allow users to include Creative Commons and [Open Source licenses](http://opensource.org/licenses) (e.g. Github).
+Data sharers should familiarize themselves with the policies and licensing options of a particular repository, as well as forms of data that attract copyright.
+More can be learned about copyright by visiting The [University of Michigan website](http://www.lib.umich.edu/copyright/facts-and-data), the website of the [Australian National Data Service](http://www.ands.org.au/guides/copyright-and-data-awareness.html), and the [Digital Curation Center](http://www.dcc.ac.uk/resources/how-guides/license-research-data#x1-140007).
+More can be learned about licensing by visiting websites of the [Creative Commons](http://wiki.creativecommons.org/FAQ#Can_I_use_a_Creative_Commons_license_for_software.3F) and [Open Source Initiative](http://opensource.org/faq).
 
 
 Concluding remarks
 ------------------
 
-Data sharing has the potential to transform the way we conduct ecological and
-evolutionary research. As a result there are an increasing number of initiatives
-at the federal, funding agency, and journal levels to encourage or require the
-sharing of the data associated with scientific research. However, making the
-data available is only the first step. To make data sharing as useful as
-possible it is necessary to make the data usable with as little effort as
-possible. This allows scientists to spend their time doing science
-rather than cleaning up data.
+Data sharing has the potential to transform the way we conduct ecological and evolutionary research.
+As a result there are an increasing number of initiatives at the federal, funding agency, and journal levels to encourage or require the sharing of the data associated with scientific research.
+However, making the data available is only the first step.
+To make data sharing as useful as possible it is necessary to make the data usable with as little effort as possible.
+This allows scientists to spend their time doing science rather than cleaning up data.
 
-We have provided a list of 10 practices that require only a small additional
-time investment but substantially improve the useability of data. Most of these
-recommendations are simply good practice for working with data regardless of
-whether that data is shared or not. This means that following these
-recommendations (2-8) make the data more useful for those who collected it as
-well as those who may use it in a secondary capacity. Well formatted and
-structured data makes it easier to use the data in a variety of different
-analysis programs. Well documented data makes it easier to use the data whether
-the person using it is a lab mate, a meta-analyst, or the scientist that
-collected the data a few years after it was collected. By following these
-practices we can assure that the data collected in ecology and evolution can be
-used to its full potential to improve our understanding of biological systems. 
+We have provided a list of 10 practices that require only a small additional time investment but substantially improve the useability of data.
+Most of these recommendations are simply good practice for working with data regardless of whether that data is shared or not.
+This means that following these recommendations (2-8) make the data more useful for those who collected it as well as those who may use it in a secondary capacity.
+Well formatted and structured data makes it easier to use the data in a variety of different analysis programs.
+Well documented data makes it easier to use the data whether the person using it is a lab mate, a meta-analyst, or the scientist that collected the data a few years after it was collected.
+By following these practices we can assure that the data collected in ecology and evolution can be used to its full potential to improve our understanding of biological systems. 

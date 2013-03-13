@@ -1,16 +1,6 @@
 Ten simple ways to make it easier to re(use) your data
 ======================================================
 
-Authors
--------
-
-
-Themes
-------
-1. Make individual files as easy to understand and work with as possible
-2. Make it as easy as possible to combine your data with other datasets
-3. Make it easy to find and use your data
-
 Introduction
 ------------
 

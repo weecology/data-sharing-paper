@@ -198,20 +198,20 @@ Notes:
 
 6. Use good null values
 -----------------------
-Performing analyses on datasets with missing data can be problematic.
-This can be compounded by the use of inappropriate null values.
-Null values are characters that are placed into to a field to indicate the presence of missing data.
-Unfortunately, there are many different ways to indicate a missing value, and very little agreement on which null value to use.
 
+Most ecological and evolutionary datasets contain missing or empty data values.
+Working with this kind of "null" data can be difficult, especially when the null values are indicated in problematic ways.
+Unfortunately, there are many different ways to indicate a missing/empty value, and very little agreement on which approach to use.
+
+We recommend choosing null values that are both compatible with most software and unlikely to cause errors in analyses (Table X).
 The null values that are most compatible with software commonly in use by ecologists are a blank, NULL, or NA.
 Blanks are the most compatible across different software, and are easily spotted in a visual examination of the data.
-However, there can be hidden spaces in a blank cell, so be certain that if you use this option, you check for hidden spaces during the quality control check or strip excess white space computationally.
-If, for some reason, you are performing calculations with Microsoft Excel, be aware that Excel will treat blanks as if they were zeros.
-If you are going to be working primarily in R, and are not going to be using a relational database, using NA makes the most sense, as long as you are not also using NA as an abbreviation for North America.
-If you are working with SQL, a blank or NULL would be the best option.
-Having to use a null value can sometimes be avoided by making sure that the data is structured in a standard database format.
-Whichever null value that you choose to use, make sure that you only use one, and that you use it consistently throughout the data set.
-In addition, indicate your choice of null value clearly in the metadata. 
+Note that a blank involves entering nothing, it is not a space, so if you use this option make sure you aren't missing any hidden spaces.
+If you are going to be working primarily in R, and are not going to be using a relational database, using NA makes the most sense, as long as you are not also using NA as an abbreviation (e.g., North America, Nambia, sodium, etc.) .
+If you are working with SQL, a blank or NULL is the best option.
+We recommend against using numerical values to indicates nulls (e.g., 999, -999, etc.) because they often require an extra step to remove from analyses and can be accidentally included in calculations.
+We also recommend against using non-standard text indications (e.g., No data, ND, missing, ---) because they can cause issues with software that requires consistent data types within columns).
+Whichever null value that you use, only use one, you use it consistently throughout the data set, and it clearly in the metadata. 
 
 Table #.  This table contains information on commonly used null values and provides a recommendation as to use.
 Null values are indicated as being a null value for specific software if they work consistently and correctly with that software.
@@ -233,9 +233,9 @@ For example, the null value "Null" works correctly for certain applications in R
 	</tr>
 	<tr>
 		<td></td>
-		<td>Hard to distinguish if the value is not there because it was missing, or because it was collected, but overlooked on entry.  A  line that looks blank can contain a hidden space, which results in computational errors.  Counted as a zero for calculation purposes in Microsoft Excel.</td>
-		<td>Will work with Python and SQL</td>
-		<td>Good option, if not performing calculations in Microsoft Excel.</td>
+		<td>Hard to distinguish if the value is not there because it was missing, or because it was collected, but overlooked on entry.  A  line that looks blank can contain a hidden space, which results in computational errors.</td>
+		<td>Will work with R, Python and SQL</td>
+		<td>Good option</td>
 	</tr>
 	<tr>
 		<td>999, -999, 9999, -9999</td>
@@ -283,7 +283,7 @@ For example, the null value "Null" works correctly for certain applications in R
 		<td>-,+,.</td>
 		<td>Can cause problems with data type (turn a numerical column into a text column)</td>
 		<td></td>
-		<td>Never use</td>
+		<td>Avoid</td>
     </tr>
 </table>
 

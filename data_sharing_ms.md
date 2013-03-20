@@ -325,10 +325,6 @@ Then ask someone else to look over your metadata and data and provide you with f
 In the same way that friendly reviews of papers can help catch mistakes and identify confusing sections of papers, a friendly review of data can help identify problems and things that are unclear in the data and metadata.
 Informal data review may have added benefits of giving your data increased exposure and creating a culture of scientists who are better enabled to share and use other's data. 
 
-__citations__
-* Paulsen A., Overgaard S., Lauritsen J. M. 2012. Quality of Data Entry Using Single Entry, Double Entry and Automated Forms Processing–An Example Based on a Study of Patient-Reported Outcomes. PLoS ONE. __7__:e35087. doi:10.1371/journal.pone.0035087
-
-* Lampe, A. J. and J. M. Weiler. 1998. Data capture from the sponsors' and investigators' perspectives: balancing quality, speed, and cost. __32__:871-886.
 
 9. Use an established repository
 -------------------------------

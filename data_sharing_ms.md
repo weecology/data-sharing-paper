@@ -41,28 +41,30 @@ Lastly, logistical barriers to data sharing are diminishing as high profile arch
 2. Provide metadata
 -------------------
 
-The first key to using data is understanding what it is. 
-Metadata is information about the data that enables long-term reuse of the data set by the original investigators and secondary use by other scientists. 
-Datasets that might be relevant to another's work will likely be overlooked if the metadata is unclear or doesn't exist (Fraser & Gluck 1999, Zimmerman 2003). 
-Metadata can take several forms, including descriptive names in the data files themselves, a written description of the data, and images (_i.e.,_ maps, photographs). 
-Ideally, metadata should improve ease of use of the dataset through providing 1) the what, when, where, and how of data collection, 2) how to find and access the data, 3) suggestions on the suitability of the data for answering specific questions, and 4) warnings to users on known problems or inconsistencies in the data (Michener _et al._ 1997, Zimmerman 2003). 
+The first key to using data is understanding it. 
+Metadata is information about the data including things like how it was collected, what the units of measurement are, and descriptions of how to best use the data.
+Clear metadata makes it easier to figure out if a dataset is appropriate for a project.
+It also makes it easier to use by both the original investigators and by other scientists by making it easy to figure out how to work with the data.
+Without clear metadata, datasets can be overlooked or not used due to the difficulty of understanding the data [@fraser1999; @zimmerman2003], and data becomes much less useful over time [@michener1997].
 
-Good metadata does not have to be associated with high monetary or time investment. 
-Cultivating good habits of describing the data during planning and data collection stages can help keep the original investigator organized and make eventual publication of the data easier. 
-Clear descriptive information on data collection methods and data structure (e.g., units of measurement, data type, linked columns) will help future users, including the original investigator, to understand if the data is appropriate to use for a new project and how to avoid errors in using the data. 
-It is also critical that the metadata includes detailed description of problems or inconsistencies in the data that a future user should be aware of, such as missing data, mid-study changes to sampling regime, personnel turnover, habitat disturbance, change in environmental conditions, or data anomalies (Zimmerman 2003), as well as the specific identifier used to flag problematic data. 
+Metadata can take several forms, including descriptive names in the data files themselves, a written description of the data, images (_i.e.,_ maps, photographs), and specially structured information that can be read by computers. 
+Good metadata should provide: 1) the what, when, where, and how of data collection, 2) how to find and access the data, 3) suggestions on the suitability of the data for answering specific questions, and 4) warnings to users on known problems or inconsistencies in the data [@michener1997; @zimmerman2003].
 
-Similar to any other scientific publication, metadata should be logically organized, complete and clear enough to enable interpretation and use of the data, and contain a statement on the overall quality and integrity of the data. 
-Metadata that is poorly organized, incomplete, or buries important details in wordy or confusing text hinders secondary use or may lead to critical errors in future work (Zimmerman 2007). 
-Specific metadata standards exist (_e.g.,_ Ecological Metadata Language [@EML](http://knb.ecoinformatics.org/software/eml/), 
-Directory Interchange Format [@DIF](http://gcmd.gsfc.nasa.gov/add/difguide/index.html), 
-Darwin Core [@DWC](http://rs.tdwg.org/dwc/),[@Wieczorek2012](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0029715), 
-Dublin Core Metadata Initiative [@DCMI](http://dublincore.org/metadata-basics/),
-Federal Geographic Data Committee [@FGDC](http://www.fgdc.gov/metadata/geospatial-metadata-standards), 
-Ecological Archives metadata standard [@EcolArchiv](http://esapubs.org/archive/instruct_d.htm); Reichman _et al._ 2011, Whitlock 2011), but the most important thing is to _have_ metadata.
-In the best case scenario, metadata should be machine-readable, which allows computers to handle data automatically (software can find, read, and compare metadata). 
-High-level standards can be constructed after data has been published, and allows broader and more efficient use of shared data ([@Brunt2002](http://pal.lternet.edu/biblio/lterfinalms/228lterc.pdf),[@Jones](http://www.pnamp.org/sites/default/files/Jones2006_AREES.pdf), [@KNB] (http://knb.ecoinformatics.org/eml_metadata_guide.html).
-Tools for constructing machine-readable metadata can be found online and include: [KNB Morpho](http://knb.ecoinformatics.org/morpho portal.jsp), [USGS xtme](http://geology.usgs.gov/tools/metadata/tools/doc/xtme.html), and [FGDC workbook](http://www.fgdc.gov/metadata/documents/workbook_0501_bmk.pdf).
+Just like any other scientific publication, metadata should be logically organized, complete, and clear enough to enable interpretation and use of the data (@zimmerman2007).
+Specific metadata standards exist (_e.g.,_ Ecological Metadata Language [EML](http://knb.ecoinformatics.org/software/eml/), 
+Directory Interchange Format [DIF](http://gcmd.gsfc.nasa.gov/add/difguide/index.html), 
+Darwin Core [DWC](http://rs.tdwg.org/dwc/) [@Wieczorek2012],
+Dublin Core Metadata Initiative [DCMI](http://dublincore.org/metadata-basics/),
+Federal Geographic Data Committee [FGDC](http://www.fgdc.gov/metadata/geospatial-metadata-standards)
+[@reichmann2011; @whitlock2011].
+These standards are designed to provide consistency in metadata across different datasets and also to allow computers to interpret the metadata automatically.
+This allows broader and more efficient use of shared data [@brunt2002; @jones2006].
+While following these standards is valuable, the most important thing is to have metadata at all.
+
+You don't need to spend a lot of extra time to write good metadata.
+The easiest way to develop metadata is to start describing your data during the planning and data collection stages.
+This will help you stay organized, make it easier to work with your data after it has been collected, and make eventual publication of the data easier.
+If you decide to take the extra step and follow metadata standards, there are tools designed to make this easier including: [KNB Morpho](http://knb.ecoinformatics.org/morpho portal.jsp), [USGS xtme](http://geology.usgs.gov/tools/metadata/tools/doc/xtme.html), and [FGDC workbook](http://www.fgdc.gov/metadata/documents/workbook_0501_bmk.pdf).
 
 __citations__
 * USGS metadata FAQs - http://geology.usgs.gov/tools/metadata/tools/doc/faq.html
@@ -75,7 +77,8 @@ __citations__
 * Whitlock, M. C. 2011. Data archiving in ecology and evolution: best practices. Trends in Ecology and Evolution. __26__:61-65.
 * Zimmerman, A. S. 2003. Data sharing and secondary use of scientific data: Experiences of Ecologists. Dissertation. University of Michigan.
 * Zimmerman, A. S. 2007. Not by metadata alone: the use of diverse forms of knowledge to locate data for reuse. International Journal on Digital Libraries. __7__:5-16.
-
+* Wieczorek 2012 http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0029715
+* Brunt 2002, http://pal.lternet.edu/biblio/lterfinalms/228lterc.pdf
 
 3. Provide an unprocessed form of the data
 ------------------------------------------

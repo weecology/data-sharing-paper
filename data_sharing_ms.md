@@ -309,30 +309,26 @@ These tables should be included directly with your data and mentioned as part of
 8. Perform basic quality control
 --------------------------------
 
-Data, just like any other scientific product, should undergo some level of quality control (Reichmann _et al._ 2011). 
-At its most basic, quality control could consist of a few quick 'unit tests' of the data. 
-These kind of tests can be easily implemented using spreadsheet, SQL, or coding software to scan the data for specific errors. 
-For example, if a column should contain numeric values, check that there are no non-numeric values in the data. 
-Ecological data often contains missing values. 
-For good quality control, check that empty cells actually represent missing data, and not mistakes in data entry. 
-If the values are truly missing, indicate using the appropriate null values. 
-Scan your data for consistency in unit of measurement, data type (_e.g.,_ numeric, character), naming scheme (_e.g.,_ taxonomy, location). 
-Problems or uncertainty in the data should be appropriately resolved before sharing your data, or described in detail in the metadata to avoid secondary use errors. 
+Data, just like any other scientific product, should undergo some level of quality control [@reichmann2011].
+This is true regardless of whether you plan to share the data because quality control will make it easier to analyze your own data and decrease the chances of making mistakes.
+However, it is particularly important for data that will be shared because scientists using the data won't be familiar with any quirks in the data and how to work around them.
 
-A more rigorous level of quality control is to double-enter data and use SQL or coding software to check for mismatched lines between the two entries. 
-Manual double-entry of data is more time-intensive than single entry, but is considered superior because it increases data accuracy by catching typographical errors, reader/recorder error, out-of-range values, and identifying questionable data (Paulsen 2012, Lampe _et al._ 1998). 
+At its most basic, quality control can consist of a few quick sanity checks of the data.
+More advanced quality control can include automated checks on data as it is entered and double-entry of data [@paulsen2012; @lampe1998].
+This additional effort can be time consuming, but is considered superior because it increases data accuracy by catching typographical errors, reader/recorder error, out-of-range values, and identifying questionable data [@paulsen2012; @lampe1998]. 
 
-Before publishing the data, practice "data review". 
-This can be as simple as asking a collaborator or another scientist unaffiliated with your specific project to scan your metadata and data. 
-If they can't tell you what your data is about within 20 minutes, then you may need to recheck for the common problems and pitfalls listed above. 
-You may have poor descriptions in your metadata, uninformative column names, or confusing data structure. 
-Try to identify where your data is unclear or confusing and target those sections of your metadata or data structure. 
+Before sharing your data we recommend performing a quick "data review".
+Start by performing some basic sanity checks on your data.
+For example:
+
+* If a column should contain numeric values, check that there are no non-numeric values in the data. 
+* Check that empty cells actually represent missing data, and not mistakes in data entry, and indicate that they are empty using the appropriate null values (see recommendatio 6). 
+* Scan your data for consistency in unit of measurement, data type (_e.g.,_ numeric, character), naming scheme (_e.g.,_ taxonomy, location). 
+
+Then ask someone else to look over your metadata and data and provide you with feedback about anything they didn't understand.
+In the same way that friendly reviews of papers can help catch mistakes and identify confusing sections of papers, a friendly review of data can help identify problems and things that are unclear in the data and metadata.
 Informal data review may have added benefits of giving your data increased exposure and creating a culture of scientists who are better enabled to share and use other's data. 
 
-__citations__
-* Paulsen A., Overgaard S., Lauritsen J. M. 2012. Quality of Data Entry Using Single Entry, Double Entry and Automated Forms Processing–An Example Based on a Study of Patient-Reported Outcomes. PLoS ONE. __7__:e35087. doi:10.1371/journal.pone.0035087
-
-* Lampe, A. J. and J. M. Weiler. 1998. Data capture from the sponsors' and investigators' perspectives: balancing quality, speed, and cost. __32__:871-886.
 
 9. Use an established repository
 -------------------------------

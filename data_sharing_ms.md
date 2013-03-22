@@ -92,7 +92,7 @@ __citations__
 ------------------------------------------
 
 Often, the data used in scientific analyses are modified in some way from the original form in which they were collected.
-This is done to address the questions of interest in the bester manner possible and to address common limitations associated with the raw data.
+This is done to address the questions of interest in the best manner possible and to address common limitations associated with the raw data.
 However, the best way to process data depends on the question being asked and corrections for common data limitiations typically change over time.
 It can also be very difficult to combine data from multiple sources that have each been processed in different ways.
 Therefore, to make your data as useful as possible it is best to share the data in as raw a form as possible.
@@ -101,7 +101,7 @@ This is not to say that your data are best suited for analysis in the raw form, 
 Of course, your work to develop and process the data is also very important and can be quite valuable for other scientists using your data.
 This is particularly true when correcting data for common limitations.
 Indeed, some metrics and indices are widely used across disciplines.
-Providing both the raw and processed forms of the data, and clearly explaining the differences between them in the meta data, is an easy way to include the benefits of both processed and raw data.
+Providing both the raw and processed forms of the data, and clearly explaining the differences between them in the metadata, is an easy way to include the benefits of both processed and raw data.
 An alternative approach is to share the unprocessed data along with the computer scripts that process the data to the form you used for analysis.
 This allows other scientists observe and potentially modify the process by which you arrived at the values used in your analysis.
 

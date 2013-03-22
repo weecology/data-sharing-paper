@@ -441,17 +441,17 @@ These are not repositories exclusively used by members of institutions or reposi
 10. Use an established and liberal license 
 -----------------------------------------
 
-Responsible data sharing requires clear communication of the rights and responsibilities of data providers, repositories, and data users.
-This means clarifying rights retained or waived by the provider, unambiguous terms under which data can be used and redistributed, and providing means for accountability under conditions that attract [copyright](http://www.copyright.gov/circs/circ1.pdf).
-Increasingly, this means explicitly licensing one's data, i.e. legally waive or retain certain rights and restrictions to users.
+Including an explicit license with your data is the best way to let others know exactly what they can and cannot do with the data you shared.
+Other scientists are more likely to use your data if it is clear exactly what they can do with it.
+We recommend using well established licenses (e.g., [Creative Commons licenses](http://creativecommons.org/licenses/)) in order to clearly communicate the rights and responsibilities of both the people providing the data and the people using it.
+We also recommend using the most open license possible (CC0; http://creativecommons.org/publicdomain/zero/1.0/), because even minor restrictions on data use can have unintended consequences for the reuse of the data [@schofield2009].
 
-Most, if not all, repositories include provisions for terms of use.
-Currently, few repositories include provisions for explicit licensing (Table section 9).
-Some that do, require users to use one or more established [Creative Commons licenses](http://creativecommons.org/licenses/) (e.g. [Dryad](http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/), Figshare).
-Others capable of hosting data and computing code allow users to include Creative Commons and [Open Source licenses](http://opensource.org/licenses) (e.g. Github).
+Most repositories have either a required data license or the option to choose among a set of data licences (Table section 9).
+By far the most common are Creative Commons licenses(http://creativecommons.org/licenses/).
+It is increasingly thought that CC0, which places no restrictions on the use of the data, is the best license for sharing data (e.g. [@schofield2009], http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/).
+Other forms of Creative Commons licenses that require attribution, non-commercial use, and equivalent licensing of derivative works are also common.
 Data sharers should familiarize themselves with the policies and licensing options of a particular repository, as well as forms of data that attract copyright.
 More can be learned about copyright by visiting The [University of Michigan website](http://www.lib.umich.edu/copyright/facts-and-data), the website of the [Australian National Data Service](http://www.ands.org.au/guides/copyright-and-data-awareness.html), and the [Digital Curation Center](http://www.dcc.ac.uk/resources/how-guides/license-research-data#x1-140007).
-More can be learned about licensing by visiting websites of the [Creative Commons](http://wiki.creativecommons.org/FAQ#Can_I_use_a_Creative_Commons_license_for_software.3F) and [Open Source Initiative](http://opensource.org/faq).
 
 
 Concluding remarks

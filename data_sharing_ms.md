@@ -121,6 +121,9 @@ In addition, these types of files can become obsolete, eventually making it diff
 
 *Paragraph about other file formats for other kinds of data: spatial, phylogenetic, etc.*
 
+It is also best to use descriptive names for your files and to avoid spaces in file names, which can cause problems for some software.
+If you have multiple files it is also useful to name them in a consistent manner to make it easier to automate working with them.
+
 ### Data format
 The second major consideration when applying standard formats is formatting the contents of the file.
 We'll discuss how to structure your data in the next recommendation, but there are a number of common data challenges that apply regardless of the data structure.
@@ -132,6 +135,10 @@ In addition to being consistent there are a number of other simple things that c
 * Avoid special characters. Most software for storing and analyzing data works best on plain text and accents and other special characters can make it difficult to import your data.
 * Avoid using your delimiter in the data itself (e.g., commas in the notes filed of a comma-delimited file).
 
+If you data is stored in a table then it is also important use descriptive column names without spaces.
+Descriptive column names are a form of metadata, that make it much more difficult to get confused about what is contained in each column and therefore makes errors less likely.
+Spaces in column names (and file names) can cause problems for some software and can be avoided by using camel-case (e.g, rainAvg) or underscore-case (e.g., rain_avg).
+
 Figure # illustrates some common formatting problems that can obstruct data use.
 
 Figure # : standard_format_errors.pdf
@@ -139,23 +146,24 @@ Figure # : standard_format_errors.pdf
 5. Use standard data structures
 -------------------------------
 
-The structure of data can become a major barrier to reuse if it does not conform to widely recognized standards.
-This is particularly true in ecology and evolution where the datasets can cover a wide variety of heterogeneous types of information.
-Certain data types in ecology and evolution already have well established standard structures such as FASTA files for nucleotide or peptide sequences [@FASTA](http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick phylogenetic tree format; however, this is generally not the case and here we will describe a set of general rules for structuring tabular data.
-We focus on tabular data in this section simply because it is likely the most widely encountered data type in ecology and evolution, and it presents the data sharer with the most flexibility in structure and therefore has the potential to provide the data user with the most obstacles.
+In addition to the details of the format, the overall structure of data is important for making it easy analyze.
+This is particularly true in ecology and evolution where the datasets can contain a wide variety of different kinds of information.
+Certain kinds of data in have well established standard structures such as FASTA files for nucleotide or peptide sequences [@FASTA](http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick phylogenetic tree format.
+In this case you should use these well defined formats because that is what other users and existing software will be able to work with most easily.
+However, due to the wide variety of data collected in ecology and evolution there often is not a specific standard for the kinds of data you want to share.
+Most data without standard formats is stored in tables of some kind, so we will make general suggestiosn for how to construct data tables that make working with the data easier.
 
-Tabular data refers to a regular two-dimensional array of rows and columns.
-Within this structure, each row represents a single record, and each column represents a variable that is associated with each record.
+In well structured tables each row represents a single observation (i.e., a record), and each column represents a variable or measurement.
 We provide five simple guidelines that help ensure tabular data is properly structured for ease of data importation and analysis:
 
 * No duplicate rows
 * Every row-column combination contains one value
-* One variable per type of information
-* No redundant information
-* Column names that are clean, clear, and concise
+* One column per type of information
+* Only use a single level of header
 
-The first two guidelines are self-explanatory, each row should contain information on a unique record and only a single piece of information for each variable.
-The third rule is to avoid creating cross-tab structured data [@cross](http://en.wikipedia.org/wiki/Cross_tabulation).
+These guildlines produce tables that can easily be used in database management systems and common analysis software like R and Python.
+
+One of the most common deviations from this structure if the cross-tab structured data (http://en.wikipedia.org/wiki/Cross_tabulation).
 We visually illustrat this concept in Table #:
 
 Table #. The example in (A) demonstrates the wrong way to structure data using cross-tabs, and (B) demonstrates the correct way to structure the information in (A).
@@ -208,22 +216,10 @@ B.
     </tr>
 </table>
 
-If tabular data are currently in a cross-tab structure, it is straightfoward to restructure the data using established algorithms (e.g., melt() function in the R package reshape [@Wickham2007](http://www.jstatsoft.org/v21/i12/paper))
+If tabular data are currently in a cross-tab structure, there are tools to help restructure the data including functions in Excel and R (e.g., melt() function in the R package reshape [@Wickham2007](http://www.jstatsoft.org/v21/i12/paper))
 
-Database size can be minimized by avoiding redundancy when it is superfluous.
-For example, consider a table with two columns: one for site and a one for year.
-It would be redundant to include a third column that has a site-year combination; however, in certain circumstances a small amount of redundancy in the dataset can be beneficial (e.g., a separate column for genus, species, and the full latin binomial). 
 
-Column names should also be carefully considered.
-Specifically, column names should be **clean** of any special characters, it should be intuitively **clear** what they refer to, and they should be **concise** so that they are easy to reference from the command line.
-Additionally, spaces should be avoided in column names because these can cause data import problems.
-Eliminate spaces in column names by using camel-case (e.g, rainAvg) or underscore-case (e.g., rain_avg).
  
-
-Notes:
-
-* from an ecologist's perspective would "variable" be better than "field" when refering to columns?
-
 
 6. Use good null values
 -----------------------

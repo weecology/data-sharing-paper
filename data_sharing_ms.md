@@ -306,13 +306,16 @@ For example, the null value "Null" works correctly for certain applications in R
 7. Make it easy to combine your data with other datasets
 --------------------------------------------------------
 
-When working with large data collection efforts or when otherwise representing your data with limited space, it is common to develop codes or abbreviations which then appear in the data.
-In ecology and evolution codes often appear in place of site locations or taxonomy.
-Without clear definitions these codes are unintelligible and restrict reuse.
-As is common in standard database structure (cite?) we suggest the inclusion of linking tables which include fields for the item code and then additional fields which unambiguously describe the item.
-For species, this would include a table with the species codes followed by their most current family, genus, and species epithet.
-For site location, this would include a table with the site code followed by a GPS coordinate, spatial extent, temporal duration, and other appropriate site-specific details.
-These tables should be included directly with your data and mentioned as part of your meta-data. 
+Ecological and evolutionary data is often most valuable when combined with other kinds of data (e.g., taxonomic, environmental).
+You can make it easier to combine your data with other data sources by including the data that is common across many data sources (e.g., latin binomials, latitudes and longitudes)
+It is common for data to include codes or abbreviations.
+For example, in ecology and evolution codes often appear in place of site locations or taxonomy.
+This is useful because it reduces data entry (e.g., DS instead of _Dipodomys spectabilis_) and redundancy (a single column for a species ID rather than separate columns for family, genus, and species).
+However, without clear definitions these codes can be difficult to understand and make it more difficult to connect your data with external sources.
+The easiest way to link your data to other datasets is to include additional tables that include a column for the  code and then additional columns that describe the item in the standard way.
+For species, this would be a table with the species codes followed by their most current family, genus, and species epithet.
+For site location, this would include a table with the site code followed by latitude and longitude.
+These tables can also be used to include additional information such as spatial extent, temporal duration, and other appropriate site-specific details.
 
 
 8. Perform basic quality control

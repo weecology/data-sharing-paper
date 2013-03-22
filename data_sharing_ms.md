@@ -91,22 +91,20 @@ __citations__
 3. Provide an unprocessed form of the data
 ------------------------------------------
 
-Most often, the data that are presented in a manuscript table or even used in the analysis are modified in some way from the original form in which they were collected.
-Unprocessed data are data presented in the form that resulted directly from the data collection effort.
-It may be important here to distinguish between a methods protocol that processes samples to retrieve data and an analytical or computational processing that manipulates unprocessed data into useful summary statistics, standard indices or metrics for your analysis.
-As much as a model or mathematical correction might be best for your purposes, these sort of modifications to unprocessed data can make the difference for the reuse of your data.
+Often, the data used in scientific analyses are modified in some way from the original form in which they were collected.
+This is done to address the questions of interest in the bester manner possible and to address common limitations associated with the raw data.
+However, the best way to process data depends on the question being asked and corrections for common data limitiations typically change over time.
+It can also be very difficult to combine data from multiple sources that have each been processed in different ways.
+Therefore, to make your data as useful as possible it is best to share the data in as raw a form as possible.
 
-This is not to say that your data are best suited for a meta-analysis in the raw form, but as unprocessed was the starting point for you so should that option be available to future work.
-Of course, your work to develop and process the data is equally important.
+This is not to say that your data are best suited for analysis in the raw form, but providing it in the raw form gives the person using the data the most flexibility.
+Of course, your work to develop and process the data is also very important and can be quite valuable for other scientists using your data.
+This is particularly true when correcting data for common limitations.
 Indeed, some metrics and indices are widely used across disciplines.
-In any case where data is modified from its original form or summarized (i.e. averaged) for an analysis or publication, we encourage that you also make this data available.
-Better yet, include computer scripts that process the data to the form you used alongside the unprocessed data.
-This way, any one can observe the process by which you arrived at the values used in your analysis.
+Providing both the raw and processed forms of the data, and clearly explaining the differences between them in the meta data, is an easy way to include the benefits of both processed and raw data.
+An alternative approach is to share the unprocessed data along with the computer scripts that process the data to the form you used for analysis.
+This allows other scientists observe and potentially modify the process by which you arrived at the values used in your analysis.
 
-One concern we anticipate is that unprocessed data files can be extremely large.
-Later on, we urge you to use a data repository, which often can store and share such large files.
-Otherwise, we recommend the .zip or .tar.gz compression formats to reduce the bit size of your data.
-	
 
 4. Use standard formats that will work across systems
 ------------------------------------------------------

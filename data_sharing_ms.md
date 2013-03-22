@@ -345,16 +345,19 @@ Informal data review may have added benefits of giving your data increased expos
 9. Use an established repository
 -------------------------------
 
-For data sharing to be effective, data should be findable over time, accessible and protected from long-term loss, and of sufficient quality [(Kowalczyk & Shankar 2011)](http://onlinelibrary.wiley.com/doi/10.1002/aris.2011.1440450113/pdf).
-Likewise, in an era of scientific data deluge, data sharers should consider whether their data is highly visible to, and can be easily found by, intended users.
-To these ends, data sharers should consider the diverse options offered by many freely usable online storage facilities (i.e. repositories). 
-
+For data sharing to be effective, data should be easy to find, accessible and stored where it will be preserved for a long time [@kowalczyk2011].
+The best way to accomplish all of these things is to share your data in one of the major repositories that have been established for this purpose.
 There are repositories available for sharing most any type of biological or environmental data.
-Some repositories, such as those hosting molecular sequences (e.g. DDBJ, GenBank, MG-RAST), are highly standardized in terms of data type, format, QA/QC, etc. Other repositories host a wide variety of biological and environmental data and are much less standardized (e.g. Dryad, KNB, PANGAEA).
-Additionally, some repositories are not exclusively designed for the natural sciences but offer several advantages such as version control, collaboration, and social networking (e.g. Figshare, Github).
-Repositories also vary in their terms of use, data rights, licensing, and in being open or restricted access (Table ?).
-Choice of repository may also depend on requirements of funding agencies and journals.
-However, regardless of the repository, data sharers should ensure their dataset has an associated digital object identifier (DOI).
+Some repositories, such as those hosting molecular sequences (e.g. DDBJ, GenBank, MG-RAST), are highly standardized in terms of data type, format, and approaches to quality control.
+Other repositories host a wide array of biological and environmental data and are therefore much less standardized (e.g. Dryad, KNB, PANGAEA).
+Additionally, some repositories are not exclusively designed for the natural sciences but offer several advantages such as version control, collaboration, and social networking (e.g. Figshare).
+
+When choosing a repository you should consider where other reseachers in your discipline are sharing their data.
+This helps you quickly identify the community standard approach to sharing and increases the likelihood that other scientists will discover you data.
+You may also want to consider differences among repositories in terms of use, data rights, and licensing (Table ?).
+Funding agencies and journals may also have explicit requirements about repositories.
+We also recommend that you use a repository that allows your dataset to be easily cited.
+Most repositories will describe how this works, but an easy way to guarantee that your ms is citable is to confirm that the repository gives it an associated digital object identifier (DOI).
 DOIs are permanent unique identifiers that are independent of physical location and site ownership.
 
 Table ?. Popular repositories into which individuals can deposit datasets.
@@ -425,14 +428,6 @@ These are not repositories exclusively used by members of institutions or reposi
 		<td>Varies</td>
 		<td>Editors participate in QA/QC</td>
 	</tr>
-	<tr>
-		<td>Github</td>
-		<td>Licensed by user</td>
-        <td>N/A</td>
-		<td>N/A</td>
-		<td>User decides</td>
-		<td>Users create repositories that can be public or private</td>
-    </tr>
     <tr>
 		<td>Figshare</td>
 		<td>CC0 if public</td>

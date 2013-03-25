@@ -1,4 +1,4 @@
-Ten simple ways to make it easier to re(use) your data
+Ten simple ways to make it easier to (re)use your data
 ======================================================
 
 Introduction

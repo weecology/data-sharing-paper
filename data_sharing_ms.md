@@ -104,65 +104,45 @@ An alternative approach is to share the unprocessed data along with the computer
 This allows other scientists observe and potentially modify the process by which you arrived at the values used in your analysis.
 
 
-4. Use standard formats
------------------------
+4. Present data in the most usable form
+---------------------------------------
 
 Everyone has their own favorite tools for storing and analyzing data.
 To make it easy for everyone to use your data it is best to store it in a standard format that can be used by many different kinds of software.
-Both the format of the file and the contents of the file are important to consider.
+Additionally the structure and contents of the file are important to consider.
 
-### File format
-Most ecological data can be stored effectively in text files, of which comma-delimited text (i.e., .csv) files are the most commonly used.
+### Standard file format
+
+Data should be formatted in such a way that it is generally readable by most software and when possible it should not be proprietary.
+
+Certain kinds of data in ecology and evolution have well established standard formats such as FASTA files for nucleotide or peptide sequences (http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick files for phylogenetic trees.
+In this case you should use these well defined formats because that is what other users and existing software will be able to work with most easily.
+
+Most ecological data can be stored effectively in a tabular format as a text file, of which comma-delimited text (i.e., .csv) files are the most commonly used.
 These files can be opened by any type of software.
 In contrast, proprietary formats such as those used by Microsoft Excel can be difficult to load into other programs.
 In addition, these types of files can become obsolete, eventually making it difficult to open data files at all if the newer versions of the software no longer support the original format.
 
-*Paragraph about other file formats for other kinds of data: spatial, phylogenetic, etc.*
-
 It is also best to use descriptive names for your files and to avoid spaces in file names, which can cause problems for some software.
 If you have multiple files it is also useful to name them in a consistent manner to make it easier to automate working with them.
 
-### Data format
-The second major consideration when applying standard formats is formatting the contents of the file.
-We'll discuss how to structure your data in the next recommendation, but there are a number of common data challenges that apply regardless of the data structure.
-Most importantly, be consistent.
-It is possible to work with any format as long as it is the same throughout the file.
-For example, be consistent in your capitalization of words and choice of delimiters, and use consistent naming conventions for variables.
-In addition to being consistent there are a number of other simple things that can make working with you data easier:
+### Standard tabular structure
 
-* Avoid special characters. Most software for storing and analyzing data works best on plain text and accents and other special characters can make it difficult to import your data.
-* Avoid using your delimiter in the data itself (e.g., commas in the notes filed of a comma-delimited file).
-
-If you data is stored in a table then it is also important use descriptive column names without spaces.
-Descriptive column names are a form of metadata, that make it much more difficult to get confused about what is contained in each column and therefore makes errors less likely.
-Spaces in column names (and file names) can cause problems for some software and can be avoided by using camel-case (e.g, rainAvg) or underscore-case (e.g., rain_avg).
-
-Figure # illustrates some common formatting problems that can obstruct data use.
-
-Figure # : standard_format_errors.pdf
-
-5. Use standard data structures
--------------------------------
-
-In addition to the details of the format, the overall structure of data is important for making it easy analyze.
-This is particularly true in ecology and evolution where the datasets can contain a wide variety of different kinds of information.
-Certain kinds of data in have well established standard structures such as FASTA files for nucleotide or peptide sequences [@FASTA](http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick phylogenetic tree format.
-In this case you should use these well defined formats because that is what other users and existing software will be able to work with most easily.
-However, due to the wide variety of data collected in ecology and evolution there often is not a specific standard for the kinds of data you want to share.
-Most data without standard formats is stored in tables of some kind, so we will make general suggestiosn for how to construct data tables that make working with the data easier.
+Most data without standard formats is stored in tables of some kind.
+Additionally, tabular data provides a great deal of flexibility in how to structure the data which in turn can create a large number of obstacles to data reuse.
+Here we develop some general recommendations for how to best structure your tabular data.
 
 In well structured tables each row represents a single observation (i.e., a record), and each column represents a variable or measurement.
-We provide five simple guidelines that help ensure tabular data is properly structured for ease of data importation and analysis:
+We provide three simple guidelines that help ensure tabular data is properly structured for ease of data importation and analysis:
 
-* No duplicate rows
 * Every row-column combination contains one value
 * One column per type of information
 * Only use a single level of header
 
-These guildlines produce tables that can easily be used in database management systems and common analysis software like R and Python.
+These guidelines produce tables that can easily be used in database management systems and common analysis software like R and Python.
 
 One of the most common deviations from this structure if the cross-tab structured data (http://en.wikipedia.org/wiki/Cross_tabulation).
-We visually illustrat this concept in Table #:
+We visually illustrate this concept in Table #:
 
 Table #. The example in (A) demonstrates the wrong way to structure data using cross-tabs, and (B) demonstrates the correct way to structure the information in (A).
 
@@ -214,10 +194,28 @@ B.
     </tr>
 </table>
 
+The cross-tab structure is useful for its readability and may be most appropriate for data collection, but this format posses many challenges to general data analysis.
+The primary problem with cross-tab data is that it is more difficult to link the records with additional fields.
 If tabular data are currently in a cross-tab structure, there are tools to help restructure the data including functions in Excel and R (e.g., melt() function in the R package reshape [@Wickham2007](http://www.jstatsoft.org/v21/i12/paper))
 
+### Standard tabular contents
+In addition to the structure of tabular data it is also important to ensure that the format of the table's contents follow basic data-standards.
+Most importantly, be consistent.
+It is possible to work with any format as long as it is the same throughout the file.
+For example, be consistent in your capitalization of words and choice of delimiters, and use consistent naming conventions for variables.
+In addition to being consistent there are a number of other simple things that can make working with you data easier:
 
- 
+* Avoid special characters. Most software for storing and analyzing data works best on plain text and accents and other special characters can make it difficult to import your data.
+* Avoid using your delimiter in the data itself (e.g., commas in the notes filed of a comma-delimited file).
+
+If you data is stored in a table then it is also important use descriptive column names without spaces.
+Descriptive column names are a form of metadata, that make it much more difficult to get confused about what is contained in each column and therefore makes errors less likely.
+Spaces in column names (and file names) can cause problems for some software and can be avoided by using camel-case (e.g, rainAvg) or underscore-case (e.g., rain_avg).
+
+Figure # illustrates some common formatting problems that can obstruct data use.
+
+Figure # : standard_format_errors.pdf
+
 
 6. Use good null values
 -----------------------
@@ -309,8 +307,6 @@ For example, the null value "Null" works correctly for certain applications in R
 		<td>Avoid</td>
     </tr>
 </table>
-
-
 
 
 7. Make it easy to combine your data with other datasets

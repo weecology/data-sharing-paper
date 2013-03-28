@@ -26,10 +26,10 @@ So, why should you share your data?
 
 Data sharing benefits both the community and the data sharer.
 The benefits to the scientific community of sharing data are substantial [@fienberg1984].
-It allows: 1) the results of exisiting analyses to be reproduced and improved upon [@fienberg1984];
+It allows: 1) the results of existing analyses to be reproduced and improved upon [@fienberg1984];
 2) data to be combined in meta-analyses to reach general conclusions [@fienberg1984];
 3) can allow new approaches to be applied to the data and new questions asked using it [@fienberg1984]; and
-4) can facilitate approaches to scientific inquiry that couldn't even be considered without broad scale data sharing [].
+4) can facilitate approaches to scientific inquiry that couldn't even be considered without broad scale data sharing [@hampton2013].
 As a result data sharing is increasingly required by funding agencies (e.g., [NSF](http://www.nsf.gov/bfa/dias/policy/dmp.jsp), [NIH](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html), [NSERC](http://www.nserc-crsng.gc.ca/Professors-Professeurs/FinancialAdminGuide-GuideAdminFinancier/Responsibilities-Responsabilites_eng.asp), [FWF](http://www.fwf.ac.at/en/public_relations/oai/index.html), journals [@whitlock2010; @piwowar2008], and potentially by law (e.g. [FASTR](http://doyle.house.gov/sites/doyle.house.gov/files/documents/2013%2002%2014%20DOYLE%20FASTR%20FINAL.pdf)).
 
 Sharing data is also known to benefit the person sharing the data.
@@ -39,8 +39,8 @@ Shared datasets are also more easily reused in the future by the data sharer bec
 Despite these potential benefits to both the community and individual many scientists are still reluctant to share data. 
 Reluctance to share data is largely due to perceived fears of: 1) competition for publications based on the shared data, 2) a lack of recognition for shared data, and 3) logistical barriers [@palmer2004; @hampton2013].
 These concerns are often not as serious as they first appear [@parr2005, @hampton2013].
-Many data sharing initiatives allow for data embargos or limitations on direct competition that can last for several years while the authors develop their publications and thus avoid competition for deriving publications from the data.
-Additionally, data sets are now concidered citable entities and therefore recognition is provided to the data provider in the form of increased citation metrics and credit on CVs and grant applications.
+Many data sharing initiatives allow for data embargoes or limitations on direct competition that can last for several years while the authors develop their publications and thus avoid competition for deriving publications from the data.
+Additionally, data sets are now considered citable entities and therefore recognition is provided to the data provider in the form of increased citation metrics and credit on CVs and grant applications.
 Lastly, logistical barriers to data sharing are diminishing as high profile archives for data and code are becoming more numerous and receiving greater attention [@parr2005; @hampton2013](http://www.aseanbiodiversity.info/Abstract/51005017.pdf).
 As a result, it is increasingly beneficial to the individual research to share their data in the most useful manner possible.
 

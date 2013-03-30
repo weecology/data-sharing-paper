@@ -26,10 +26,10 @@ So, why should you share your data?
 
 Data sharing benefits both the community and the data sharer.
 The benefits to the scientific community of sharing data are substantial [@fienberg1984].
-It allows: 1) the results of exisiting analyses to be reproduced and improved upon [@fienberg1984];
+It allows: 1) the results of existing analyses to be reproduced and improved upon [@fienberg1984];
 2) data to be combined in meta-analyses to reach general conclusions [@fienberg1984];
 3) can allow new approaches to be applied to the data and new questions asked using it [@fienberg1984]; and
-4) can facilitate approaches to scientific inquiry that couldn't even be considered without broad scale data sharing [].
+4) can facilitate approaches to scientific inquiry that couldn't even be considered without broad scale data sharing [@hampton2013].
 As a result data sharing is increasingly required by funding agencies (e.g., [NSF](http://www.nsf.gov/bfa/dias/policy/dmp.jsp), [NIH](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html), [NSERC](http://www.nserc-crsng.gc.ca/Professors-Professeurs/FinancialAdminGuide-GuideAdminFinancier/Responsibilities-Responsabilites_eng.asp), [FWF](http://www.fwf.ac.at/en/public_relations/oai/index.html), journals [@whitlock2010; @piwowar2008], and potentially by law (e.g. [FASTR](http://doyle.house.gov/sites/doyle.house.gov/files/documents/2013%2002%2014%20DOYLE%20FASTR%20FINAL.pdf)).
 
 Sharing data is also known to benefit the person sharing the data.
@@ -39,8 +39,8 @@ Shared datasets are also more easily reused in the future by the data sharer bec
 Despite these potential benefits to both the community and individual many scientists are still reluctant to share data. 
 Reluctance to share data is largely due to perceived fears of: 1) competition for publications based on the shared data, 2) a lack of recognition for shared data, and 3) logistical barriers [@palmer2004; @hampton2013].
 These concerns are often not as serious as they first appear [@parr2005, @hampton2013].
-Many data sharing initiatives allow for data embargos or limitations on direct competition that can last for several years while the authors develop their publications and thus avoid competition for deriving publications from the data.
-Additionally, data sets are now concidered citable entities and therefore recognition is provided to the data provider in the form of increased citation metrics and credit on CVs and grant applications.
+Many data sharing initiatives allow for data embargoes or limitations on direct competition that can last for several years while the authors develop their publications and thus avoid competition for deriving publications from the data.
+Additionally, data sets are now considered citable entities and therefore recognition is provided to the data provider in the form of increased citation metrics and credit on CVs and grant applications.
 Lastly, logistical barriers to data sharing are diminishing as high profile archives for data and code are becoming more numerous and receiving greater attention [@parr2005; @hampton2013](http://www.aseanbiodiversity.info/Abstract/51005017.pdf).
 As a result, it is increasingly beneficial to the individual research to share their data in the most useful manner possible.
 
@@ -104,65 +104,44 @@ An alternative approach is to share the unprocessed data along with the computer
 This allows other scientists observe and potentially modify the process by which you arrived at the values used in your analysis.
 
 
-4. Use standard formats
------------------------
+4. Use standards for data formatting, structure, and content
+------------------------------------------------------------
+
+Alternative section titles: "Present data in the most usable way", "Standardize your data", "Use data standards", 
 
 Everyone has their own favorite tools for storing and analyzing data.
 To make it easy for everyone to use your data it is best to store it in a standard format that can be used by many different kinds of software.
-Both the format of the file and the contents of the file are important to consider.
+Additionally the structure and contents of the file are important to consider.
 
-### File format
-Most ecological data can be stored effectively in text files, of which comma-delimited text (i.e., .csv) files are the most commonly used.
+### Standard file format
+
+Data should be formatted in such a way that it is generally readable by most software and when possible it should not be proprietary.
+
+Certain kinds of data in ecology and evolution have well established standard formats such as FASTA files for nucleotide or peptide sequences (http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick files for phylogenetic trees (http://evolution.genetics.washington.edu/phylip/newicktree.html).
+When possible use well defined formats that other users and existing software will be able to work with most easily.
+
+Data that does not have a well defined standard format can often be stored effectively in a tabular format as a text file, of which comma-delimited text (i.e., .csv) files are the most commonly used.
 These files can be opened by any type of software.
 In contrast, proprietary formats such as those used by Microsoft Excel can be difficult to load into other programs.
 In addition, these types of files can become obsolete, eventually making it difficult to open data files at all if the newer versions of the software no longer support the original format.
 
-*Paragraph about other file formats for other kinds of data: spatial, phylogenetic, etc.*
-
 It is also best to use descriptive names for your files and to avoid spaces in file names, which can cause problems for some software.
 If you have multiple files it is also useful to name them in a consistent manner to make it easier to automate working with them.
 
-### Data format
-The second major consideration when applying standard formats is formatting the contents of the file.
-We'll discuss how to structure your data in the next recommendation, but there are a number of common data challenges that apply regardless of the data structure.
-Most importantly, be consistent.
-It is possible to work with any format as long as it is the same throughout the file.
-For example, be consistent in your capitalization of words and choice of delimiters, and use consistent naming conventions for variables.
-In addition to being consistent there are a number of other simple things that can make working with you data easier:
+### Standard tabular structure
 
-* Avoid special characters. Most software for storing and analyzing data works best on plain text and accents and other special characters can make it difficult to import your data.
-* Avoid using your delimiter in the data itself (e.g., commas in the notes filed of a comma-delimited file).
-
-If you data is stored in a table then it is also important use descriptive column names without spaces.
-Descriptive column names are a form of metadata, that make it much more difficult to get confused about what is contained in each column and therefore makes errors less likely.
-Spaces in column names (and file names) can cause problems for some software and can be avoided by using camel-case (e.g, rainAvg) or underscore-case (e.g., rain_avg).
-
-Figure # illustrates some common formatting problems that can obstruct data use.
-
-Figure # : standard_format_errors.pdf
-
-5. Use standard data structures
--------------------------------
-
-In addition to the details of the format, the overall structure of data is important for making it easy analyze.
-This is particularly true in ecology and evolution where the datasets can contain a wide variety of different kinds of information.
-Certain kinds of data in have well established standard structures such as FASTA files for nucleotide or peptide sequences [@FASTA](http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick phylogenetic tree format.
-In this case you should use these well defined formats because that is what other users and existing software will be able to work with most easily.
-However, due to the wide variety of data collected in ecology and evolution there often is not a specific standard for the kinds of data you want to share.
-Most data without standard formats is stored in tables of some kind, so we will make general suggestiosn for how to construct data tables that make working with the data easier.
-
+Tabular data is ubiquitous in ecology and evolution, and a tabular format provides a great deal of flexibility in how to structure the data which in turn can create a large number of obstacles to data reuse.
 In well structured tables each row represents a single observation (i.e., a record), and each column represents a variable or measurement.
-We provide five simple guidelines that help ensure tabular data is properly structured for ease of data importation and analysis:
+We provide three simple guidelines that help ensure tabular data is properly structured for ease of data importation and analysis:
 
-* No duplicate rows
 * Every row-column combination contains one value
 * One column per type of information
 * Only use a single level of header
 
-These guildlines produce tables that can easily be used in database management systems and common analysis software like R and Python.
+These guidelines produce tables that can easily be used in database management systems and common analysis software like R and Python.
 
 One of the most common deviations from this structure if the cross-tab structured data (http://en.wikipedia.org/wiki/Cross_tabulation).
-We visually illustrat this concept in Table #:
+We visually illustrate this concept in Table #:
 
 Table #. The example in (A) demonstrates the wrong way to structure data using cross-tabs, and (B) demonstrates the correct way to structure the information in (A).
 
@@ -214,10 +193,30 @@ B.
     </tr>
 </table>
 
-If tabular data are currently in a cross-tab structure, there are tools to help restructure the data including functions in Excel and R (e.g., melt() function in the R package reshape [@Wickham2007](http://www.jstatsoft.org/v21/i12/paper))
+The cross-tab structure is useful for its readability and may be appropriate for data collection, but this format posses many challenges to general data analysis.
+The primary problem with cross-tab data is that it is more difficult to link the records with additional fields.
+If tabular data are currently in a cross-tab structure, there are tools to help restructure the data including functions in Excel and R (e.g., melt() function in the R package reshape [@wickham2007])
 
+### Standard tabular contents
 
- 
+In addition to the structure of tabular data it is also important to ensure that the  table's contents follow basic data-standards.
+One important general rule is to be consistent.
+It is possible to work with any format as long as it is the same throughout the file.
+For example, be consistent in your capitalization of words and choice of delimiters, and use consistent naming conventions for variables.
+In addition to being consistent there are a number of other simple things that can make working with you data easier:
+
+* Avoid special characters. Most software for storing and analyzing data works best on plain text and accents and other special characters can make it difficult to import your data.
+* Avoid using your delimiter in the data itself (e.g., commas in the notes filed of a comma-delimited file).
+* When working with dates follow the [ISO 8601](http://www.iso.org/iso/support/faqs/faqs_widely_used_standards/widely_used_standards_other/iso8601) data standard (e.g., YYYY-MM-DD).
+
+If your data is stored in a table then it is also important to use descriptive column names without spaces.
+Descriptive column names can help to indicate what data is contained in each column and therefore make data interpretation errors less likely.
+Spaces in column names (and file names) can cause problems for some software and should be avoided by using camel-case (e.g, rainAvg) or underscore-case (e.g., rain_avg).
+
+Figure # illustrates some common formatting problems that can obstruct data use.
+
+Figure # : standard_format_errors.pdf
+
 
 6. Use good null values
 -----------------------
@@ -309,8 +308,6 @@ For example, the null value "Null" works correctly for certain applications in R
 		<td>Avoid</td>
     </tr>
 </table>
-
-
 
 
 7. Make it easy to combine your data with other datasets
@@ -415,7 +412,12 @@ These repositories are not exclusively used by members of specific institutions 
 		<td>Partners with ESA, NCEAS, DataONE</td>
 	</tr>
 	<tr>
-		<td>Paleobiology Database</td>
+		<td>
+>
+>
+>
+>
+>Paleobiology Database</td>
 		<td>Various Creative Commons</td>
         <td>No</td>
 		<td>Optional</td>

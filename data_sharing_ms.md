@@ -44,7 +44,7 @@ Reluctance to share data is largely due to perceived fears of: 1) competition fo
 These concerns are often not as serious as they first appear [@parr2005, @hampton2013].
 Many data sharing initiatives allow for data embargoes or limitations on direct competition that can last for several years while the authors develop their publications and thus avoid competition for deriving publications from the data.
 Additionally, data sets are now considered citable entities and therefore recognition is provided to the data provider in the form of increased citation metrics and credit on CVs and grant applications.
-Lastly, logistical barriers to data sharing are diminishing as high profile archives for data and code are becoming more numerous and receiving greater attention [@parr2005; @hampton2013](http://www.aseanbiodiversity.info/Abstract/51005017.pdf).
+Lastly, logistical barriers to data sharing are diminishing as high profile archives for data and code are becoming more numerous and receiving greater attention [@parr2005; @hampton2013].
 As a result, it is increasingly beneficial to the individual research to share their data in the most useful manner possible.
 
 2. Provide metadata

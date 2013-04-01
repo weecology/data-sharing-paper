@@ -1,4 +1,4 @@
-Ten simple ways to make it easier to (re)use your data
+Nine simple ways to make it easier to (re)use your data
 ======================================================
 
 Introduction
@@ -14,7 +14,7 @@ Much existing data remains difficult to work with and therefore makes the data l
 Sharing well organized data with clear structure and documentation improves the value and productivity of scientific data for everyone.
 This means that making it easier for others to use your data also makes it easier to work with your own data or return for further analysis months or years after original collection when the details are no longer fresh.
 What's more, data sharing occurs frequently within a lab or research group among students or collaborators where many orientation hours could be saved.
-Here we provide a list of 10 simple ways to make it easier to reuse the data that you share.
+Here we provide a list of 9 simple ways to make it easier to reuse the data that you share.
 These recommendations focus on making your data available, understandable, and easy to work with.
 
 1. Share your data
@@ -218,7 +218,7 @@ Figure # illustrates some common formatting problems that can obstruct data use.
 Figure # : standard_format_errors.pdf
 
 
-6. Use good null values
+5. Use good null values
 -----------------------
 
 Most ecological and evolutionary datasets contain missing or empty data values.
@@ -310,7 +310,7 @@ For example, the null value "Null" works correctly for certain applications in R
 </table>
 
 
-7. Make it easy to combine your data with other datasets
+6. Make it easy to combine your data with other datasets
 --------------------------------------------------------
 
 Ecological and evolutionary data is often most valuable when combined with other kinds of data (e.g., taxonomic, environmental).
@@ -325,7 +325,7 @@ For site location, this would include a table with the site code followed by lat
 These tables can also be used to include additional information such as spatial extent, temporal duration, and other appropriate site-specific details.
 
 
-8. Perform basic quality control
+7. Perform basic quality control
 --------------------------------
 
 Data, just like any other scientific product, should undergo some level of quality control [@reichmann2011].
@@ -349,7 +349,7 @@ In the same way that friendly reviews of papers can help catch mistakes and iden
 Informal data review may have added benefits of giving your data increased exposure and creating a culture of scientists who are better enabled to share and use other's data. 
 
 
-9. Use an established repository
+8. Use an established repository
 -------------------------------
 
 For data sharing to be effective, data should be easy to find, accessible and stored where it will be preserved for a long time [@kowalczyk2011].
@@ -445,7 +445,7 @@ These repositories are not exclusively used by members of specific institutions 
     </tr>
 </table>
 
-10. Use an established and liberal license 
+9. Use an established and liberal license 
 -----------------------------------------
 
 Including an explicit license with your data is the best way to let others know exactly what they can and cannot do with the data you shared.
@@ -465,7 +465,7 @@ However, making the data available is only the first step.
 To make data sharing as useful as possible it is necessary to make the data usable with as little effort as possible.
 This allows scientists to spend their time doing science rather than cleaning up data.
 
-We have provided a list of 10 practices that require only a small additional time investment but substantially improve the useability of data.
+We have provided a list of 9 practices that require only a small additional time investment but substantially improve the useability of data.
 Most of these recommendations are simply good practice for working with data regardless of whether that data is shared or not.
 This means that following these recommendations (2-8) make the data more useful for those who collected it as well as those who may use it in a secondary capacity.
 Well formatted and structured data makes it easier to use the data in a variety of different analysis programs.

@@ -13,7 +13,7 @@ Nine simple ways to make it easier to (re)use your data
 
 *Daniel J. McGlinn ([daniel.mcglinn@usu.edu](mailto:daniel.mcglinn@usu.edu)), Dept. of Biology and the Ecology Center, Utah State University, Logan, UT, USA, 84341*
 
-*Sarah R. Supp ([sarah.mohlman@usu.edu](mailto:sarah.mohlman@usu.edu)), Dept. of Biology and the Ecology Center, Utah State University, Logan, UT, USA, 84341*
+*Sarah R. Supp ([sarah.supp@usu.edu](mailto:sarah.supp@usu.edu)), Dept. of Biology and the Ecology Center, Utah State University, Logan, UT, USA, 84341*
 
 Introduction
 ------------

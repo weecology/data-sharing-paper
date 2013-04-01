@@ -6,16 +6,19 @@ Introduction
 
 Sharing data is increasingly recognized as an important component of the scientific process [@whitelock2010].
 The sharing of scientific data is beneficial because it allows replication of the original research results and reuse in meta-analyses and projects not originally intended by the data collectors [@poisot2013].
-In ecology and evolutionary biology sharing occurs through science sponsoring websites (e.g., LTER, NOAA) and formal data repositories of varying standardization (e.g., GenBank, http://www.ncbi.nlm.nih.gov/genbank/; Ecological Archives, http://esapubs.org/archive/default.htm; Dryad, http://datadryad.org/; Figshare, http://figshare.com).
+In ecology and evolutionary biology sharing occurs through a combination of formal data repositories like GenBank (http://www.ncbi.nlm.nih.gov/genbank/) and Dryad (http://datadryad.org/), and individual and institutional websites.
 
 While data sharing is increasingly common and straightforward, much of the shared data is not easily reused because it does not follow best practices in terms of data structure, metadata, and licensing [@jones2006].
-Much existing data remains difficult to work with and therefore makes the data less effective long-term [@jones2006; @reichman2011].
+This makes it more difficult to work with existing data and therefore makes the data less useful than it could be [@jones2006; @reichman2011]. 
 
-Sharing well organized data with clear structure and documentation improves the value and productivity of scientific data for everyone.
-This means that making it easier for others to use your data also makes it easier to work with your own data or return for further analysis months or years after original collection when the details are no longer fresh.
-What's more, data sharing occurs frequently within a lab or research group among students or collaborators where many orientation hours could be saved.
 Here we provide a list of 9 simple ways to make it easier to reuse the data that you share.
-These recommendations focus on making your data available, understandable, and easy to work with.
+Well organized data with good structure and documentation makes it easier for anyone to work with a dataset.
+This means that making it easier for others to use your data also makes it easier to work with your own data.
+This is particularly true when returning to your own data for further analysis months or years after original collection when the details are no longer fresh.
+In addition, data sharing occurs frequently within a lab or research group among students or collaborators.
+Many hours can be saved in these sorts of in-house collaborations by following these simple recommendations.
+Our recommendations focus on making your data understandable, easy to work with, and available to the wider community of scientists.
+
 
 1. Share your data
 ------------------

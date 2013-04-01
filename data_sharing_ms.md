@@ -1,5 +1,19 @@
 Nine simple ways to make it easier to (re)use your data
-======================================================
+=======================================================
+
+### Ethan P. White, Elita Baldridge, Zachary T. Brym, Kenneth J. Locey, Daniel J. McGlinn, and Sarah R. Supp
+
+*Ethan P. White ([ethan.white@usu.edu](mailto:ethan.white@usu.edu)), Dept. of Biology and the Ecology Center, Utah State University, Logan, UT, USA, 84341*
+
+*Elita Baldridge ([elita.baldridge@usu.edu](mailto:elita.baldridge@usu.edu)), Dept. of Biology and the Ecology Center, Utah State University, Logan, UT, USA, 84341*
+
+*Zachary T. Brym ([zachary.brym@usu.edu](mailto:zachary.brym@usu.edu)), Dept. of Biology and the Ecology Center, Utah State University, Logan, UT, USA, 84341*
+
+*Kenneth J. Locey ([kenneth.locey@usu.edu](mailto:kenneth.locey@usu.edu)), Dept. of Biology, Utah State University, Logan, UT, USA, 84341*
+
+*Daniel J. McGlinn ([daniel.mcglinn@usu.edu](mailto:daniel.mcglinn@usu.edu)), Dept. of Biology and the Ecology Center, Utah State University, Logan, UT, USA, 84341*
+
+*Sarah R. Supp ([sarah.mohlman@usu.edu](mailto:sarah.mohlman@usu.edu)), Dept. of Biology and the Ecology Center, Utah State University, Logan, UT, USA, 84341*
 
 Introduction
 ------------

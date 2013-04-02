@@ -71,7 +71,7 @@ It also makes it easier to use by both the original investigators and by other s
 Without clear metadata, datasets can be overlooked or not used due to the difficulty of understanding the data [@fraser1999; @zimmerman2003], and data becomes much less useful over time [@michener1997].
 
 Metadata can take several forms, including descriptive names in the data files themselves, a written description of the data, images (_i.e.,_ maps, photographs), and specially structured information that can be read by computers. 
-Good metadata should provide: 1) the what, when, where, and how of data collection, 2) how to find and access the data, 3) suggestions on the suitability of the data for answering specific questions, and 4) warnings to users on known problems or inconsistencies in the data [@michener1997; @zimmerman2003].
+Good metadata should provide: 1) the what, when, where, and how of data collection, 2) how to find and access the data, 3) suggestions on the suitability of the data for answering specific questions, 4) warnings to users on known problems or inconsistencies in the data [@michener1997; @zimmerman2003], and 5) information to check that the data is properly imported such as the number of rows and columns of the dataset and the total sum of numerical columns.
 
 Just like any other scientific publication, metadata should be logically organized, complete, and clear enough to enable interpretation and use of the data (@zimmerman2007).
 Specific metadata standards exist (_e.g.,_ Ecological Metadata Language [EML](http://knb.ecoinformatics.org/software/eml/), 
@@ -108,7 +108,7 @@ __citations__
 
 Often, the data used in scientific analyses are modified in some way from the original form in which they were collected.
 This is done to address the questions of interest in the best manner possible and to address common limitations associated with the raw data.
-However, the best way to process data depends on the question being asked and corrections for common data limitiations typically change over time.
+However, the best way to process data depends on the question being asked and corrections for common data limitations typically change over time.
 It can also be very difficult to combine data from multiple sources that have each been processed in different ways.
 Therefore, to make your data as useful as possible it is best to share the data in as raw a form as possible.
 
@@ -126,7 +126,7 @@ This allows other scientists observe and potentially modify the process by which
 
 Everyone has their own favorite tools for storing and analyzing data.
 To make it easy for everyone to use your data it's best to store it in a standard format that can be used by many different kinds of software.
-Good standard formats include the type of file, the overal structure of the data, and the specific contents of the file.
+Good standard formats include the type of file, the overall structure of the data, and the specific contents of the file.
 
 ### Use standard file formats
 
@@ -185,7 +185,7 @@ We recommend choosing null values that are both compatible with most software an
 The null values that are most compatible with software commonly in use by ecologists are a blank, NULL, or NA.
 Blanks are the most compatible across different software, and are easily spotted in a visual examination of the data.
 Note that a blank involves entering nothing, it is not a space, so if you use this option make sure you aren't missing any hidden spaces.
-If you are going to be working primarily in R, and are not going to be using a relational database, using NA makes the most sense, as long as you are not also using NA as an abbreviation (e.g., North America, Nambia, sodium, etc.) .
+If you are going to be working primarily in R, and are not going to be using a relational database, using NA makes the most sense, as long as you are not also using NA as an abbreviation (e.g., North America, Namibia, sodium, etc.) .
 If you are working with SQL, a blank or NULL is the best option.
 We recommend against using numerical values to indicate nulls (e.g., 999, -999, etc.) because they often require an extra step to remove from analyses and can be accidentally included in calculations.
 We also recommend against using non-standard text indications (e.g., No data, ND, missing, ---) because they can cause issues with software that requires consistent data types within columns).
@@ -270,7 +270,7 @@ For example, the null value "Null" works correctly for certain applications in R
 --------------------------------------------------------
 
 Ecological and evolutionary data is often most valuable when combined with other kinds of data (e.g., taxonomic, environmental).
-You can make it easier to combine your data with other data sources by including the data that is common across many data sources (e.g., latin binomials, latitudes and longitudes)
+You can make it easier to combine your data with other data sources by including the data that is common across many data sources (e.g., Latin binomials, latitudes and longitudes)
 It is common for data to include codes or abbreviations.
 For example, in ecology and evolution codes often appear in place of site locations or taxonomy.
 This is useful because it reduces data entry (e.g., DS instead of _Dipodomys spectabilis_) and redundancy (a single column for a species ID rather than separate columns for family, genus, and species).
@@ -302,7 +302,7 @@ For example:
 
 Then ask someone else to look over your metadata and data and provide you with feedback about anything they didn't understand.
 In the same way that friendly reviews of papers can help catch mistakes and identify confusing sections of papers, a friendly review of data can help identify problems and things that are unclear in the data and metadata.
-Informal data review may have added benefits of giving your data increased exposure and creating a culture of scientists who are better enabled to share and use other's data. 
+Informal data review may have added benefits of giving your data increased exposure and creating a culture of scientists who are better enabled to share and use others' data. 
 
 
 8. Use an established repository
@@ -316,7 +316,7 @@ Repositories that host specific data types, such as molecular sequences (_e.g.,_
 Other repositories host a wide array of data types and are less standardized (e.g. Dryad, KNB, PANGAEA).
 In some cases, it may be advantageous to use a repository that is not exclusively designed for the natural sciences, but that may offer advantages such as version control, collaboration, and social networking (_e.g.,_ Figshare).
 
-When choosing a repository you should consider where other reseachers in your discipline are sharing their data.
+When choosing a repository you should consider where other researchers in your discipline are sharing their data.
 This helps you quickly identify the community standard approach to sharing and increases the likelihood that other scientists will discover your data.
 You may want to consider differences among repositories in terms of use, data rights, and licensing (Table 3) and whether your funding agency or journal has explicit requirements or restrictions related to repositories.
 We also recommend that you use a repository that allows your dataset to be easily cited.
@@ -421,7 +421,7 @@ However, making the data available is only the first step.
 To make data sharing as useful as possible it is necessary to make the data usable with as little effort as possible.
 This allows scientists to spend their time doing science rather than cleaning up data.
 
-We have provided a list of 9 practices that require only a small additional time investment but substantially improve the useability of data.
+We have provided a list of 9 practices that require only a small additional time investment but substantially improve the usability of data.
 Most of these recommendations are simply good practice for working with data regardless of whether that data is shared or not.
 This means that following these recommendations (2-8) make the data more useful for those who collected it as well as those who may use it in a secondary capacity.
 Well formatted and structured data makes it easier to use the data in a variety of different analysis programs.

@@ -71,7 +71,7 @@ It also makes it easier to use by both the original investigators and by other s
 Without clear metadata, datasets can be overlooked or not used due to the difficulty of understanding the data [@fraser1999; @zimmerman2003], and data becomes much less useful over time [@michener1997].
 
 Metadata can take several forms, including descriptive names in the data files themselves, a written description of the data, images (_i.e.,_ maps, photographs), and specially structured information that can be read by computers. 
-Good metadata should provide: 1) the what, when, where, and how of data collection, 2) how to find and access the data, 3) suggestions on the suitability of the data for answering specific questions, and 4) warnings to users on known problems or inconsistencies in the data [@michener1997; @zimmerman2003].
+Good metadata should provide: 1) the what, when, where, and how of data collection, 2) how to find and access the data, 3) suggestions on the suitability of the data for answering specific questions, 4) warnings to users on known problems or inconsistencies in the data [@michener1997; @zimmerman2003], and 5) information to check that the data is properly imported such as the number of rows and columns of the dataset and the total sum of numerical columns.
 
 Just like any other scientific publication, metadata should be logically organized, complete, and clear enough to enable interpretation and use of the data (@zimmerman2007).
 Specific metadata standards exist (_e.g.,_ Ecological Metadata Language [EML](http://knb.ecoinformatics.org/software/eml/), 

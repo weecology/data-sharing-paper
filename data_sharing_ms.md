@@ -20,19 +20,17 @@ Introduction
 
 Sharing data is increasingly recognized as an important component of the scientific process [@whitelock2010].
 The sharing of scientific data is beneficial because it allows replication of the original research results and reuse in meta-analyses and projects not originally intended by the data collectors [@poisot2013].
-In ecology and evolutionary biology sharing occurs through a combination of formal data repositories like GenBank (http://www.ncbi.nlm.nih.gov/genbank/) and Dryad (http://datadryad.org/), and individual and institutional websites.
+In ecology and evolutionary biology, sharing occurs through a combination of formal data repositories like GenBank (http://www.ncbi.nlm.nih.gov/genbank/) and Dryad (http://datadryad.org/), and through individual and institutional websites.
 
 While data sharing is increasingly common and straightforward, much of the shared data is not easily reused because it does not follow best practices in terms of data structure, metadata, and licensing [@jones2006].
 This makes it more difficult to work with existing data and therefore makes the data less useful than it could be [@jones2006; @reichman2011]. 
 
 Here we provide a list of 9 simple ways to make it easier to reuse the data that you share.
-Well organized data with good structure and documentation makes it easier for anyone to work with a dataset.
-This means that making it easier for others to use your data also makes it easier to work with your own data.
+Well organized data with good structure and documentation makes it easier for anyone to work with a dataset, including yourself.
 This is particularly true when returning to your own data for further analysis months or years after original collection when the details are no longer fresh.
 In addition, data sharing occurs frequently within a lab or research group among students or collaborators.
-Many hours can be saved in these sorts of in-house collaborations by following these simple recommendations.
+Many hours can be saved during in-house collaborations by following these simple recommendations.
 Our recommendations focus on making your data understandable, easy to work with, and available to the wider community of scientists.
-
 
 1. Share your data
 ------------------

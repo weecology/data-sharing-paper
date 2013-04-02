@@ -130,7 +130,7 @@ Good standard formats include the type of file, the overal structure of the data
 
 ### Use standard file formats
 
-Data should be formatted a way that it is generally readable by most software and when possible it should non-proprietary [@borer2009; @strasser2011; @strasser2012].
+Data should be formatted a way that it is generally readable by most software and when possible it should be non-proprietary [@borer2009; @strasser2011; @strasser2012].
 Certain kinds of data in ecology and evolution have well established standard formats such as FASTA files for nucleotide or peptide sequences (http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick files for phylogenetic trees (http://evolution.genetics.washington.edu/phylip/newicktree.html).
 Use these well defined formats when they exist, because that is what other scientists and most existing software will be able to work with most easily.
 
@@ -141,7 +141,7 @@ In contrast to plain text files, proprietary formats such as those used by Micro
 In addition, these types of files can become obsolete, eventually making it difficult to open the data files at all if the newer versions of the software no longer support the original format [@borer2009; @strasser2011; @strasser2012].
 
 When naming files you should use descriptive names so that it is easy to keep track of what data they contain [@borer2009; @strasser2011; @strasser2012].
-If you have multiple files name them in a consistent manner to make it easier to automate working with them.
+If you have multiple files, name them in a consistent manner to make it easier to automate working with them.
 You should also avoid spaces in file names, which can cause problems for some software [@borer2009].
 Spaces in file names be avoided by using camel case (e.g, RainAvg) or by separating the words with underscores (e.g., rain_avg).
 
@@ -151,7 +151,7 @@ Data tables are ubiquitous in ecology and evolution.
 Tabular data provides a great deal of flexibility in how to structure the data, which makes it easy to structure the data so that it can be difficult to (re)use.
 We provide three simple recommendations to help ensure that tabular data is properly structured to allow the data to be easily imported and analyzed by most data management systems and common analysis software like R and Python.
 
-* Each row should represent a single observation (i.e., a record) and each column should represent a singel variable or type of measurement (i.e., a field) [@borer; @strasser2011; @strasser2012].
+* Each row should represent a single observation (i.e., a record) and each column should represent a single variable or type of measurement (i.e., a field) [@borer; @strasser2011; @strasser2012].
   This is the standard format for tables in the most commonly used database management systems and analysis packages and makes the data easy to work with in the most general way.
 * Every cell should contain only a single value [@strasser2012].
   For example, do not include units in the cell with the values (Figure 1) or include multiple measurements in a single cell.
@@ -187,9 +187,9 @@ Blanks are the most compatible across different software, and are easily spotted
 Note that a blank involves entering nothing, it is not a space, so if you use this option make sure you aren't missing any hidden spaces.
 If you are going to be working primarily in R, and are not going to be using a relational database, using NA makes the most sense, as long as you are not also using NA as an abbreviation (e.g., North America, Nambia, sodium, etc.) .
 If you are working with SQL, a blank or NULL is the best option.
-We recommend against using numerical values to indicates nulls (e.g., 999, -999, etc.) because they often require an extra step to remove from analyses and can be accidentally included in calculations.
+We recommend against using numerical values to indicate nulls (e.g., 999, -999, etc.) because they often require an extra step to remove from analyses and can be accidentally included in calculations.
 We also recommend against using non-standard text indications (e.g., No data, ND, missing, ---) because they can cause issues with software that requires consistent data types within columns).
-Whichever null value that you use, only use one, you use it consistently throughout the data set, and it clearly in the metadata. 
+Whichever null value that you use, only use one, you use it consistently throughout the data set, and indicate it clearly in the metadata. 
 
 Table #.  This table contains information on commonly used null values and provides a recommendation as to use.
 Null values are indicated as being a null value for specific software if they work consistently and correctly with that software.

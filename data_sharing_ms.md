@@ -425,3 +425,8 @@ This means that following these recommendations (2-8) make the data more useful 
 Well formatted and structured data makes it easier to use the data in a variety of different analysis programs.
 Well documented data makes it easier to use the data whether the person using it is a lab mate, a meta-analyst, or the scientist that collected the data a few years after it was collected.
 By following these practices we can assure that the data collected in ecology and evolution can be used to its full potential to improve our understanding of biological systems. 
+
+Acknowledgments
+---------------
+Thanks to Carly Strasser and Kara Woo for recommending references on Twitter.
+The writing of this paper was supported by a CAREER grant from the U.S. National Science Foundation (DEB 0953694) to EPW.

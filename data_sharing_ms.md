@@ -306,13 +306,13 @@ Informal data review may have added benefits of giving your data increased expos
 8. Use an established repository
 -------------------------------
 
-For data sharing to be effective, data should be easy to find, accessible and stored where it will be preserved for a long time [@kowalczyk2011].
-For these reasons, posting data on your website is not a good long-term solution.
-The best method is to share your data in one of the major repositories that have been established.
+For data sharing to be effective, data should be easy to find, accessible, and stored where it will be preserved for a long time [@kowalczyk2011].
+Personal and poorly maintained institutional websites risk broken links, and highly restrictive terms of use will discourage or prevent others from using your data.
+To make your data visible and easily accessible, and to ensure a permanent link to a well maintained website, we suggest depositing your data in one of the major well-established repositories.
 There are repositories available for sharing almost any type of biological or environmental data.
 Repositories that host specific data types, such as molecular sequences (_e.g.,_ DDBJ, GenBank, MG-RAST), are often highly standardized in data type, format, and quality control approaches.
 Other repositories host a wide array of data types and are less standardized (e.g. Dryad, KNB, PANGAEA).
-In some cases, it may be advantageous to use a repository that is not exclusively designed for the natural sciences, but that may offer advantages such as version control, collaboration, and social networking (_e.g.,_ Figshare).
+In some cases, it may be advantageous to use a repository that is not exclusively designed for the natural sciences, but that may offer advantages such as version control, collaboration, and social networking (_e.g.,_ Figshare). 
 
 When choosing a repository you should consider where other researchers in your discipline are sharing their data.
 This helps you quickly identify the community standard approach to sharing and increases the likelihood that other scientists will discover your data.

@@ -41,37 +41,38 @@ So, why should you share your data?
 
 Data sharing benefits both the community and the data sharer.
 The benefits to the scientific community of sharing data are substantial [@fienberg1984].
-It allows: 1) the results of existing analyses to be reproduced and improved upon [@fienberg1984];
-2) data to be combined in meta-analyses to reach general conclusions [@fienberg1984];
-3) can allow new approaches to be applied to the data and new questions asked using it [@fienberg1984]; and
+It allows 1) the results of existing analyses to be reproduced and improved upon [@fienberg1984],
+2) data to be combined in meta-analyses to reach general conclusions [@fienberg1984],
+3) new approaches to be applied to the data and new questions asked using it [@fienberg1984], and
 4) can facilitate approaches to scientific inquiry that couldn't even be considered without broad scale data sharing [@hampton2013].
-As a result data sharing is increasingly required by funding agencies (e.g., [NSF](http://www.nsf.gov/bfa/dias/policy/dmp.jsp), [NIH](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html), [NSERC](http://www.nserc-crsng.gc.ca/Professors-Professeurs/FinancialAdminGuide-GuideAdminFinancier/Responsibilities-Responsabilites_eng.asp), [FWF](http://www.fwf.ac.at/en/public_relations/oai/index.html), journals [@whitlock2010; @piwowar2008], and potentially by law (e.g. [FASTR](http://doyle.house.gov/sites/doyle.house.gov/files/documents/2013%2002%2014%20DOYLE%20FASTR%20FINAL.pdf)).
-
-Sharing data is also known to benefit the person sharing the data.
-Sharing data can increase citation numbers and recognition by peers in the scientific community [@piwowar2007].
+As a result, data sharing is increasingly required by funding agencies (e.g., [NSF](http://www.nsf.gov/bfa/dias/policy/dmp.jsp), [NIH](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html), [NSERC](http://www.nserc-crsng.gc.ca/Professors-Professeurs/FinancialAdminGuide-GuideAdminFinancier/Responsibilities-Responsabilites_eng.asp), [FWF](http://www.fwf.ac.at/en/public_relations/oai/index.html)), journals [@whitlock2010; @piwowar2008], and potentially by law (e.g. [FASTR](http://doyle.house.gov/sites/doyle.house.gov/files/documents/2013%2002%2014%20DOYLE%20FASTR%20FINAL.pdf)). 
+Sharing data also directly benefits the person sharing the data through increased citation numbers and peer recognition in the scientific community [@piwowar2007].
 These benefits will likely result in new collaborations and increased productivity.
-Shared datasets are also more easily reused in the future by the data sharer because they are documented and standardized.
-Despite these potential benefits to both the community and individual many scientists are still reluctant to share data. 
-Reluctance to share data is largely due to perceived fears of: 1) competition for publications based on the shared data, 2) a lack of recognition for shared data, and 3) logistical barriers [@palmer2004; @hampton2013].
+Shared datasets that are documented and standardized are also more easily reused in the future by the original investigator.
+
+Despite these potential benefits to both the community and individual, many scientists are still reluctant to share data. 
+Reluctance to share data is largely due to perceived fears of 1) competition for publications based on the shared data, 2) a lack of recognition for shared data, and 3) logistical barriers [@palmer2004; @hampton2013].
 These concerns are often not as serious as they first appear [@parr2005, @hampton2013].
 Many data sharing initiatives allow for data embargoes or limitations on direct competition that can last for several years while the authors develop their publications and thus avoid competition for deriving publications from the data.
-Additionally, data sets are now considered citable entities and therefore recognition is provided to the data provider in the form of increased citation metrics and credit on CVs and grant applications.
+Additionally, datasets are now considered citable entities and data providers receive recognition in the form of increased citation metrics and credit on CVs and grant applications.
 Lastly, logistical barriers to data sharing are diminishing as high profile archives for data and code are becoming more numerous and receiving greater attention [@parr2005; @hampton2013].
-As a result, it is increasingly beneficial to the individual research to share their data in the most useful manner possible.
+As a result, it is increasingly beneficial to the individual researcher to share data in the most useful manner possible.
 
 2. Provide metadata
 -------------------
 
 The first key to using data is understanding it. 
-Metadata is information about the data including things like how it was collected, what the units of measurement are, and descriptions of how to best use the data.
+Metadata is information about the data including how it was collected, what the units of measurement are, and descriptions of how to best use the data.
 Clear metadata makes it easier to figure out if a dataset is appropriate for a project.
 It also makes it easier to use by both the original investigators and by other scientists by making it easy to figure out how to work with the data.
-Without clear metadata, datasets can be overlooked or not used due to the difficulty of understanding the data [@fraser1999; @zimmerman2003], and data becomes much less useful over time [@michener1997].
+Without clear metadata, datasets can be overlooked or not used due to the difficulty of understanding the data [@fraser1999; @zimmerman2003], 
+and data becomes much less useful over time [@michener1997].
 
 Metadata can take several forms, including descriptive names in the data files themselves, a written description of the data, images (_i.e.,_ maps, photographs), and specially structured information that can be read by computers. 
-Good metadata should provide: 1) the what, when, where, and how of data collection, 2) how to find and access the data, 3) suggestions on the suitability of the data for answering specific questions, 4) warnings to users on known problems or inconsistencies in the data [@michener1997; @zimmerman2003], and 5) information to check that the data is properly imported such as the number of rows and columns of the dataset and the total sum of numerical columns.
+Good metadata should provide 1) the what, when, where, and how of data collection, 2) how to find and access the data, 3) suggestions on the suitability of the data for answering specific questions, 4) warnings to users on known problems or inconsistencies in the data [@michener1997; @zimmerman2003], 
+and 5) information to check that the data is properly imported, such as the number of rows and columns of the dataset and the total sum of numerical columns.
 
-Just like any other scientific publication, metadata should be logically organized, complete, and clear enough to enable interpretation and use of the data (@zimmerman2007).
+Just like any other scientific publication, metadata should be logically organized, complete, and clear enough to enable interpretation and use of the data [@zimmerman2007].
 Specific metadata standards exist (_e.g.,_ Ecological Metadata Language [EML](http://knb.ecoinformatics.org/software/eml/), 
 Directory Interchange Format [DIF](http://gcmd.gsfc.nasa.gov/add/difguide/index.html), 
 Darwin Core [DWC](http://rs.tdwg.org/dwc/) [@Wieczorek2012],
@@ -114,8 +115,8 @@ This is not to say that your data are best suited for analysis in the raw form, 
 Of course, your work to develop and process the data is also very important and can be quite valuable for other scientists using your data.
 This is particularly true when correcting data for common limitations.
 Indeed, some metrics and indices are widely used across disciplines.
-Providing both the raw and processed forms of the data, and clearly explaining the differences between them in the metadata, is an easy way to include the benefits of both processed and raw data.
-An alternative approach is to share the unprocessed data along with the computer scripts that process the data to the form you used for analysis.
+Providing both the raw and processed forms of the data, and clearly explaining the differences between them in the metadata, is an easy way to include the benefits of both data forms.
+An alternate approach is to share the unprocessed data along with the computer scripts that process the data to the form you used for analysis.
 This allows other scientists observe and potentially modify the process by which you arrived at the values used in your analysis.
 
 
@@ -123,12 +124,12 @@ This allows other scientists observe and potentially modify the process by which
 ----------------------------
 
 Everyone has their own favorite tools for storing and analyzing data.
-To make it easy for everyone to use your data it's best to store it in a standard format that can be used by many different kinds of software.
+To make it easy to use your data it is best to store it in a standard format that can be used by many different kinds of software.
 Good standard formats include the type of file, the overall structure of the data, and the specific contents of the file.
 
 ### Use standard file formats
 
-Data should be formatted a way that it is generally readable by most software and when possible it should be non-proprietary [@borer2009; @strasser2011; @strasser2012].
+Data should be formatted a way that it is generally readable by most software and, when possible, should be non-proprietary [@borer2009; @strasser2011; @strasser2012].
 Certain kinds of data in ecology and evolution have well established standard formats such as FASTA files for nucleotide or peptide sequences (http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick files for phylogenetic trees (http://evolution.genetics.washington.edu/phylip/newicktree.html).
 Use these well defined formats when they exist, because that is what other scientists and most existing software will be able to work with most easily.
 
@@ -141,13 +142,13 @@ In addition, these types of files can become obsolete, eventually making it diff
 When naming files you should use descriptive names so that it is easy to keep track of what data they contain [@borer2009; @strasser2011; @strasser2012].
 If you have multiple files, name them in a consistent manner to make it easier to automate working with them.
 You should also avoid spaces in file names, which can cause problems for some software [@borer2009].
-Spaces in file names be avoided by using camel case (e.g, RainAvg) or by separating the words with underscores (e.g., rain_avg).
+Spaces in file names can be avoided by using camel case (e.g, RainAvg) or by separating the words with underscores (e.g., rain_avg).
 
 ### Use standard table formats
 
 Data tables are ubiquitous in ecology and evolution.
-Tabular data provides a great deal of flexibility in how to structure the data, which makes it easy to structure the data so that it can be difficult to (re)use.
-We provide three simple recommendations to help ensure that tabular data is properly structured to allow the data to be easily imported and analyzed by most data management systems and common analysis software like R and Python.
+Tabular data provides a great deal of flexibility in how to structure the data, which makes it easy to structure the data in a way that is difficult to (re)use.
+We provide three simple recommendations to help ensure that tabular data is properly structured to allow the data to be easily imported and analyzed by most data management systems and common analysis software, such as R and Python.
 
 * Each row should represent a single observation (i.e., a record) and each column should represent a single variable or type of measurement (i.e., a field) [@borer; @strasser2011; @strasser2012].
   This is the standard format for tables in the most commonly used database management systems and analysis packages and makes the data easy to work with in the most general way.
@@ -161,7 +162,7 @@ We provide three simple recommendations to help ensure that tabular data is prop
 
 In addition to following these basic rules you should also make sure to use descriptive column names [@borer2009].
 Descriptive column names can help to indicate what data is contained in each column and therefore make data interpretation errors less likely.
-As with file names spaces can cause problems for some software and should be avoided.
+As with file names, spaces can cause problems for some software and should be avoided.
 
 ### Use standard formats within cells
 
@@ -183,11 +184,11 @@ We recommend choosing null values that are both compatible with most software an
 The null values that are most compatible with software commonly in use by ecologists are a blank, NULL, or NA.
 Blanks are the most compatible across different software, and are easily spotted in a visual examination of the data.
 Note that a blank involves entering nothing, it is not a space, so if you use this option make sure you aren't missing any hidden spaces.
-If you are going to be working primarily in R, and are not going to be using a relational database, using NA makes the most sense, as long as you are not also using NA as an abbreviation (e.g., North America, Namibia, sodium, etc.) .
+If you are going to be working primarily in R, and are not going to be using a relational database, using NA makes the most sense, as long as you are not also using NA as an abbreviation (e.g., North America, Namibia, _Neotoma albigula_, sodium, etc.).
 If you are working with SQL, a blank or NULL is the best option.
 We recommend against using numerical values to indicate nulls (e.g., 999, -999, etc.) because they often require an extra step to remove from analyses and can be accidentally included in calculations.
 We also recommend against using non-standard text indications (e.g., No data, ND, missing, ---) because they can cause issues with software that requires consistent data types within columns).
-Whichever null value that you use, only use one, you use it consistently throughout the data set, and indicate it clearly in the metadata. 
+Whichever null value that you use, only use one, use it consistently throughout the data set, and indicate it clearly in the metadata. 
 
 Table #.  This table contains information on commonly used null values and provides a recommendation as to use.
 Null values are indicated as being a null value for specific software if they work consistently and correctly with that software.
@@ -273,18 +274,18 @@ It is common for data to include codes or abbreviations.
 For example, in ecology and evolution codes often appear in place of site locations or taxonomy.
 This is useful because it reduces data entry (e.g., DS instead of _Dipodomys spectabilis_) and redundancy (a single column for a species ID rather than separate columns for family, genus, and species).
 However, without clear definitions these codes can be difficult to understand and make it more difficult to connect your data with external sources.
-The easiest way to link your data to other datasets is to include additional tables that include a column for the  code and then additional columns that describe the item in the standard way.
-For species, this would be a table with the species codes followed by their most current family, genus, and species epithet.
-For site location, this would include a table with the site code followed by latitude and longitude.
-These tables can also be used to include additional information such as spatial extent, temporal duration, and other appropriate site-specific details.
+The easiest way to link your data to other datasets is to include additional tables that contain a column for the  code and additional columns that describe the item in the standard way.
+For example, you might include a table with the species codes followed by their most current family, genus, and species epithet.
+For site location, you could include a table with the site code followed by latitude and longitude.
+Linked tables can also be used to include additional information about your data, such as spatial extent, temporal duration, and other appropriate details.
 
 
 7. Perform basic quality control
 --------------------------------
 
 Data, just like any other scientific product, should undergo some level of quality control [@reichmann2011].
-This is true regardless of whether you plan to share the data because quality control will make it easier to analyze your own data and decrease the chances of making mistakes.
-However, it is particularly important for data that will be shared because scientists using the data won't be familiar with any quirks in the data and how to work around them.
+This is true regardless of whether you plan to share the data because quality control will make it easier to analyze your own data and decrease the chance of making mistakes.
+However, it is particularly important for data that will be shared because scientists using the data won't be familiar with quirks in the data and how to work around them.
 
 At its most basic, quality control can consist of a few quick sanity checks of the data.
 More advanced quality control can include automated checks on data as it is entered and double-entry of data [@paulsen2012; @lampe1998].
@@ -295,7 +296,7 @@ Start by performing some basic sanity checks on your data.
 For example:
 
 * If a column should contain numeric values, check that there are no non-numeric values in the data. 
-* Check that empty cells actually represent missing data, and not mistakes in data entry, and indicate that they are empty using the appropriate null values (see recommendatio 6). 
+* Check that empty cells actually represent missing data, and not mistakes in data entry, and indicate that they are empty using the appropriate null values (see recommendation 6). 
 * Scan your data for consistency in unit of measurement, data type (_e.g.,_ numeric, character), naming scheme (_e.g.,_ taxonomy, location). 
 
 Then ask someone else to look over your metadata and data and provide you with feedback about anything they didn't understand.
@@ -311,7 +312,7 @@ Personal and poorly maintained institutional websites risk broken links, and hig
 To make your data visible and easily accessible, and to ensure a permanent link to a well maintained website, we suggest depositing your data in one of the major well-established repositories.
 There are repositories available for sharing almost any type of biological or environmental data.
 Repositories that host specific data types, such as molecular sequences (_e.g.,_ DDBJ, GenBank, MG-RAST), are often highly standardized in data type, format, and quality control approaches.
-Other repositories host a wide array of data types and are less standardized (e.g. Dryad, KNB, PANGAEA).
+Other repositories host a wide array of data types and are less standardized _(e.g._, Dryad, KNB, PANGAEA).
 In some cases, it may be advantageous to use a repository that is not exclusively designed for the natural sciences, but that may offer advantages such as version control, collaboration, and social networking (_e.g.,_ Figshare). 
 
 When choosing a repository you should consider where other researchers in your discipline are sharing their data.
@@ -414,7 +415,7 @@ Concluding remarks
 ------------------
 
 Data sharing has the potential to transform the way we conduct ecological and evolutionary research.
-As a result there are an increasing number of initiatives at the federal, funding agency, and journal levels to encourage or require the sharing of the data associated with scientific research.
+As a result, there are an increasing number of initiatives at the federal, funding agency, and journal levels to encourage or require the sharing of the data associated with scientific research.
 However, making the data available is only the first step.
 To make data sharing as useful as possible it is necessary to make the data usable with as little effort as possible.
 This allows scientists to spend their time doing science rather than cleaning up data.

@@ -159,9 +159,9 @@ We provide three simple recommendations to help ensure that tabular data is prop
   While cross-tab data can be useful for its readability, and may be appropriate for data collection, this format makes it difficult to link the records with additional data (e.g., the location and environmental conditions at a site) and it cannot be properly used most common database management and analysis tools (e.g., relational databases, dataframes in R and Python, etc.).
   If tabular data are currently in a cross-tab structure, there are tools to help restructure the data including functions in Excel and R (e.g., melt() function in the R package reshape [@wickham2007]).
 
-In addition to following these basic rules you should also make sure to use descriptive column names without spaces [@borer2009].
+In addition to following these basic rules you should also make sure to use descriptive column names [@borer2009].
 Descriptive column names can help to indicate what data is contained in each column and therefore make data interpretation errors less likely.
-Spaces in column names (and file names) can cause problems for some software and should be avoided by using camel-case (e.g, rainAvg) or underscore-case (e.g., rain_avg).
+As with file names spaces can cause problems for some software and should be avoided.
 
 ### Use standard formats within cells
 

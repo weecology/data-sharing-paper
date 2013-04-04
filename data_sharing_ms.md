@@ -73,7 +73,7 @@ As a result, it is increasingly beneficial to the individual researcher to share
 The first key to using data is understanding it. 
 Metadata is information about the data including how it was collected, what the units of measurement are, and descriptions of how to best use the data.
 Clear metadata makes it easier to figure out if a dataset is appropriate for a project.
-It also makes it easier to use by both the original investigators and by other scientists by making it easy to figure out how to work with the data.
+It also makes data easier to use by both the original investigators and by other scientists by making it easy to figure out how to work with the data.
 Without clear metadata, datasets can be overlooked or not used due to the difficulty of understanding the data [@fraser1999; @zimmerman2003], 
 and data becomes much less useful over time [@michener1997].
 

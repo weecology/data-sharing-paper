@@ -15,6 +15,14 @@ Nine simple ways to make it easier to (re)use your data
 
 *Sarah R. Supp ([sarah.supp@usu.edu](mailto:sarah.supp@usu.edu)), Dept. of Biology and the Ecology Center, Utah State University, Logan, UT, USA, 84341*
 
+Abstract
+--------
+
+Sharing data is increasingly considered to be an important part of the scientific process.
+This allows original results to be reproduced and new analyses to be conducted.
+While making data publicly available is the first step in allowing reuse, it is also crucial that the data be easy understand and use.
+We provide a description of nine simple ways to make it easy to reuse the data that you share.
+
 Introduction
 ------------
 

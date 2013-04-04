@@ -1,3 +1,4 @@
+
 Nine simple ways to make it easier to (re)use your data
 =======================================================
 
@@ -18,7 +19,7 @@ Nine simple ways to make it easier to (re)use your data
 Introduction
 ------------
 
-Sharing data is increasingly recognized as an important component of the scientific process [@whitelock2010].
+Sharing data is increasingly recognized as an important component of the scientific process [@whitlock2010].
 The sharing of scientific data is beneficial because it allows replication of the original research results and reuse in meta-analyses and projects not originally intended by the data collectors [@poisot2013].
 In ecology and evolutionary biology, sharing occurs through a combination of formal data repositories like GenBank (http://www.ncbi.nlm.nih.gov/genbank/) and Dryad (http://datadryad.org/), and through individual and institutional websites.
 
@@ -40,10 +41,10 @@ The recommendations below will help make your data more useful, but sharing it i
 So, why should you share your data?
 
 Data sharing benefits both the community and the data sharer.
-The benefits to the scientific community of sharing data are substantial [@fienberg1984].
-It allows 1) the results of existing analyses to be reproduced and improved upon [@fienberg1984],
-2) data to be combined in meta-analyses to reach general conclusions [@fienberg1984],
-3) new approaches to be applied to the data and new questions asked using it [@fienberg1984], and
+The benefits to the scientific community of sharing data are substantial [@fienberg1985].
+It allows 1) the results of existing analyses to be reproduced and improved upon [@fienberg1985],
+2) data to be combined in meta-analyses to reach general conclusions [@fienberg1985],
+3) new approaches to be applied to the data and new questions asked using it [@fienberg1985], and
 4) can facilitate approaches to scientific inquiry that couldn't even be considered without broad scale data sharing [@hampton2013].
 As a result, data sharing is increasingly required by funding agencies (e.g., [NSF](http://www.nsf.gov/bfa/dias/policy/dmp.jsp), [NIH](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html), [NSERC](http://www.nserc-crsng.gc.ca/Professors-Professeurs/FinancialAdminGuide-GuideAdminFinancier/Responsibilities-Responsabilites_eng.asp), [FWF](http://www.fwf.ac.at/en/public_relations/oai/index.html)), journals [@whitlock2010; @piwowar2008], and potentially by law (e.g. [FASTR](http://doyle.house.gov/sites/doyle.house.gov/files/documents/2013%2002%2014%20DOYLE%20FASTR%20FINAL.pdf)). 
 Sharing data also directly benefits the person sharing the data through increased citation numbers and peer recognition in the scientific community [@piwowar2007].
@@ -75,10 +76,10 @@ and 5) information to check that the data is properly imported, such as the numb
 Just like any other scientific publication, metadata should be logically organized, complete, and clear enough to enable interpretation and use of the data [@zimmerman2007].
 Specific metadata standards exist (_e.g.,_ Ecological Metadata Language [EML](http://knb.ecoinformatics.org/software/eml/), 
 Directory Interchange Format [DIF](http://gcmd.gsfc.nasa.gov/add/difguide/index.html), 
-Darwin Core [DWC](http://rs.tdwg.org/dwc/) [@Wieczorek2012],
+Darwin Core [DWC](http://rs.tdwg.org/dwc/) [@wieczorek2012],
 Dublin Core Metadata Initiative [DCMI](http://dublincore.org/metadata-basics/),
 Federal Geographic Data Committee [FGDC](http://www.fgdc.gov/metadata/geospatial-metadata-standards)
-[@reichmann2011; @whitlock2011].
+[@reichman2011; @whitlock2011].
 These standards are designed to provide consistency in metadata across different datasets and also to allow computers to interpret the metadata automatically.
 This allows broader and more efficient use of shared data [@brunt2002; @jones2006].
 While following these standards is valuable, the most important thing is to have metadata at all.
@@ -88,19 +89,6 @@ The easiest way to develop metadata is to start describing your data during the 
 This will help you stay organized, make it easier to work with your data after it has been collected, and make eventual publication of the data easier.
 If you decide to take the extra step and follow metadata standards, there are tools designed to make this easier including: [KNB Morpho](http://knb.ecoinformatics.org/morpho portal.jsp), [USGS xtme](http://geology.usgs.gov/tools/metadata/tools/doc/xtme.html), and [FGDC workbook](http://www.fgdc.gov/metadata/documents/workbook_0501_bmk.pdf).
 
-__citations__
-* USGS metadata FAQs - http://geology.usgs.gov/tools/metadata/tools/doc/faq.html
-* software for DIF https://marinemetadata.org/references/dif
-* http://faculty.washington.edu/tewksjj/wordpress/wp-content/uploads/2012/03/Hampton2012.pdf
-* Fraser, B. and M. Gluck. 1999. Usability of geospatial metadata _or_ space-time matters. Bulletin of the American Society for Information Science. __25__:24-28.
-* Michener, W. K. and J. W. Brunt. 2000. _Ecological Data: Design, Management and Processing_. Blackwell Science. Malden, MA.
-* Michener, W. K., J. W. Brunt, J. J. Helly, T. B. Kirchner, and S. G. Stafford. 1997. Nongeospatial metadata for the ecological sciences. Ecological Applications. __7__:330-342
-* Reichmann, O. J., M. B. Jones, and M. P. Schildhauer. 2011. Challenges and opportunities of open data in ecology. Science. __331__:703-705
-* Whitlock, M. C. 2011. Data archiving in ecology and evolution: best practices. Trends in Ecology and Evolution. __26__:61-65.
-* Zimmerman, A. S. 2003. Data sharing and secondary use of scientific data: Experiences of Ecologists. Dissertation. University of Michigan.
-* Zimmerman, A. S. 2007. Not by metadata alone: the use of diverse forms of knowledge to locate data for reuse. International Journal on Digital Libraries. __7__:5-16.
-* Wieczorek 2012 http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0029715
-* Brunt 2002, http://pal.lternet.edu/biblio/lterfinalms/228lterc.pdf
 
 3. Provide an unprocessed form of the data
 ------------------------------------------
@@ -150,7 +138,7 @@ Data tables are ubiquitous in ecology and evolution.
 Tabular data provides a great deal of flexibility in how to structure the data, which makes it easy to structure the data in a way that is difficult to (re)use.
 We provide three simple recommendations to help ensure that tabular data is properly structured to allow the data to be easily imported and analyzed by most data management systems and common analysis software, such as R and Python.
 
-* Each row should represent a single observation (i.e., a record) and each column should represent a single variable or type of measurement (i.e., a field) [@borer; @strasser2011; @strasser2012].
+* Each row should represent a single observation (i.e., a record) and each column should represent a single variable or type of measurement (i.e., a field) [@borer2009; @strasser2011; @strasser2012].
   This is the standard format for tables in the most commonly used database management systems and analysis packages and makes the data easy to work with in the most general way.
 * Every cell should contain only a single value [@strasser2012].
   For example, do not include units in the cell with the values (Figure 1) or include multiple measurements in a single cell.
@@ -283,7 +271,7 @@ Linked tables can also be used to include additional information about your data
 7. Perform basic quality control
 --------------------------------
 
-Data, just like any other scientific product, should undergo some level of quality control [@reichmann2011].
+Data, just like any other scientific product, should undergo some level of quality control [@reichman2011].
 This is true regardless of whether you plan to share the data because quality control will make it easier to analyze your own data and decrease the chance of making mistakes.
 However, it is particularly important for data that will be shared because scientists using the data won't be familiar with quirks in the data and how to work around them.
 

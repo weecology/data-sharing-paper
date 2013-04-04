@@ -190,75 +190,37 @@ Table #.  This table contains information on commonly used null values and provi
 Null values are indicated as being a null value for specific software if they work consistently and correctly with that software.
 For example, the null value "Null" works correctly for certain applications in R, but does not work in others, so it is not presented as part of the table.
 
-<table>
-<table border="1">
-    <tr>
-        <th>Null values	</td>
-		<th>Problems</td>
-		<th>Compatibility</td>
-		<th>Recommendation</td>
-	</tr>
-	<tr>
-		<td>0</td>
-		<td>Indistinguishable from a true zero</td>
-		<td></td>
-		<td>Never use</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>Hard to distinguish if the value is not there because it was missing, or because it was collected, but overlooked on entry.  A  line that looks blank can contain a hidden space, which results in computational errors.</td>
-		<td>Will work with R, Python and SQL</td>
-		<td>Good option</td>
-	</tr>
-	<tr>
-		<td>999, -999, 9999, -9999</td>
-		<td>Not recognized as a null value by many programs without user input, can be inadvertently entered into calculations.</td>
-		<td></td>
-		<td>Avoid</td>
-	</tr>
-	<tr>
-		<td>NA, na</td>
-		<td>Also an abbreviation for North America, can cause problems with data type (turn a numerical column into a text column).  NA is more commonly recognized than na.</td>
-		<td>Used by R</td>
-		<td>Good option</td>
-	</tr>
-	<tr>
-		<td>N/A</td>
-		<td>An alternate form of NA, but not machine readable.</td>
-		<td></td>
-		<td>Avoid</td>
-	</tr>
-	<tr>
-		<td>NULL</td>
-		<td>Can cause problems with data type (turn a numerical column into a text column)</td>
-		<td>Used by SQL</td>
-		<td>Good option</td>
-	</tr>
-	<tr>
-		<td>None</td>
-		<td>Can cause problems with data type (turn a numerical column into a text column)</td>
-		<td>Recognized by Python</td>
-		<td>Avoid</td>
-	</tr>
-	<tr>
-		<td>No data</td>
-		<td>Can cause problems with data type (turn a numerical column into a text column), contains a space</td>
-		<td></td>
-		<td>Avoid</td>
-	</tr>
-	<tr>
-		<td>Missing</td>
-		<td>Can cause problems with data type (turn a numerical column into a text column)</td>
-		<td></td>
-		<td>Avoid</td>
-	</tr>
-	<tr>
-		<td>-,+,.</td>
-		<td>Can cause problems with data type (turn a numerical column into a text column)</td>
-		<td></td>
-		<td>Avoid</td>
-    </tr>
-</table>
+----------------------------------------------------------------------------------------------------------------------
+Null 
+values     Problems                                                          Compatibility        Recommendation
+---------- ----------------------------------------------------------------- -------------------- -------------------
+0          Indistinguishable from a true zero                                                     Never use
+
+           Hard to distinguish values that are missing from those            R, Python, SQL       Good option
+(empty)    overlooked on entry. Hard to distinguish blanks from
+		   spaces, which behave differently.       
+           
+999, -999  Not recognized as a null value by many programs without user                           Avoid
+           input, can be inadvertently entered into calculations.
+
+NA, na     Can slso be an abbreviation (e.g., North America), can cause      R, Python            Good option
+           problems with data type (turn a numerical column into a text
+		   column). NA is more commonly recognized than na.
+
+N/A        An alternate form of NA, but often not compatible with                                 Avoid
+           software.
+
+NULL       Can cause problems with data type (turn a numerical column        SQL                  Good option
+           into a text column)
+
+None       Can cause problems with data type                                 Python               Avoid
+
+No data    Can cause problems with data type, contains a space                                    Avoid
+
+Missing    Can cause problems with data type                                                      Avoid
+
+-,+,.      Can cause problems with data type                                                      Avoid
+----------------------------------------------------------------------------------------------------------------------
 
 
 6. Make it easy to combine your data with other datasets
@@ -319,82 +281,27 @@ Most repositories will describe how this works, but an easy way to guarantee tha
 DOIs are permanent unique identifiers that are independent of physical location and site ownership.
 
 Table 3. Popular repositories for scientific datasets.
-These repositories are not exclusively used by members of specific institutions or museums, but accept data from the general scientific community.  
-<table>
-<table border="1">
-    <tr>
-        <th>Repository</td>
-		<th>License</td>
-		<th>Assigns DOI</td>
-        <th>Metadata</td>
-        <th>Access</td>
-		<th>Notes</td>
-	</tr>
-	<tr>
-		<td>Dryad</td>
-		<td>Creative Commons Zero (CC0)</td>
-        <td>Yes</td>
-		<td>Suggested</td>
-		<td>Open</td>
-		<td>Ecology & Evolution data</td>
-	</tr>
-	<tr>
-		<td>Ecological Society of America (ESA) data registry</td>
-		<td>No</td>
-        <td>Yes</td>
-		<td>Compliant with EML</td>
-		<td>Varies among datasets</td>
-		<td>Data related to ESA publications</td>
-	</tr>
-    <tr>
-		<td>Ecological Archives</td>
-		<td>No</td>
-        <td>Yes</td>
-		<td>Required</td>
-		<td>Open</td>
-		<td>Publishes supplemental material and data papers</td>
-	</tr>
-    <tr>
-		<td>Knowledge Network for Biocomplexity (KNB)</td>
-		<td>No</td>
-        <td>Yes</td>
-		<td>Compliant with EML</td>
-		<td>Varies among datasets</td>
-		<td>Partners with ESA, NCEAS, DataONE</td>
-	</tr>
-	<tr>
-		<td>Paleobiology Database</td>
-		<td>Various Creative Commons</td>
-        <td>No</td>
-		<td>Optional</td>
-		<td>Varies among datasets</td>
-		<td>Has several analysis tools</td>
-	</tr>
-    <tr>
-		<td>Data Basin</td>
-		<td>Various Creative Commons</td>
-        <td>No</td>
-		<td>Optional</td>
-		<td>Open</td>
-		<td>Data are GIS and must be ESRI files. 1GB of free space</td>
-	</tr>
-	<tr>
-		<td>Pangaea</td>
-		<td>Creative Commons</td>
-        <td>Yes</td>
-		<td>Required</td>
-		<td>Varies</td>
-		<td>Editors participate in QA/QC</td>
-	</tr>
-    <tr>
-		<td>Figshare</td>
-		<td>CC0 if public</td>
-        <td>Yes</td>
-		<td>No</td>
-		<td>Open if public</td>
-		<td>Accepts datasets, preprints, figures, presentations</td>
-    </tr>
-</table>
+These repositories are not exclusively used by members of specific institutions or museums, but accept data from the general scientific community.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Repository                 License          DOI    Metadata        Access        Notes
+-------------------------- ---------------- ------ --------------- ------------- --------------------------------------------------------------------------------
+Dryad                      CC0              Yes    Suggested       Open          Ecology & evolution data associate with publications
+
+Ecological Archives        No               Yes    Required        Open          Publishes supplemental data for ESA journals and stand alone data papers
+
+Knowledge Network for      No               Yes    Required (EML)  Variable      Partners with ESA, NCEAS, DataONE
+Biocomplexity (KNB)
+
+Paleobiology Database      Various CC       No     Optional        Variable      Paleontology specific, includes analysis tools
+
+Data Basin                 Various CC       No     Optional        Open          GIS data in ESRI files, limited free space
+
+Pangaea                    Various CC       Yes    Required        Variable      Editors participate in QA/QC
+
+Figshare                   CC0              Yes    Optional        Open          Also allows deposition of other research outputs and private (non-open) datasets
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 9. Use an established and liberal license 
 -----------------------------------------

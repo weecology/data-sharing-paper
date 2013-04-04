@@ -28,7 +28,7 @@ Introduction
 ------------
 
 Sharing data is increasingly recognized as an important component of the scientific process [@whitlock2010].
-The sharing of scientific data is beneficial because it allows replication of the original research results and reuse in meta-analyses and projects not originally intended by the data collectors [@poisot2013].
+The sharing of scientific data is beneficial because it allows replication of research results and reuse in meta-analyses and projects not originally intended by the data collectors [@poisot2013].
 In ecology and evolutionary biology, sharing occurs through a combination of formal data repositories like GenBank (http://www.ncbi.nlm.nih.gov/genbank/) and Dryad (http://datadryad.org/), and through individual and institutional websites.
 
 While data sharing is increasingly common and straightforward, much of the shared data is not easily reused because it does not follow best practices in terms of data structure, metadata, and licensing [@jones2006].

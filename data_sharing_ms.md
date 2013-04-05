@@ -29,7 +29,7 @@ Introduction
 
 Sharing data is increasingly recognized as an important component of the scientific process [@whitlock2010].
 The sharing of scientific data is beneficial because it allows replication of research results and reuse in meta-analyses and projects not originally intended by the data collectors [@poisot2013].
-In ecology and evolutionary biology, sharing occurs through a combination of formal data repositories like GenBank (http://www.ncbi.nlm.nih.gov/genbank/) and Dryad (http://datadryad.org/), and through individual and institutional websites.
+In ecology and evolutionary biology, sharing occurs through a combination of formal data repositories like GenBank ([http://www.ncbi.nlm.nih.gov/genbank/](http://www.ncbi.nlm.nih.gov/genbank/)) and Dryad ([http://datadryad.org/](http://datadryad.org/)), and through individual and institutional websites.
 
 While data sharing is increasingly common and straightforward, much of the shared data is not easily reused because it does not follow best practices in terms of data structure, metadata, and licensing [@jones2006].
 This makes it more difficult to work with existing data and therefore makes the data less useful than it could be [@jones2006; @reichman2011]. 
@@ -126,7 +126,7 @@ Good standard formats include the type of file, the overall structure of the dat
 ### Use standard file formats
 
 Data should be formatted a way that it is generally readable by most software and, when possible, should be non-proprietary [@borer2009; @strasser2011; @strasser2012].
-Certain kinds of data in ecology and evolution have well established standard formats such as FASTA files for nucleotide or peptide sequences (http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick files for phylogenetic trees (http://evolution.genetics.washington.edu/phylip/newicktree.html).
+Certain kinds of data in ecology and evolution have well established standard formats such as FASTA files for nucleotide or peptide sequences ([http://zhanglab.ccmb.med.umich.edu/FASTA/](http://zhanglab.ccmb.med.umich.edu/FASTA/)) and the Newick files for phylogenetic trees ([http://evolution.genetics.washington.edu/phylip/newicktree.html](http://evolution.genetics.washington.edu/phylip/newicktree.html)).
 Use these well defined formats when they exist, because that is what other scientists and most existing software will be able to work with most easily.
 
 Data that does not have a well defined standard format is often stored in tables.
@@ -152,7 +152,7 @@ We provide three simple recommendations to help ensure that tabular data is prop
   For example, do not include units in the cell with the values (Figure 1) or include multiple measurements in a single cell.
   Violating this rule makes it very difficult to process or analyze your data using standard tools, because there is no easy way for the software to treat the items within a cell as separate pieces of information.
 * There should only be one column for each type of information [@borer2009; @strasser2011; @strasser2012].
-  The most common violation of this rule is cross-tab structured data (http://en.wikipedia.org/wiki/Cross_tabulation), where different columns contain measurements of the same variable (e.g., in different sites, treatments, etc.; Figure 1).
+  The most common violation of this rule is cross-tab structured data ([http://en.wikipedia.org/wiki/Cross_tabulation](http://en.wikipedia.org/wiki/Cross_tabulation)), where different columns contain measurements of the same variable (e.g., in different sites, treatments, etc.; Figure 1).
 
 ![Figure 1](Data_formatting.jpg)
 

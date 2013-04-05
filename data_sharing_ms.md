@@ -154,7 +154,7 @@ We provide three simple recommendations to help ensure that tabular data is prop
 * There should only be one column for each type of information [@borer2009; @strasser2011; @strasser2012].
   The most common violation of this rule is cross-tab structured data ([http://en.wikipedia.org/wiki/Cross_tabulation](http://en.wikipedia.org/wiki/Cross_tabulation)), where different columns contain measurements of the same variable (e.g., in different sites, treatments, etc.; Figure 1).
 
-![Figure 1](Data_formatting.jpg)
+![Examples of how to restructure two common issues with tabular data. (a) Each cell should only contain a single value. If more than one value is present then the data should be split into multiple columns. (b) There should only a one column for each type of information. If there are multiple columns then the column header should be stored in one column and the values from each column should be stored in a single column.](Data_formatting.jpg)
 
   While cross-tab data can be useful for its readability, and may be appropriate for data collection, this format makes it difficult to link the records with additional data (e.g., the location and environmental conditions at a site) and it cannot be properly used most common database management and analysis tools (e.g., relational databases, dataframes in R and Python, etc.).
   If tabular data are currently in a cross-tab structure, there are tools to help restructure the data including functions in Excel and R (e.g., melt() function in the R package reshape [@wickham2007]).

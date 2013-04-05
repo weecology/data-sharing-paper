@@ -284,6 +284,8 @@ Most repositories will describe how this works, but an easy way to guarantee tha
 DOIs are permanent unique identifiers that are independent of physical location and site ownership.
 
 Table 3. Popular repositories for scientific datasets.
+This table does not include well-known molecular repositories (e.g. GenBank, EMBL, MG-RASt) that have become industry standards in molecular and evolutionary biology.
+Consequently, several of these primarily serve the ecological community.
 These repositories are not exclusively used by members of specific institutions or museums, but accept data from the general scientific community.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------

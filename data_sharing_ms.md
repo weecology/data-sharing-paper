@@ -236,7 +236,7 @@ For example, in ecology and evolution codes often appear in place of site locati
 This is useful because it reduces data entry (e.g., DS instead of _Dipodomys spectabilis_) and redundancy (a single column for a species ID rather than separate columns for family, genus, and species).
 However, without clear definitions these codes can be difficult to understand and make it more difficult to connect your data with external sources.
 The easiest way to link your data to other datasets is to include additional tables that contain a column for the  code and additional columns that describe the item in the standard way.
-For example, you might include a table with the species codes followed by their most current family, genus, and species epithet.
+For example, you might include a table with the species codes followed by their most current family, genus, and specific epithet.
 For site location, you could include a table with the site code followed by latitude and longitude.
 Linked tables can also be used to include additional information about your data, such as spatial extent, temporal duration, and other appropriate details.
 

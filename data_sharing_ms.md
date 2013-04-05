@@ -331,7 +331,7 @@ This allows scientists to spend their time doing science rather than cleaning up
 
 We have provided a list of 9 practices that require only a small additional time investment but substantially improve the usability of data.
 Most of these recommendations are simply good practice for working with data regardless of whether that data is shared or not.
-This means that following these recommendations (2-8) make the data more useful for those who collected it as well as those who may use it in a secondary capacity.
+This means that following these recommendations (2-7) make the data more useful for those who collected it as well as those who may use it in a secondary capacity.
 Well formatted and structured data makes it easier to use the data in a variety of different analysis programs.
 Well documented data makes it easier to use the data whether the person using it is a lab mate, a meta-analyst, or the scientist that collected the data a few years after it was collected.
 By following these practices we can assure that the data collected in ecology and evolution can be used to its full potential to improve our understanding of biological systems. 

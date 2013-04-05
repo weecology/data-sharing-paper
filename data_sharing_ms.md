@@ -28,8 +28,8 @@ Introduction
 ------------
 
 Sharing data is increasingly recognized as an important component of the scientific process [@whitlock2010].
-The sharing of scientific data is beneficial because it allows replication of the original research results and reuse in meta-analyses and projects not originally intended by the data collectors [@poisot2013].
-In ecology and evolutionary biology, sharing occurs through a combination of formal data repositories like GenBank (http://www.ncbi.nlm.nih.gov/genbank/) and Dryad (http://datadryad.org/), and through individual and institutional websites.
+The sharing of scientific data is beneficial because it allows replication of research results and reuse in meta-analyses and projects not originally intended by the data collectors [@poisot2013].
+In ecology and evolutionary biology, sharing occurs through a combination of formal data repositories like GenBank ([http://www.ncbi.nlm.nih.gov/genbank/](http://www.ncbi.nlm.nih.gov/genbank/)) and Dryad ([http://datadryad.org/](http://datadryad.org/)), and through individual and institutional websites.
 
 While data sharing is increasingly common and straightforward, much of the shared data is not easily reused because it does not follow best practices in terms of data structure, metadata, and licensing [@jones2006].
 This makes it more difficult to work with existing data and therefore makes the data less useful than it could be [@jones2006; @reichman2011]. 
@@ -73,7 +73,7 @@ As a result, it is increasingly beneficial to the individual researcher to share
 The first key to using data is understanding it. 
 Metadata is information about the data including how it was collected, what the units of measurement are, and descriptions of how to best use the data.
 Clear metadata makes it easier to figure out if a dataset is appropriate for a project.
-It also makes it easier to use by both the original investigators and by other scientists by making it easy to figure out how to work with the data.
+It also makes data easier to use by both the original investigators and by other scientists by making it easy to figure out how to work with the data.
 Without clear metadata, datasets can be overlooked or not used due to the difficulty of understanding the data [@fraser1999; @zimmerman2003], 
 and data becomes much less useful over time [@michener1997].
 
@@ -126,12 +126,12 @@ Good standard formats include the type of file, the overall structure of the dat
 ### Use standard file formats
 
 Data should be formatted a way that it is generally readable by most software and, when possible, should be non-proprietary [@borer2009; @strasser2011; @strasser2012].
-Certain kinds of data in ecology and evolution have well established standard formats such as FASTA files for nucleotide or peptide sequences (http://zhanglab.ccmb.med.umich.edu/FASTA/) and the Newick files for phylogenetic trees (http://evolution.genetics.washington.edu/phylip/newicktree.html).
+Certain kinds of data in ecology and evolution have well established standard formats such as FASTA files for nucleotide or peptide sequences ([http://zhanglab.ccmb.med.umich.edu/FASTA/](http://zhanglab.ccmb.med.umich.edu/FASTA/)) and the Newick files for phylogenetic trees ([http://evolution.genetics.washington.edu/phylip/newicktree.html](http://evolution.genetics.washington.edu/phylip/newicktree.html)).
 Use these well defined formats when they exist, because that is what other scientists and most existing software will be able to work with most easily.
 
 Data that does not have a well defined standard format is often stored in tables.
-Tabular data should typically be stored as a text files because they can be opened by any type of software.
-These text files use delimiters to indicate different columns and commas are the most commonly used delimiter (i.e., comma-delimited text files with the .csv extension).
+Tabular data should typically be stored as text files because they can be opened by any type of software.
+These text files use delimiters to indicate different columns, and commas are the most commonly used delimiter (i.e., comma-delimited text files with the .csv extension).
 In contrast to plain text files, proprietary formats such as those used by Microsoft Excel can be difficult to load into other programs.
 In addition, these types of files can become obsolete, eventually making it difficult to open the data files at all if the newer versions of the software no longer support the original format [@borer2009; @strasser2011; @strasser2012].
 
@@ -152,7 +152,7 @@ We provide three simple recommendations to help ensure that tabular data is prop
   For example, do not include units in the cell with the values (Figure 1) or include multiple measurements in a single cell.
   Violating this rule makes it very difficult to process or analyze your data using standard tools, because there is no easy way for the software to treat the items within a cell as separate pieces of information.
 * There should only be one column for each type of information [@borer2009; @strasser2011; @strasser2012].
-  The most common violation of this rule is cross-tab structured data (http://en.wikipedia.org/wiki/Cross_tabulation), where different columns contain measurements of the same variable (e.g., in different sites, treatments, etc.; Figure 1).
+  The most common violation of this rule is cross-tab structured data ([http://en.wikipedia.org/wiki/Cross_tabulation](http://en.wikipedia.org/wiki/Cross_tabulation)), where different columns contain measurements of the same variable (e.g., in different sites, treatments, etc.; Figure 1).
 
 ![Figure 1](Data_formatting.jpg)
 
@@ -236,7 +236,7 @@ For example, in ecology and evolution codes often appear in place of site locati
 This is useful because it reduces data entry (e.g., DS instead of _Dipodomys spectabilis_) and redundancy (a single column for a species ID rather than separate columns for family, genus, and species).
 However, without clear definitions these codes can be difficult to understand and make it more difficult to connect your data with external sources.
 The easiest way to link your data to other datasets is to include additional tables that contain a column for the  code and additional columns that describe the item in the standard way.
-For example, you might include a table with the species codes followed by their most current family, genus, and species epithet.
+For example, you might include a table with the species codes followed by their most current family, genus, and specific epithet.
 For site location, you could include a table with the site code followed by latitude and longitude.
 Linked tables can also be used to include additional information about your data, such as spatial extent, temporal duration, and other appropriate details.
 
@@ -277,7 +277,7 @@ Other repositories host a wide array of data types and are less standardized _(e
 In some cases, it may be advantageous to use a repository that is not exclusively designed for the natural sciences, but that may offer advantages such as version control, collaboration, and social networking (_e.g.,_ Figshare). 
 
 When choosing a repository you should consider where other researchers in your discipline are sharing their data.
-This helps you quickly identify the community standard approach to sharing and increases the likelihood that other scientists will discover your data.
+This helps you quickly identify the community's standard approach to sharing and increases the likelihood that other scientists will discover your data.
 You may want to consider differences among repositories in terms of use, data rights, and licensing (Table 3) and whether your funding agency or journal has explicit requirements or restrictions related to repositories.
 We also recommend that you use a repository that allows your dataset to be easily cited.
 Most repositories will describe how this works, but an easy way to guarantee that your data is citable is to confirm that the repository associates it with a digital object identifier (DOI).
@@ -311,10 +311,13 @@ Figshare                   CC0              Yes    Optional        Open         
 
 Including an explicit license with your data is the best way to let others know exactly what they can and cannot do with the data you shared.
 We recommend using well established licenses (e.g. [Creative Commons licenses](http://creativecommons.org/licenses/)) in order to clearly communicate the rights and responsibilities of both the people providing the data and the people using it.
-We also recommend using the most open license possible (CC0; http://creativecommons.org/publicdomain/zero/1.0/), because even minor restrictions on data use can have unintended consequences for the reuse of the data [@schofield2009].
+We also recommend using the most open license possible ([CC0](http://creativecommons.org/publicdomain/zero/1.0/)), because even minor restrictions on data use can have unintended consequences for the reuse of the data [@schofield2009].
 Having a clear and open license will increase the chance that other scientists will be comfortable using your data.
 
-Most repositories provide licensing for data. While some repositories use a single license (e.g. Dryad uses only CC0), others allow for multiple license types that vary in rights and terms of use (Table 3). The most common data licenses are Creative Commons licenses (http://creativecommons.org/licenses/). More specifically, the Creative Commons Zero license (CC0) places no restrictions on data use and is considered by many to be the best license for sharing data (e.g. [@schofield2009], http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/). You should familiarize yourself with the policies and licensing options of the repositories most commonly used in your field, and with the forms of data that attract copyright. You can learn more about copyright by visiting The [University of Michigan website](http://www.lib.umich.edu/copyright/facts-and-data), the [Australian National Data Service](http://www.ands.org.au/guides/copyright-and-data-awareness.html), and the [Digital Curation Center](http://www.dcc.ac.uk/resources/how-guides/license-research-data#x1-140007).
+Most repositories provide licensing for data. While some repositories use a single license (e.g. Dryad uses only CC0), others allow for multiple license types that vary in rights and terms of use (Table 3). The most common data licenses are Creative Commons licenses ([http://creativecommons.org/licenses/](http://creativecommons.org/licenses/)).
+More specifically, the Creative Commons Zero license (CC0) places no restrictions on data use and is considered by many to be the best license for sharing data (e.g. [@schofield2009], [http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/](http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/)). 
+You should familiarize yourself with the policies and licensing options of the repositories most commonly used in your field, and with the forms of data that attract copyright. 
+You can learn more about copyright by visiting the [University of Michigan website](http://www.lib.umich.edu/copyright/facts-and-data), the [Australian National Data Service](http://www.ands.org.au/guides/copyright-and-data-awareness.html), and the [Digital Curation Center](http://www.dcc.ac.uk/resources/how-guides/license-research-data#x1-140007).
 
 
 Concluding remarks
@@ -328,7 +331,7 @@ This allows scientists to spend their time doing science rather than cleaning up
 
 We have provided a list of 9 practices that require only a small additional time investment but substantially improve the usability of data.
 Most of these recommendations are simply good practice for working with data regardless of whether that data is shared or not.
-This means that following these recommendations (2-8) make the data more useful for those who collected it as well as those who may use it in a secondary capacity.
+This means that following these recommendations (2-7) make the data more useful for those who collected it as well as those who may use it in a secondary capacity.
 Well formatted and structured data makes it easier to use the data in a variety of different analysis programs.
 Well documented data makes it easier to use the data whether the person using it is a lab mate, a meta-analyst, or the scientist that collected the data a few years after it was collected.
 By following these practices we can assure that the data collected in ecology and evolution can be used to its full potential to improve our understanding of biological systems. 

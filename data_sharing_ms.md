@@ -258,7 +258,7 @@ For example:
 
 * If a column should contain numeric values, check that there are no non-numeric values in the data. 
 * Check that empty cells actually represent missing data, and not mistakes in data entry, and indicate that they are empty using the appropriate null values (see recommendation 6). 
-* Scan your data for consistency in unit of measurement, data type (_e.g.,_ numeric, character), naming scheme (_e.g.,_ taxonomy, location). 
+* Scan your data for consistency in unit of measurement, data type (e.g., numeric, character), naming scheme (e.g., taxonomy, location). 
 
 Then ask someone else to look over your metadata and data and provide you with feedback about anything they didn't understand.
 In the same way that friendly reviews of papers can help catch mistakes and identify confusing sections of papers, a friendly review of data can help identify problems and things that are unclear in the data and metadata.
@@ -272,9 +272,9 @@ For data sharing to be effective, data should be easy to find, accessible, and s
 Personal and poorly maintained institutional websites risk broken links, and highly restrictive terms of use will discourage or prevent others from using your data.
 To make your data visible and easily accessible, and to ensure a permanent link to a well maintained website, we suggest depositing your data in one of the major well-established repositories.
 There are repositories available for sharing almost any type of biological or environmental data.
-Repositories that host specific data types, such as molecular sequences (_e.g.,_ DDBJ, GenBank, MG-RAST), are often highly standardized in data type, format, and quality control approaches.
-Other repositories host a wide array of data types and are less standardized _(e.g._, Dryad, KNB, PANGAEA).
-In some cases, it may be advantageous to use a repository that is not exclusively designed for the natural sciences, but that may offer advantages such as version control, collaboration, and social networking (_e.g.,_ Figshare). 
+Repositories that host specific data types, such as molecular sequences (e.g., DDBJ, GenBank, MG-RAST), are often highly standardized in data type, format, and quality control approaches.
+Other repositories host a wide array of data types and are less standardized (e.g., Dryad, KNB, PANGAEA).
+In some cases, it may be advantageous to use a repository that is not exclusively designed for the natural sciences, but that may offer advantages such as version control, collaboration, and social networking (e.g., Figshare). 
 
 When choosing a repository you should consider where other researchers in your discipline are sharing their data.
 This helps you quickly identify the community's standard approach to sharing and increases the likelihood that other scientists will discover your data.
@@ -310,12 +310,12 @@ Figshare                   CC0              Yes    Optional        Open         
 -----------------------------------------
 
 Including an explicit license with your data is the best way to let others know exactly what they can and cannot do with the data you shared.
-We recommend using well established licenses (e.g. [Creative Commons licenses](http://creativecommons.org/licenses/)) in order to clearly communicate the rights and responsibilities of both the people providing the data and the people using it.
-We also recommend using the most open license possible ([CC0](http://creativecommons.org/publicdomain/zero/1.0/)), because even minor restrictions on data use can have unintended consequences for the reuse of the data [@schofield2009].
+We recommend using well established licenses (e.g., [Creative Commons licenses](http://creativecommons.org/licenses/)) in order to clearly communicate the rights and responsibilities of both the people providing the data and the people using it.
+We also recommend using the most open license possible (e.g., [CC0](http://creativecommons.org/publicdomain/zero/1.0/)), because even minor restrictions on data use can have unintended consequences for the reuse of the data [@schofield2009].
 Having a clear and open license will increase the chance that other scientists will be comfortable using your data.
 
-Most repositories provide licensing for data. While some repositories use a single license (e.g. Dryad uses only CC0), others allow for multiple license types that vary in rights and terms of use (Table 3). The most common data licenses are Creative Commons licenses ([http://creativecommons.org/licenses/](http://creativecommons.org/licenses/)).
-More specifically, the Creative Commons Zero license (CC0) places no restrictions on data use and is considered by many to be the best license for sharing data (e.g. [@schofield2009], [http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/](http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/)). 
+Most repositories provide licensing for data. While some repositories use a single license (e.g., Dryad uses only CC0), others allow for multiple license types that vary in rights and terms of use (Table 3). The most common data licenses are Creative Commons licenses.
+The Creative Commons Zero license (CC0) places no restrictions on data use and is considered by many to be the best license for sharing data (e.g., [@schofield2009], [http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/](http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/)). 
 You should familiarize yourself with the policies and licensing options of the repositories most commonly used in your field, and with the forms of data that attract copyright. 
 You can learn more about copyright by visiting the [University of Michigan website](http://www.lib.umich.edu/copyright/facts-and-data), the [Australian National Data Service](http://www.ands.org.au/guides/copyright-and-data-awareness.html), and the [Digital Curation Center](http://www.dcc.ac.uk/resources/how-guides/license-research-data#x1-140007).
 

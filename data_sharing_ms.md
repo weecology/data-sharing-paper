@@ -55,7 +55,7 @@ It allows 1) the results of existing analyses to be reproduced and improved upon
 3) new approaches to be applied to the data and new questions asked using it [@fienberg1985], and
 4) can facilitate approaches to scientific inquiry that couldn't even be considered without broad scale data sharing [@hampton2013].
 As a result, data sharing is increasingly required by funding agencies (e.g., [NSF](http://www.nsf.gov/bfa/dias/policy/dmp.jsp), [NIH](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html), [NSERC](http://www.nserc-crsng.gc.ca/Professors-Professeurs/FinancialAdminGuide-GuideAdminFinancier/Responsibilities-Responsabilites_eng.asp), [FWF](http://www.fwf.ac.at/en/public_relations/oai/index.html)), journals [@whitlock2010; @piwowar2008], and potentially by law (e.g. [FASTR](http://doyle.house.gov/sites/doyle.house.gov/files/documents/2013%2002%2014%20DOYLE%20FASTR%20FINAL.pdf)). 
-Sharing data also directly benefits the person sharing the data through increased citation numbers and peer recognition in the scientific community [@piwowar2007].
+Sharing data also directly benefits the person sharing the data through increased citation numbers and peer recognition in the scientific community [@piwowar2007; @piwowar2013].
 These benefits will likely result in new collaborations and increased productivity.
 Shared datasets that are documented and standardized are also more easily reused in the future by the original investigator.
 

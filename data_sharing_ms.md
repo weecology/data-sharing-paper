@@ -277,7 +277,7 @@ Other repositories host a wide array of data types and are less standardized _(e
 In some cases, it may be advantageous to use a repository that is not exclusively designed for the natural sciences, but that may offer advantages such as version control, collaboration, and social networking (_e.g.,_ Figshare). 
 
 When choosing a repository you should consider where other researchers in your discipline are sharing their data.
-This helps you quickly identify the community standard approach to sharing and increases the likelihood that other scientists will discover your data.
+This helps you quickly identify the community's standard approach to sharing and increases the likelihood that other scientists will discover your data.
 You may want to consider differences among repositories in terms of use, data rights, and licensing (Table 3) and whether your funding agency or journal has explicit requirements or restrictions related to repositories.
 We also recommend that you use a repository that allows your dataset to be easily cited.
 Most repositories will describe how this works, but an easy way to guarantee that your data is citable is to confirm that the repository associates it with a digital object identifier (DOI).

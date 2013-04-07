@@ -32,14 +32,10 @@ The sharing of scientific data is beneficial because it allows replication of re
 In ecology and evolutionary biology, sharing occurs through a combination of formal data repositories like GenBank ([http://www.ncbi.nlm.nih.gov/genbank/](http://www.ncbi.nlm.nih.gov/genbank/)) and Dryad ([http://datadryad.org/](http://datadryad.org/)), and through individual and institutional websites.
 
 While data sharing is increasingly common and straightforward, much of the shared data is not easily reused because it does not follow best practices in terms of data structure, metadata, and licensing [@jones2006].
-This makes it more difficult to work with existing data and therefore makes the data less useful than it could be [@jones2006; @reichman2011]. 
-
+This makes it more difficult to work with existing data and therefore makes the data less useful than it could be [@jones2006; @reichman2011].
 Here we provide a list of 9 simple ways to make it easier to reuse the data that you share.
-Well organized data with good structure and documentation makes it easier for anyone to work with a dataset, including yourself.
-This is particularly true when returning to your own data for further analysis months or years after original collection when the details are no longer fresh.
-In addition, data sharing occurs frequently within a lab or research group among students or collaborators.
-Many hours can be saved during in-house collaborations by following these simple recommendations.
 Our recommendations focus on making your data understandable, easy to work with, and available to the wider community of scientists.
+Following these practices makes it easier for anyone to reuse your data including other members of your lab and even yourself.
 
 1. Share your data
 ------------------
@@ -332,10 +328,19 @@ To make data sharing as useful as possible it is necessary to make the data usab
 This allows scientists to spend their time doing science rather than cleaning up data.
 
 We have provided a list of 9 practices that require only a small additional time investment but substantially improve the usability of data.
+These practices can be broken down into three major groups.
+
+1. Well documented data is easier to understand.
+2. Properly formatted data is easier to use in a variety of software.
+3. Data that is shared in established repositories with open licenses is easier for others to find and use.
+
+
 Most of these recommendations are simply good practice for working with data regardless of whether that data is shared or not.
-This means that following these recommendations (2-7) make the data more useful for those who collected it as well as those who may use it in a secondary capacity.
-Well formatted and structured data makes it easier to use the data in a variety of different analysis programs.
-Well documented data makes it easier to use the data whether the person using it is a lab mate, a meta-analyst, or the scientist that collected the data a few years after it was collected.
+This means that following these recommendations (2-7) make the data easier to work with for anyone, including you.
+This is particularly true when returning to your own data for further analysis months or years after you originally collected or analyzed it.
+In addition, data sharing often occurs within a lab or research group.
+Good data sharing practices make these in-house collaborations faster, easier, and less dependent on lab members who may have graduated or moved on to other things.
+
 By following these practices we can assure that the data collected in ecology and evolution can be used to its full potential to improve our understanding of biological systems. 
 
 Acknowledgments

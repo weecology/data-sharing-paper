@@ -320,11 +320,6 @@ We also recommend using the most open license possible, because even minor restr
 The Creative Commons Zero license (CC0) places no restrictions on data use and is considered by many to be the best license for sharing data (e.g., [@schofield2009; @poisot2013], [http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/](http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/)). 
 Having a clear and open license will increase the chance that other scientists will be comfortable using your data.
 
-Most repositories provide licensing for data. While some repositories use a single license (e.g., Dryad uses only CC0), others allow for multiple license types that vary in rights and terms of use (Table 3).
-The most common data licenses are Creative Commons licenses.
-You should familiarize yourself with the policies and licensing options of the repositories most commonly used in your field, and with the forms of data that attract copyright. 
-You can learn more about copyright by visiting the [University of Michigan website](http://www.lib.umich.edu/copyright/facts-and-data), the [Australian National Data Service](http://www.ands.org.au/guides/copyright-and-data-awareness.html), and the [Digital Curation Center](http://www.dcc.ac.uk/resources/how-guides/license-research-data#x1-140007).
-
 
 Concluding remarks
 ------------------

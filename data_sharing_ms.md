@@ -354,5 +354,5 @@ By following these practices we can assure that the data collected in ecology an
 Acknowledgments
 ---------------
 Thanks to Karthik Ram for organizing this special section and inviting us to contribute.
-Carly Strasser and Kara Woo recommended important references via Twitter.
+Carly Strasser and Kara Woo recommended important references and David Harris provided valuable feedback on null values, all via Twitter.
 The writing of this paper was supported by a CAREER grant from the U.S. National Science Foundation (DEB 0953694) to EPW.

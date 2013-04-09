@@ -59,7 +59,7 @@ Shared datasets that are documented and standardized are also more easily reused
 
 Despite these potential benefits to both the community and individual, many scientists are still reluctant to share data. 
 Reluctance to share data is largely due to perceived fears of 1) competition for publications based on the shared data, 2) a lack of recognition for sharing data, and 3) logistical barriers [@palmer2004; @hampton2013].
-These concerns are often not as serious as they first appear [@parr2005, @hampton2013].
+These concerns are often not as serious as they first appear [@parr2005; @hampton2013].
 Many data sharing initiatives allow for data embargoes or limitations on direct competition that can last for several years while the authors develop their publications and thus avoid competition for deriving publications from the data.
 As mentioned above, datasets are now considered citable entities and data providers receive recognition in the form of increased citation metrics and credit on CVs and grant applications [@piwowar2007; @piwowar2013; @poisot2013].
 Lastly, logistical barriers to data sharing are diminishing as data archives become increasingly common and easy to use [@parr2005; @hampton2013].
@@ -178,13 +178,16 @@ Most ecological and evolutionary datasets contain missing or empty data values.
 Working with this kind of "null" data can be difficult, especially when the null values are indicated in problematic ways.
 Unfortunately, there are many different ways to indicate a missing/empty value, and very little agreement on which approach to use.
 
-We recommend choosing null values that are both compatible with most software and unlikely to cause errors in analyses (Table 1).
-The null values that are most compatible with software commonly in use by ecologists are a blank (i.e., nothing), NULL, or NA.
-Blanks are the most compatible across different software, and are easily spotted in a visual examination of the data.
-Note that a blank involves entering nothing, it is not a space, so if you use this option make sure you aren't missing any hidden spaces.
-If you are going to be working only in R, and are not going to be using a relational database, using NA makes the most sense, as long as you are not also using NA as an abbreviation (e.g., North America, Namibia, _Neotoma albigula_, sodium, etc.).
-If you are working with SQL, a blank or the word NULL is the best option.
-We recommend against using numerical values to indicate nulls (e.g., 999, -999, etc.) because they often require an extra step to remove from analyses and can be accidentally included in calculations.
+We recommend choosing a null value that is both compatible with most software and unlikely to cause errors in analyses (Table 1).
+The null value that is most compatible with the software commonly used by biologists is the blank (i.e., nothing; Table 1).
+Blanks are automatically treated as null values by R, Python, SQL, and Excel.
+They are also easily spotted in a visual examination of the data.
+Note that a blank involves entering nothing, it is not a space, so if you use this option make sure there aren't any hidden spaces.
+One potential issue with blanks is that it can be difficult to know if a value is missing or was overlooked during data entry.
+
+NA and NULL are reasonable null values, but they are only handled automatically by a subset of commonly used software (Table 1).
+NA can also be problematic if it is also used as an abbreviation (e.g., North America, Namibia, _Neotoma albigula_, sodium, etc.).
+We recommend against using numerical values to indicate nulls (e.g., 999, -999, etc.) because they typically require an extra step to remove from analyses and can be accidentally included in calculations.
 We also recommend against using non-standard text indications (e.g., No data, ND, missing, ---) because they can cause issues with software that requires consistent data types within columns).
 Whichever null value that you use, only use one, use it consistently throughout the data set, and indicate it clearly in the metadata. 
 
@@ -198,7 +201,7 @@ values     Problems                                                          Com
 ---------- ----------------------------------------------------------------- -------------------- -------------------
 0          Indistinguishable from a true zero                                                     Never use
 
-           Hard to distinguish values that are missing from those            R, Python, SQL       Good option
+           Hard to distinguish values that are missing from those            R, Python, SQL       Best option
 (blank)    overlooked on entry. Hard to distinguish blanks from
 		   spaces, which behave differently.       
            

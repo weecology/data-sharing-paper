@@ -58,7 +58,7 @@ These concerns are often not as serious as they first appear, and the minimal co
 Many data sharing initiatives allow for data embargoes or limitations on direct competition that can last for several years while the authors develop their publications and thus avoid competition for deriving publications from the data.
 Also, logistical barriers to data sharing are diminishing as data archives become increasingly common and easy to use [@parr2005; @hampton2013].
 Datasets are now considered citable entities and data providers receive recognition in the form of increased citation metrics and credit on CVs and grant applications [@piwowar2007; @piwowar2013; @poisot2013].
-In addition to increased citation rates, shared datasets that are documented and standardized are also more easily reused in the future by the original investigator.  
+In addition to increased citation rates, shared datasets that are documented and standardized are also more easily reused in the future by the original investigator.
 As a result, it is increasingly beneficial to the individual researcher to share data in the most useful manner possible.
 
 2. Provide metadata
@@ -191,37 +191,69 @@ Table: Commonly used null values, limitations, compatibility with common softwar
 Null values are indicated as being a null value for specific software if they work consistently and correctly with that software.
 For example, the null value "NULL" works correctly for certain applications in R, but does not work in others, so it is not presented as part of the table.
 
-----------------------------------------------------------------------------------------------------------------------
-Null 
-values     Problems                                                          Compatibility        Recommendation
----------- ----------------------------------------------------------------- -------------------- -------------------
-0          Indistinguishable from a true zero                                                     Never use
-
-           Hard to distinguish values that are missing from those            R, Python, SQL       Best option
-(blank)    overlooked on entry. Hard to distinguish blanks from
-		   spaces, which behave differently.       
-           
-999, -999  Not recognized as a null value by many programs without user                           Avoid
-           input, can be inadvertently entered into calculations.
-
-NA, na     Can also be an abbreviation (e.g., North America), can cause      R                    Good option
-           problems with data type (turn a numerical column into a text
-		   column). NA is more commonly recognized than na.
-
-N/A        An alternate form of NA, but often not compatible with                                 Avoid
-           software.
-
-NULL       Can cause problems with data type (turn a numerical column        SQL                  Good option
-           into a text column)
-
-None       Can cause problems with data type                                 Python               Avoid
-
-No data    Can cause problems with data type, contains a space                                    Avoid
-
-Missing    Can cause problems with data type                                                      Avoid
-
--,+,.      Can cause problems with data type                                                      Avoid
-----------------------------------------------------------------------------------------------------------------------
++-------+------------------+-------------+--------------+
+|Null   |Problems          |Compatibility|Recommendation|
+|values |                  |             |              |
++=======+==================+=============+==============+
+|0      |Indistinguishable |             |Never use     |
+|       |from a true zero  |             |              |
++-------+------------------+-------------+--------------+
+|blank  |Hard to           |R, Python,   |Best option   |
+|       |distinguish values|SQL          |              |
+|       |that are missing  |             |              |
+|       |from those        |             |              |
+|       |overlooked on     |             |              |
+|       |entry. Hard to    |             |              |
+|       |distinguish blanks|             |              |
+|       |from spaces, which|             |              |
+|       |behave            |             |              |
+|       |differently.      |             |              |
++-------+------------------+-------------+--------------+
+|999,   |Not recognized as |             |Avoid         |
+|-999   |null by many      |             |              |
+|       |programs without  |             |              |
+|       |user input. Can be|             |              |
+|       |inadvertently     |             |              |
+|       |entered into      |             |              |
+|       |calculations.     |             |              |
+|       |                  |             |              |
++-------+------------------+-------------+--------------+
+|NA, na |Can also be an    |R            |Good option   |
+|       |abbreviation      |             |              |
+|       |(e.g., North      |             |              |
+|       |America), can     |             |              |
+|       |cause problems    |             |              |
+|       |with data type    |             |              |
+|       |(turn a numerical |             |              |
+|       |column into a text|             |              |
+|       |column). NA is    |             |              |
+|       |more commonly     |             |              |
+|       |recognized than   |             |              |
+|       |na.               |             |              |
++-------+------------------+-------------+--------------+
+|N/A    |An alternate form |             |Avoid         |
+|       |of NA, but often  |             |              |
+|       |not compatible    |             |              |
+|       |with software     |             |              |
++-------+------------------+-------------+--------------+
+|NULL   |Can cause problems|SQL          |Good option   |
+|       |with data type    |             |              |
++-------+------------------+-------------+--------------+
+|None   |Can cause problems|Python       |Avoid         |
+|       |with data type    |             |              |
++-------+------------------+-------------+--------------+
+|No     |Can cause problems|             |Avoid         |
+|data   |with data type,   |             |              |
+|       |contains a space  |             |              |
++-------+------------------+-------------+--------------+
+|Missing|Can cause problems|             |Avoid         |
+|       |with data type    |             |              |
+|       |                  |             |              |
++-------+------------------+-------------+--------------+
+|-,+,.  |Can cause problems|             |Avoid         |
+|       |with data type    |             |              |
+|       |                  |             |              |
++-------+------------------+-------------+--------------+
 
 
 6. Make it easy to combine your data with other datasets
@@ -287,28 +319,49 @@ This table does not include well-known molecular repositories (e.g. GenBank, EMB
 Consequently, several of these primarily serve the ecological community.
 These repositories are not exclusively used by members of specific institutions or museums, but accept data from the general scientific community.
 
----------------------------------------------------------------------------------------------------------------------------------
-Repository                 License          DOI    Metadata        Access        Notes
--------------------        ---------------- ------ --------------- ------------- ------------------------------------------------
-Dryad                      CC0              Yes    Suggested       Open          Ecology & evolution data associated
-                                                                                 with publications
-																				 
-Ecological                 No               Yes    Required        Open          Publishes supplemental data for ESA
-Archives                                                                         journals and stand alone data papers
-
-Knowledge Network          No               Yes    Required (EML)  Variable      Partners with ESA, NCEAS, DataONE
-for Biocomplexity
-
-Paleobiology               Various CC       No     Optional        Variable      Paleontology specific, includes analysis tools
-Database
-
-Data Basin                 Various CC       No     Optional        Open          GIS data in ESRI files, limited free space
-
-Pangaea                    Various CC       Yes    Required        Variable      Editors participate in QA/QC
-
-Figshare                   CC0              Yes    Optional        Open          Also allows deposition of other
-                                                                                 research outputs and private (non-open) datasets
----------------------------------------------------------------------------------------------------------------------------------
++-------------+-------+-----+---------+--------+------------+
+|Repository   |License|DOI  |Metadata |Access  |Notes       |
++=============+=======+=====+=========+========+============+
+|Dryad        |CC0    |Yes  |Suggested|Open    |Ecology &   |
+|             |       |     |         |        |evolution   |
+|             |       |     |         |        |data        |
+|             |       |     |         |        |associated  |
+|             |       |     |         |        |with        |
+|             |       |     |         |        |publications|
++-------------+-------+-----+---------+--------+------------+
+|Ecological   |No     |Yes  |Required |Open    |Publishes   |
+|Archives     |       |     |         |        |supplemental|
+|             |       |     |         |        |data for ESA|
+|             |       |     |         |        |journals and|
+|             |       |     |         |        |stand alone |
+|             |       |     |         |        |data papers |
++-------------+-------+-----+---------+--------+------------+
+|Knowledge    |No     |Yes  |Required |Variable|Partners    |
+|Network for  |       |     |         |        |with ESA,   |
+|Biocomplexity|       |     |         |        |NCEAS,      |
+|             |       |     |         |        |DataONE     |
++-------------+-------+-----+---------+--------+------------+
+|Paleobiology |Various|No   |Optional |Variable|Paleontology|
+|Database     |CC     |     |         |        |specific    |
+|             |       |     |         |        |            |
++-------------+-------+-----+---------+--------+------------+
+|Data Basin   |Various|No   |Optional |Open    |GIS data in |
+|             |CC     |     |         |        |ESRI files, |
+|             |       |     |         |        |limited free|
+|             |       |     |         |        |space       |
++-------------+-------+-----+---------+--------+------------+
+|Pangaea      |Various|Yes  |Required |Variable|Editors     |
+|             |CC     |     |         |        |participate |
+|             |       |     |         |        |in QA/QC    |
++-------------+-------+-----+---------+--------+------------+
+|Figshare     |CC0    |Yes  |Optional |Open    |Also allows |
+|             |       |     |         |        |deposition  |
+|             |       |     |         |        |of other    |
+|             |       |     |         |        |research    |
+|             |       |     |         |        |outputs and |
+|             |       |     |         |        |private     |
+|             |       |     |         |        |datasets    |
++-------------+-------+-----+---------+--------+------------+
 
 
 9. Use an established and liberal license 

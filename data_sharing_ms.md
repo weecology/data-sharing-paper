@@ -50,7 +50,7 @@ It allows 1) the results of existing analyses to be reproduced and improved upon
 2) data to be combined in meta-analyses to reach general conclusions [@fienberg1985],
 3) new approaches to be applied to the data and new questions asked using it [@fienberg1985], and
 4) approaches to scientific inquiry that couldn't even be considered without broad scale data sharing [@hampton2013].
-As a result, data sharing is increasingly required by funding agencies (e.g., [NSF](http://www.nsf.gov/bfa/dias/policy/dmp.jsp), [NIH](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html), [NSERC](http://www.nserc-crsng.gc.ca/Professors-Professeurs/FinancialAdminGuide-GuideAdminFinancier/Responsibilities-Responsabilites_eng.asp), [FWF](http://www.fwf.ac.at/en/public_relations/oai/index.html)), journals [@piwowar2003; @whitlock2010], and potentially by law (e.g. [FASTR](http://doyle.house.gov/sites/doyle.house.gov/files/documents/2013%2002%2014%20DOYLE%20FASTR%20FINAL.pdf)). 
+As a result, data sharing is increasingly required by funding agencies (@poisot2013; e.g., [NSF](http://www.nsf.gov/bfa/dias/policy/dmp.jsp), [NIH](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html), [NSERC](http://www.nserc-crsng.gc.ca/Professors-Professeurs/FinancialAdminGuide-GuideAdminFinancier/Responsibilities-Responsabilites_eng.asp), [FWF](http://www.fwf.ac.at/en/public_relations/oai/index.html)), journals [@whitlock2010], and potentially by law (e.g. [FASTR](http://doyle.house.gov/sites/doyle.house.gov/files/documents/2013%2002%2014%20DOYLE%20FASTR%20FINAL.pdf)). 
 
 Despite these potential benefits to the community, many scientists are still reluctant to share data. 
 This reluctance is largely due to perceived fears of 1) competition for publications based on the shared data, 2) logistical barriers, and 3) a lack of recognition for sharing data [@palmer2004; @hampton2013].
@@ -152,7 +152,7 @@ We provide three simple recommendations to help ensure that tabular data is prop
 ![Examples of how to restructure two common issues with tabular data. (a) Each cell should only contain a single value. If more than one value is present then the data should be split into multiple columns. (b) There should be only one column for each type of information. If there are multiple columns then the column header should be stored in one column and the values from each column should be stored in a single column.](Data_formatting.jpg)
 
 While cross-tab data can be useful for its readability, and may be appropriate for data collection, this format makes it difficult to link the records with additional data (e.g., the location and environmental conditions at a site) and it cannot be properly used by most common database management and analysis tools (e.g., relational databases, dataframes in R and Python, etc.).
-If tabular data are currently in a cross-tab structure, there are tools to help restructure the data including functions in Excel, R (e.g., melt() function in the R package reshape [@wickham2007]), and Python (e.g., melt() function in the Pandas Python module [http://pandas.pydata.org/](http://pandas.pydata.org/)).
+If tabular data are currently in a cross-tab structure, there are tools to help restructure the data including functions in Excel, R (e.g., melt() function in the R package reshape; @wickham2007), and Python (e.g., melt() function in the Pandas Python module [http://pandas.pydata.org/](http://pandas.pydata.org/)).
 
 In addition to following these basic rules you should also make sure to use descriptive column names [@borer2009].
 Descriptive column names make the data easier to understand and therefore make data interpretation errors less likely.
@@ -247,8 +247,8 @@ This is true regardless of whether you plan to share the data because quality co
 However, it is particularly important for data that will be shared because scientists using the data won't be familiar with quirks in the data and how to work around them.
 
 At its most basic, quality control can consist of a few quick sanity checks of the data.
-More advanced quality control can include automated checks on data as it is entered and double-entry of data [@paulsen2012; @lampe1998].
-This additional effort can be time consuming, but is valuable because it increases data accuracy by catching typographical errors, reader/recorder error, out-of-range values, and questionable data in general [@paulsen2012; @lampe1998]. 
+More advanced quality control can include automated checks on data as it is entered and double-entry of data [@lampe1998; @paulsen2012].
+This additional effort can be time consuming, but is valuable because it increases data accuracy by catching typographical errors, reader/recorder error, out-of-range values, and questionable data in general [@lampe1998; @paulsen2012]. 
 
 Before sharing your data we recommend performing a quick "data review".
 Start by performing some basic sanity checks on your data.
@@ -287,24 +287,28 @@ This table does not include well-known molecular repositories (e.g. GenBank, EMB
 Consequently, several of these primarily serve the ecological community.
 These repositories are not exclusively used by members of specific institutions or museums, but accept data from the general scientific community.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
 Repository                 License          DOI    Metadata        Access        Notes
--------------------------- ---------------- ------ --------------- ------------- --------------------------------------------------------------------------------
-Dryad                      CC0              Yes    Suggested       Open          Ecology & evolution data associate with publications
+-------------------        ---------------- ------ --------------- ------------- ------------------------------------------------
+Dryad                      CC0              Yes    Suggested       Open          Ecology & evolution data associated
+                                                                                 with publications
+																				 
+Ecological                 No               Yes    Required        Open          Publishes supplemental data for ESA
+Archives                                                                         journals and stand alone data papers
 
-Ecological Archives        No               Yes    Required        Open          Publishes supplemental data for ESA journals and stand alone data papers
+Knowledge Network          No               Yes    Required (EML)  Variable      Partners with ESA, NCEAS, DataONE
+for Biocomplexity
 
-Knowledge Network for      No               Yes    Required (EML)  Variable      Partners with ESA, NCEAS, DataONE
-Biocomplexity (KNB)
-
-Paleobiology Database      Various CC       No     Optional        Variable      Paleontology specific, includes analysis tools
+Paleobiology               Various CC       No     Optional        Variable      Paleontology specific, includes analysis tools
+Database
 
 Data Basin                 Various CC       No     Optional        Open          GIS data in ESRI files, limited free space
 
 Pangaea                    Various CC       Yes    Required        Variable      Editors participate in QA/QC
 
-Figshare                   CC0              Yes    Optional        Open          Also allows deposition of other research outputs and private (non-open) datasets
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Figshare                   CC0              Yes    Optional        Open          Also allows deposition of other
+                                                                                 research outputs and private (non-open) datasets
+---------------------------------------------------------------------------------------------------------------------------------
 
 
 9. Use an established and liberal license 
@@ -345,5 +349,9 @@ By following these practices we can assure that the data collected in ecology an
 Acknowledgments
 ---------------
 Thanks to Karthik Ram for organizing this special section and inviting us to contribute.
-Carly Strasser and Kara Woo recommended important references and David Harris provided valuable feedback on null values, all via Twitter.
+Carly Strasser and Kara Woo recommended important references and David Harris and Carly Strasser provided valuable feedback on null values, all via Twitter.
 The writing of this paper was supported by a CAREER grant from the U.S. National Science Foundation (DEB 0953694) to EPW.
+
+
+References
+----------

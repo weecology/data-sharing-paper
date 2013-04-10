@@ -45,24 +45,20 @@ The first and most important step in sharing your data is to share your data.
 The recommendations below will help make your data more useful, but sharing it in any form is a big step forward.
 So, why should you share your data?
 
-Data sharing benefits both the community and the data sharer.
-The benefits to the scientific community of sharing data are substantial [@fienberg1985].
+Data sharing provides substantial benefits to the scientific community [@fienberg1985].
 It allows 1) the results of existing analyses to be reproduced and improved upon [@fienberg1985; @poisot2013],
 2) data to be combined in meta-analyses to reach general conclusions [@fienberg1985],
 3) new approaches to be applied to the data and new questions asked using it [@fienberg1985], and
 4) approaches to scientific inquiry that couldn't even be considered without broad scale data sharing [@hampton2013].
 As a result, data sharing is increasingly required by funding agencies (e.g., [NSF](http://www.nsf.gov/bfa/dias/policy/dmp.jsp), [NIH](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html), [NSERC](http://www.nserc-crsng.gc.ca/Professors-Professeurs/FinancialAdminGuide-GuideAdminFinancier/Responsibilities-Responsabilites_eng.asp), [FWF](http://www.fwf.ac.at/en/public_relations/oai/index.html)), journals [@piwowar2003; @whitlock2010], and potentially by law (e.g. [FASTR](http://doyle.house.gov/sites/doyle.house.gov/files/documents/2013%2002%2014%20DOYLE%20FASTR%20FINAL.pdf)). 
-Sharing data also directly benefits the person sharing the data through increased citation rates and peer recognition in the scientific community [@piwowar2007; @piwowar2013; @poisot2013].
-Published data are now also officially considered by some grant review panels [@piwowar2013; @poisot2013].
-Therefore, sharing your data results in direct academic credit will likely also result in new collaborations and increased productivity.
-Shared datasets that are documented and standardized are also more easily reused in the future by the original investigator.
 
-Despite these potential benefits to both the community and individual, many scientists are still reluctant to share data. 
-Reluctance to share data is largely due to perceived fears of 1) competition for publications based on the shared data, 2) a lack of recognition for sharing data, and 3) logistical barriers [@palmer2004; @hampton2013].
-These concerns are often not as serious as they first appear [@parr2005; @hampton2013].
+Despite these potential benefits to the community, many scientists are still reluctant to share data. 
+This reluctance is largely due to perceived fears of 1) competition for publications based on the shared data, 2) logistical barriers, and 3) a lack of recognition for sharing data [@palmer2004; @hampton2013].
+These concerns are often not as serious as they first appear, and the minimal costs associated with data sharing are frequently offset by individual benefits to the data sharer [@parr2005; @hampton2013].
 Many data sharing initiatives allow for data embargoes or limitations on direct competition that can last for several years while the authors develop their publications and thus avoid competition for deriving publications from the data.
-As mentioned above, datasets are now considered citable entities and data providers receive recognition in the form of increased citation metrics and credit on CVs and grant applications [@piwowar2007; @piwowar2013; @poisot2013].
-Lastly, logistical barriers to data sharing are diminishing as data archives become increasingly common and easy to use [@parr2005; @hampton2013].
+Also, logistical barriers to data sharing are diminishing as data archives become increasingly common and easy to use [@parr2005; @hampton2013].
+Datasets are now considered citable entities and data providers receive recognition in the form of increased citation metrics and credit on CVs and grant applications [@piwowar2007; @piwowar2013; @poisot2013].
+In addition to increased citation rates, shared datasets that are documented and standardized are also more easily reused in the future by the original investigator.  
 As a result, it is increasingly beneficial to the individual researcher to share data in the most useful manner possible.
 
 2. Provide metadata

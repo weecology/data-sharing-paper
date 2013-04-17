@@ -21,7 +21,7 @@ Abstract
 
 Sharing data is increasingly considered to be an important part of the scientific process.
 Making your data publicly available allows original results to be reproduced and new analyses to be conducted.
-While sharing your data is the first step in allowing reuse, it is also important that the data be easy understand and use.
+While sharing your data is the first step in allowing reuse, it is also important that the data be easy to understand and use.
 We describe nine simple ways to make it easy to reuse the data that you share and also make it easier to work with it yourself.
 Our recommendations focus on making your data understandable, easy to analyze, and readily available to the wider community of scientists.
 

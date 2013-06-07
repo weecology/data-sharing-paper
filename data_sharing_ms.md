@@ -304,7 +304,7 @@ This guarantees that the data will be available in the same location for a long 
 There are repositories available for sharing almost any type of biological or environmental data.
 Repositories that host specific data types, such as molecular sequences (e.g., DDBJ, GenBank, MG-RAST), are often highly standardized in data type, format, and quality control approaches.
 Other repositories host a wide array of data types and are less standardized (e.g., Dryad, KNB, PANGAEA).
-In addition to the repositories focused on the natural sciences there are also all purpose repositories where data of any kind can be shared (e.g., Figshare). 
+In addition to the repositories focused on the natural sciences there are also all purpose repositories where data of any kind can be shared (e.g., figshare). 
 
 When choosing a repository you should consider where other researchers in your discipline are sharing their data.
 This helps you quickly identify the community's standard approach to sharing and increases the likelihood that other scientists will discover your data.
@@ -355,7 +355,7 @@ These repositories are not exclusively used by members of specific institutions 
 |             |CC     |     |         |        |participate |
 |             |       |     |         |        |in QA/QC    |
 +-------------+-------+-----+---------+--------+------------+
-|Figshare     |CC0    |Yes  |Optional |Open    |Also allows |
+|figshare     |CC0    |Yes  |Optional |Open    |Also allows |
 |             |       |     |         |        |deposition  |
 |             |       |     |         |        |of other    |
 |             |       |     |         |        |research    |

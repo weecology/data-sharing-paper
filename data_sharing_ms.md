@@ -128,7 +128,7 @@ Use these well defined formats when they exist, because that is what other scien
 Data that does not have a well defined standard format is often stored in tables.
 Tabular data should typically be stored as text files because they can be opened by any type of software.
 These text files use delimiters to indicate different columns, and commas are the most commonly used delimiter (i.e., comma-delimited text files with the .csv extension).
-In contrast to plain text files, proprietary formats such as those used by Microsoft Excel can be difficult to load into other programs.
+In contrast to plain text files, proprietary formats such as those used by Microsoft Excel (e.g, .xls, .xlsx) can be difficult to load into other programs.
 In addition, these types of files can become obsolete, eventually making it difficult to open the data files at all if the newer versions of the software no longer support the original format [@borer2009; @strasser2011; @strasser2012].
 
 When naming files you should use descriptive names so that it is easy to keep track of what data they contain [@borer2009; @strasser2011; @strasser2012].

@@ -33,7 +33,7 @@ Sharing data is increasingly recognized as an important component of the scienti
 The sharing of scientific data is beneficial because it allows replication of research results and reuse in meta-analyses and projects not originally intended by the data collectors [@poisot2013].
 In ecology and evolutionary biology, sharing occurs through a combination of formal data repositories like GenBank ([http://www.ncbi.nlm.nih.gov/genbank/](http://www.ncbi.nlm.nih.gov/genbank/)) and Dryad ([http://datadryad.org/](http://datadryad.org/)), and through individual and institutional websites.
 
-While data sharing is increasingly common and straightforward, much of the shared data is not easily reused because it does not follow best practices in terms of data structure, metadata, and licensing [@jones2006].
+While data sharing is increasingly common and straightforward, much of the shared data are not easily reused because it does not follow best practices in terms of data structure, metadata, and licensing [@jones2006].
 This makes it more difficult to work with existing data and therefore makes the data less useful than it could be [@jones2006; @reichman2011].
 Here we provide a list of 9 simple ways to make it easier to reuse the data that you share.
 Our recommendations focus on making your data understandable, easy to work with, and available to the wider community of scientists.
@@ -76,7 +76,7 @@ Metadata can take several forms, including descriptive file and column names, a 
 Good metadata should provide 1) the what, when, where, and how of data collection,
 2) how to find and access the data,
 3) suggestions on the suitability of the data for answering specific questions,
-4) warnings about known problems or inconsistencies in the data, and 5) information to check that the data is properly imported, such as the number of rows and columns in the dataset and the total sum of numerical columns [@michener1997; @zimmerman2003; @strasser2012].
+4) warnings about known problems or inconsistencies in the data, and 5) information to check that the data are properly imported, such as the number of rows and columns in the dataset and the total sum of numerical columns [@michener1997; @zimmerman2003; @strasser2012].
 
 Just like any other scientific publication, metadata should be logically organized, complete, and clear enough to enable interpretation and use of the data [@zimmerman2007].
 Specific metadata standards exist (_e.g.,_ Ecological Metadata Language [EML](http://knb.ecoinformatics.org/software/eml/), 
@@ -140,7 +140,7 @@ Spaces in file names can be avoided by using camel case (e.g, RainAvg) or by sep
 
 Data tables are ubiquitous in ecology and evolution.
 Tabular data provides a great deal of flexibility in how to structure the data, which makes it easy to structure the data in a way that is difficult to (re)use.
-We provide three simple recommendations to help ensure that tabular data is properly structured to allow the data to be easily imported and analyzed by most data management systems and common analysis software, such as R and Python.
+We provide three simple recommendations to help ensure that tabular data are properly structured to allow the data to be easily imported and analyzed by most data management systems and common analysis software, such as R and Python.
 
 * Each row should represent a single observation (i.e., a record) and each column should represent a single variable or type of measurement (i.e., a field) [@borer2009; @strasser2011; @strasser2012].
   This is the standard format for tables in the most commonly used database management systems and analysis packages and makes the data easy to work with in the most general way.
@@ -260,7 +260,7 @@ For example, the null value "NULL" works correctly for certain applications in R
 6. Make it easy to combine your data with other datasets
 --------------------------------------------------------
 
-Ecological and evolutionary data is often most valuable when combined with other kinds of data (e.g., taxonomic, environmental).
+Ecological and evolutionary data are often most valuable when combined with other kinds of data (e.g., taxonomic, environmental).
 You can make it easier to combine your data with other data sources by including the data that is common across many data sources (e.g., Latin binomials, latitudes and longitudes)
 It is common for data to include codes or abbreviations.
 For example, in ecology and evolution codes often appear in place of site locations or taxonomy.
@@ -312,7 +312,7 @@ In particular, if there is a centralized repository for a specific kind of data 
 
 In cases where there is no *de facto* standard it is worth considering differences among repositories in terms of use, data rights, and licensing (Table 3) and whether your funding agency or journal has explicit requirements or restrictions related to repositories.
 We also recommend that you use a repository that allows your dataset to be easily cited.
-Most repositories will describe how this works, but an easy way to guarantee that your data is citable is to confirm that the repository associates it with a digital object identifier (DOI).
+Most repositories will describe how this works, but an easy way to guarantee that your data are citable is to confirm that the repository associates it with a digital object identifier (DOI).
 DOIs are permanent unique identifiers that are independent of physical location and site ownership.
 
 Table: Popular repositories for scientific datasets.
@@ -387,11 +387,11 @@ This allows scientists to spend their time doing science rather than cleaning up
 We have provided a list of 9 practices that require only a small additional time investment but substantially improve the usability of data.
 These practices can be broken down into three major groups.
 
-1. Well documented data is easier to understand.
-2. Properly formatted data is easier to use in a variety of software.
+1. Well documented data are easier to understand.
+2. Properly formatted data are easier to use in a variety of software.
 3. Data that is shared in established repositories with open licenses is easier for others to find and use.
 
-Most of these recommendations are simply good practice for working with data regardless of whether that data is shared or not.
+Most of these recommendations are simply good practice for working with data regardless of whether that data are shared or not.
 This means that following these recommendations (2-7) make the data easier to work with for anyone, including you.
 This is particularly true when returning to your own data for further analysis months or years after you originally collected or analyzed it.
 In addition, data sharing often occurs within a lab or research group.

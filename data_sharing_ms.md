@@ -289,7 +289,9 @@ For example:
 
 * If a column should contain numeric values, check that there are no non-numeric values in the data. 
 * Check that empty cells actually represent missing data, and not mistakes in data entry, and indicate that they are empty using the appropriate null values (see recommendation 6). 
-* Scan your data for consistency in unit of measurement, data type (e.g., numeric, character), naming scheme (e.g., taxonomy, location), etc. 
+* Check for consistency in unit of measurement, data type (e.g., numeric, character), naming scheme (e.g., taxonomy, location), etc. 
+
+These checks can be performed by carefully looking at the data or can be automated using common programming and analysis tools like R or Python.
 
 Then ask someone else to look over your metadata and data and provide you with feedback about anything they didn't understand.
 In the same way that friendly reviews of papers can help catch mistakes and identify confusing sections of papers, a friendly review of data can help identify problems and things that are unclear in the data and metadata.

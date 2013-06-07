@@ -369,9 +369,12 @@ These repositories are not exclusively used by members of specific institutions 
 -----------------------------------------
 
 Including an explicit license with your data is the best way to let others know exactly what they can and cannot do with the data you shared.
-We recommend using well established licenses (e.g., [Creative Commons licenses](http://creativecommons.org/licenses/)) in order to clearly communicate the rights and responsibilities of both the people providing the data and the people using it.
-We also recommend using the most open license possible, because even minor restrictions on data use can have unintended consequences for the reuse of the data [@schofield2009; @poisot2013].
-The Creative Commons Zero license (CC0) places no restrictions on data use and is considered by many to be the best license for sharing data (e.g., [@schofield2009; @poisot2013], [http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/](http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/)). 
+Following the Panton Principles [http://pantonprinciples.org](http://pantonprinciples.org) we recommend:
+
+1. Using well established licenses in order to clearly communicate the rights and responsibilities of both the people providing the data and the people using it.
+2. Using the most open license possible, because even minor restrictions on data use can have unintended consequences for the reuse of the data [@schofield2009; @poisot2013].
+
+The Creative Commons Zero license (CC0) places no restrictions on data use and is considered by many to be one of the best license for sharing data (e.g., [@schofield2009; @poisot2013], [http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/](http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/)).
 Having a clear and open license will increase the chance that other scientists will be comfortable using your data.
 
 

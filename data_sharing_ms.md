@@ -166,6 +166,7 @@ In addition to using standard table structures it is also important to ensure th
 * Be consistent. For example, be consistent in your capitalization of words, choice of delimiters, and naming conventions for variables.
 * Avoid special characters. Most software for storing and analyzing data works best on plain text, and accents and other special characters can make it difficult to import your data [@borer2009; @strasser2012].
 * Avoid using your delimiter in the data itself (e.g., commas in the notes filed of a comma-delimited file). This can make it difficult to import your data properly.
+This means that if you are using commas as the decimal separator (as is often done in continental Europe) then you should use a non-comma delimiter (e.g., a tab).
 * When working with dates use the YYYY-MM-DD format (i.e., follow the [ISO 8601](http://www.iso.org/iso/support/faqs/faqs_widely_used_standards/widely_used_standards_other/iso8601) data standard).
 
 5. Use good null values
@@ -180,7 +181,10 @@ The null value that is most compatible with the software commonly used by biolog
 Blanks are automatically treated as null values by R, Python, SQL, and Excel.
 They are also easily spotted in a visual examination of the data.
 Note that a blank involves entering nothing, it is not a space, so if you use this option make sure there aren't any hidden spaces.
-One potential issue with blanks is that it can be difficult to know if a value is missing or was overlooked during data entry.
+There are two potential issues with blanks that should be considered:
+
+1. It can be difficult to know if a value is missing or was overlooked during data entry.
+2. They can be confusing when spaces or tabs are used as delimiters in text files.
 
 NA and NULL are reasonable null values, but they are only handled automatically by a subset of commonly used software (Table 1).
 NA can also be problematic if it is also used as an abbreviation (e.g., North America, Namibia, _Neotoma albigula_, sodium, etc.).

@@ -314,7 +314,7 @@ In particular, if there is a centralized repository for a specific kind of data 
 
 In cases where there is no *de facto* standard it is worth considering differences among repositories in terms of use, data rights, and licensing (Table 3) and whether your funding agency or journal has explicit requirements or restrictions related to repositories.
 We also recommend that you use a repository that allows your dataset to be easily cited.
-Most repositories will describe how this works, but an easy way to guarantee that your data are citable is to confirm that the repository associates it with a digital object identifier (DOI).
+Most repositories will describe how this works, but an easy way to guarantee that your data are citable is to confirm that the repository associates it with a persistent identifier, the most popular of which is the digital object identifier (DOI).
 DOIs are permanent unique identifiers that are independent of physical location and site ownership.
 There are also online tools for finding good repositories for your data including [http://databib.org](http://databib.org) and [http://re3data.org](http://re3data.org).
 

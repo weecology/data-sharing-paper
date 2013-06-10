@@ -145,7 +145,7 @@ We provide three simple recommendations to help ensure that tabular data are pro
 * Each row should represent a single observation (i.e., a record) and each column should represent a single variable or type of measurement (i.e., a field) [@borer2009; @strasser2011; @strasser2012].
   This is the standard format for tables in the most commonly used database management systems and analysis packages and makes the data easy to work with in the most general way.
 * Every cell should contain only a single value [@strasser2012].
-  For example, do not include units in the cell with the values (Figure 1) or include multiple measurements in a single cell.
+  For example, do not include units in the cell with the values (Figure 1) or include multiple measurements in a single cell, and break taxonomic information up into single components with one column each for family, genus, species, subspecies, etc.
   Violating this rule makes it difficult to process or analyze your data using standard tools, because there is no easy way for the software to treat the items within a cell as separate pieces of information.
 * There should only be one column for each type of information [@borer2009; @strasser2011; @strasser2012].
   The most common violation of this rule is cross-tab structured data ([http://en.wikipedia.org/wiki/Cross_tabulation](http://en.wikipedia.org/wiki/Cross_tabulation)), where different columns contain measurements of the same variable (e.g., in different sites, treatments, etc.; Figure 1).

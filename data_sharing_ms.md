@@ -33,11 +33,14 @@ Sharing data is increasingly recognized as an important component of the scienti
 The sharing of scientific data is beneficial because it allows replication of research results and reuse in meta-analyses and projects not originally intended by the data collectors [@poisot2013].
 In ecology and evolutionary biology, sharing occurs through a combination of formal data repositories like GenBank ([http://www.ncbi.nlm.nih.gov/genbank/](http://www.ncbi.nlm.nih.gov/genbank/)) and Dryad ([http://datadryad.org/](http://datadryad.org/)), and through individual and institutional websites.
 
-While data sharing is increasingly common and straightforward, much of the shared data are not easily reused because it does not follow best practices in terms of data structure, metadata, and licensing [@jones2006].
+While data sharing is increasingly common and straightforward, much of the shared data in ecology and evolutionary biology are not easily reused because they do not follow best practices in terms of data structure, metadata, and licensing [@jones2006].
 This makes it more difficult to work with existing data and therefore makes the data less useful than it could be [@jones2006; @reichman2011].
 Here we provide a list of 9 simple ways to make it easier to reuse the data that you share.
+
 Our recommendations focus on making your data understandable, easy to work with, and available to the wider community of scientists.
-Following these practices makes it easier for anyone to reuse your data including other members of your lab and even yourself.
+They are designed to be simple and straightforward to implement, and as such represent an introduction to good data practices rather than a comprehensive treatment.
+We contextualize our recommendations with examples from ecology and evolutionary biology, though many of the recommendations apply broadly across scientific disciplines.
+Following these recommendations makes it easier for anyone to reuse your data including other members of your lab and even yourself.
 
 1. Share your data
 ------------------

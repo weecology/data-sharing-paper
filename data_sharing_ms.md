@@ -129,8 +129,8 @@ Certain kinds of data in ecology and evolution have well established standard fo
 Use these well defined formats when they exist, because that is what other scientists and most existing software will be able to work with most easily.
 
 Data that does not have a well defined standard format is often stored in tables.
-Tabular data should be stored in a format that can be opened by any type of software to increase reuseability of the data, i.e. text files. These text files use delimiters to indicate different columns.  Commas are the most commonly used delimiter (i.e., comma-delimited text files with the .csv extension).  Tabs can also be used as a delimiter, although problems can occur if spaces are used instead of tabs, or with differences in how tabs are defined among operating systems.
-In contrast to plain text files, proprietary formats such as those used by Microsoft Excel (e.g, .xls, .xlsx) and others can be difficult to load into other programs.
+Tabular data should be stored in a format that can be opened by any type of software to increase reuseability of the data, i.e. text files. These text files use delimiters to indicate different columns.  Commas are the most commonly used delimiter (i.e., comma-delimited text files with the .csv extension).  Tabs can also be used as a delimiter, although problems can occur in displaying the data correctly when importing data from one program to another.
+In contrast to plain text files, proprietary formats such as those used by Microsoft Excel (e.g, .xls, .xlsx) can be difficult to load into other programs.
 In addition, these types of files can become obsolete, eventually making it difficult to open the data files at all if the newer versions of the software no longer support the original format [@borer2009; @strasser2011; @strasser2012].
 
 When naming files you should use descriptive names so that it is easy to keep track of what data they contain [@borer2009; @strasser2011; @strasser2012].

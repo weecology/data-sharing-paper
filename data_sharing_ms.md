@@ -57,7 +57,7 @@ It allows 1) the results of existing analyses to be reproduced and improved upon
 As a result, data sharing is increasingly required by funding agencies (@poisot2013; e.g., [NSF](http://www.nsf.gov/bfa/dias/policy/dmp.jsp), [NIH](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html), [NSERC](http://www.nserc-crsng.gc.ca/Professors-Professeurs/FinancialAdminGuide-GuideAdminFinancier/Responsibilities-Responsabilites_eng.asp), [FWF](http://www.fwf.ac.at/en/public_relations/oai/index.html)), journals [@whitlock2010], and potentially by law (e.g. [FASTR](http://doyle.house.gov/sites/doyle.house.gov/files/documents/2013%2002%2014%20DOYLE%20FASTR%20FINAL.pdf)). 
 
 Despite these potential benefits to the community, many scientists are still reluctant to share data. 
-This reluctance is largely due to perceived fears of 1) competition for publications based on the shared data, 2) logistical barriers, and 3) a lack of recognition for sharing data [@palmer2004; @hampton2013].
+This reluctance is largely due to perceived fears of 1) competition for publications based on the shared data, 2) technical barriers, and 3) a lack of recognition for sharing data [@palmer2004; @hampton2013].
 These concerns are often not as serious as they first appear, and the minimal costs associated with data sharing are frequently offset by individual benefits to the data sharer [@parr2005; @hampton2013].
 Many data sharing initiatives allow for data embargoes or limitations on direct competition that can last for several years while the authors develop their publications and thus avoid competition for deriving publications from the data.
 Also, logistical barriers to data sharing are diminishing as data archives become increasingly common and easy to use [@parr2005; @hampton2013].
@@ -129,8 +129,7 @@ Certain kinds of data in ecology and evolution have well established standard fo
 Use these well defined formats when they exist, because that is what other scientists and most existing software will be able to work with most easily.
 
 Data that does not have a well defined standard format is often stored in tables.
-Tabular data should typically be stored as text files because they can be opened by any type of software.
-These text files use delimiters to indicate different columns, and commas are the most commonly used delimiter (i.e., comma-delimited text files with the .csv extension).
+Tabular data should be stored in a format that can be opened by any type of software to increase reuseability of the data, i.e. text files. These text files use delimiters to indicate different columns.  Commas are the most commonly used delimiter (i.e., comma-delimited text files with the .csv extension).  Tabs can also be used as a delimiter, although problems can occur in displaying the data correctly when importing data from one program to another.
 In contrast to plain text files, proprietary formats such as those used by Microsoft Excel (e.g, .xls, .xlsx) can be difficult to load into other programs.
 In addition, these types of files can become obsolete, eventually making it difficult to open the data files at all if the newer versions of the software no longer support the original format [@borer2009; @strasser2011; @strasser2012].
 

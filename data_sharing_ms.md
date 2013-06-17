@@ -102,10 +102,11 @@ If you decide to take the extra step and follow metadata standards, there are to
 ------------------------------------------
 
 Often, the data used in scientific analyses are modified in some way from the original form in which they were collected.
-This is done to address the questions of interest in the best manner possible and to address common limitations associated with the raw data.
+Values are averaged, units are converted, or indices are calculated from direct measurements or observations to address the research questions and to mollify limitations associated with the raw data.
 However, the best way to process data depends on the question being asked and corrections for common data limitations often change as better approaches are developed.
 It can also be very difficult to combine data from multiple sources that have each been processed in different ways.
 Therefore, to make your data as useful as possible it is best to share the data in as raw a form as possible.
+That means provide your data in a form as close to the field measurements and observations from which your analysis started.
 
 This is not to say that your data are best suited for analysis in the raw form, but providing it in the raw form gives data users the most flexibility.
 Of course, your work to develop and process the data is also very important and can be quite valuable for other scientists using your data.

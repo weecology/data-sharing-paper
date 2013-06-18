@@ -307,7 +307,7 @@ In the same way that friendly reviews of papers can help catch mistakes and iden
 -------------------------------
 
 For data sharing to be effective, data should be easy to find, accessible, and stored where it will be preserved for a long time [@kowalczyk2011].
-To make your data visible and easily accessible, and to ensure a permanent link to a well maintained website, we suggest depositing your data in one of the major well-established repositories.
+To make your data (and associated code) visible and easily accessible, and to ensure a permanent link to a well maintained website, we suggest depositing your data in one of the major well-established repositories.
 This guarantees that the data will be available in the same location for a long time, in contrast to personal and institutional websites that do not guarantee the long-term persistence of the data.
 There are repositories available for sharing almost any type of biological or environmental data.
 Repositories that host specific data types, such as molecular sequences (e.g., DDBJ, GenBank, MG-RAST), are often highly standardized in data type, format, and quality control approaches.

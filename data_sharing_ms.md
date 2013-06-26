@@ -88,8 +88,8 @@ Darwin Core [DWC](http://rs.tdwg.org/dwc/) [@wieczorek2012],
 Dublin Core Metadata Initiative [DCMI](http://dublincore.org/metadata-basics/),
 Federal Geographic Data Committee [FGDC](http://www.fgdc.gov/metadata/geospatial-metadata-standards)
 [@reichman2011; @whitlock2011].
-These standards are designed to provide consistency in metadata across different datasets and also to allow computers to interpret the metadata automatically.
-This allows broader and more efficient use of shared data [@brunt2002; @jones2006].
+These standards are designed to provide consistency in metadata across different datasets and also to allow computers to interpret the metadata automatically (i.e., to make them "machine readable").
+This allows broader and more efficient use of shared data because computers can be relied on to combine data from many different datasets for synthetic analyses [@brunt2002; @jones2006].
 While following these standards is valuable, the most important thing is to have metadata at all.
 
 You don't need to spend a lot of extra time to write good metadata.

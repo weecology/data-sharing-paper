@@ -102,7 +102,7 @@ If you decide to take the extra step and follow metadata standards, there are to
 ------------------------------------------
 
 Often, the data used in scientific analyses are modified in some way from the original form in which they were collected.
-Values are averaged, units are converted, or indices are calculated from direct measurements or observations to address the research questions and to mollify limitations associated with the raw data.
+Values are averaged, units are converted, or indices are calculated from direct measurements or observations to address the focal research questions and to fix issues associated with the raw data.
 However, the best way to process data depends on the question being asked and corrections for common data limitations often change as better approaches are developed.
 It can also be very difficult to combine data from multiple sources that have each been processed in different ways.
 Therefore, to make your data as useful as possible it is best to share the data in as raw a form as possible.

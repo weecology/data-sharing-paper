@@ -414,6 +414,7 @@ This means that following these recommendations (2-7) make the data easier to wo
 This is particularly true when returning to your own data for further analysis months or years after you originally collected or analyzed it.
 In addition, data sharing often occurs within a lab or research group.
 Good data sharing practices make these in-house collaborations faster, easier, and less dependent on lab members who may have graduated or moved on to other things.
+Following the other recommendations (1, 8, and 9) provides broader benefits including academic credit in the form of published datasets and increased citation metrics [@piwowar2007; @piwowar2013; @poisot2013].
 
 By following these practices we can assure that the data collected in ecology and evolution can be used to its full potential to improve our understanding of biological systems. 
 

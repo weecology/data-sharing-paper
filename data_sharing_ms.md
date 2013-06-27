@@ -266,23 +266,20 @@ For example, the null value "NULL" works correctly for certain applications in R
 6. Make it easy to combine your data with other datasets
 --------------------------------------------------------
 
-Ecological and evolutionary data are often combined with other kinds of data (e.g., taxonomic, environmental) which add value by setting the context for the system or study.
-This accompanying data can be found as part of a single master data file, within the metadata, or as an additional linking table.
-You can make it easier to combine your data with other data sources by including contextual data that appears across similar data sources (e.g., Latin binomials, latitudes and longitudes).
-You may find that this is the sort of data that you've collected in your field notebook, but haven't explicitly included in your data.
+Ecological and evolutionary data are often combined with other kinds of data.
+You can make it easier to combine your data with other data sources by including contextual data that appears across similar data sources.
+Two of the most common kinds of contextual data in ecology and evolution are taxonomy and geographic location.
+While this type of data is known and recorded in most studies (e.g, in field notebooks, on maps) it is frequently not included with the data.
+In general, if you have collected additional data or notes about a study organism or field site, there is a good chance that it will be useful to someone else, so including it with your data when you share it is a good idea.
+This kind of information can be included either as part of the data itself (e.g., in a new column or an additional table) or can be included in the metadata (e.g., the geographic location of the study site).
+For geographic data it is also important to include the datum (e.g., WGS-84) and sufficient precision (e.g., 4 decimals places if using decimal degress) to allow the data to be combined with other geographic datasets.
 
-Some common linking fields for ecology and evolution are taxonomy and site location.
-Unfortunately, it is common for this data to be included as codes or abbreviations.
-This is useful for the data collector because it reduces data entry (e.g., DS instead of _Dipodomys spectabilis_) and redundancy (a single column for a species ID rather than separate columns for family, genus, and species).
+When this data is included in a dataset it is often included as codes or abbreviations (e.g., DS instead of _Dipodomys spectabilis_, or site names instead of geographic coordinates).
+This can be useful for the data collector because it reduces data entry (e.g., typing a 1 into a plot column instead of entering both the latitude and longitude) and redundancy (a single column for a species ID rather than separate columns for family, genus, and species).
 However, without clear definitions these codes can be difficult to understand and make it more difficult to combine your data with external sources.
-
 One easy way to link your data to other datasets is to include additional tables that contain a column for the code and additional columns that describe the item in the standard way.
 For taxonomy, you might include a table with the species codes followed by their most current family, genus, and specific epithet.
-For site location, you could include a table with the site code followed by latitude and longitude, spatial extent, and temporal duration.
-When describing site location using GPS, be sure to include the datum (e.g., WGS-84) and sufficient precision to mark your site with UTM coordinates or more than four decimal places if using decimal degrees. 
-
-If you have collected additional data or notes about a study organism or field site, chances are that information would be useful to share your data and combine it with others.
-Add this contextual data to your master data file or use linked tables to include additional information about your data.
+For site location, you could include a table with the site name or code followed by latitude and longitude, and other site information such as spatial extent, and temporal duration of sampling.
 
 
 7. Perform basic quality control

@@ -175,6 +175,8 @@ In addition to using standard table structures it is also important to ensure th
 This means that if you are using commas as the decimal separator (as is often done in continental Europe) then you should use a non-comma delimiter (e.g., a tab).
 * When working with dates use the YYYY-MM-DD format (i.e., follow the [ISO 8601](http://www.iso.org/iso/support/faqs/faqs_widely_used_standards/widely_used_standards_other/iso8601) data standard).
 
+While these standard approaches make it easier to use your data, the most important thing is to document the approach that you have taken in your metadata (e.g., specify the date format) so that data users can understand how to work with the data.
+
 5. Use good null values
 -----------------------
 

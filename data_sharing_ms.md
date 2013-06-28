@@ -423,6 +423,9 @@ In addition, data sharing often occurs within a lab or research group.
 Good data sharing practices make these in-house collaborations faster, easier, and less dependent on lab members who may have graduated or moved on to other things.
 Following the other recommendations (1, 8, and 9) provides broader benefits including academic credit in the form of published datasets and increased citation metrics [@piwowar2007; @piwowar2013; @poisot2013].
 
+Many of these recommendations can be implemented at any point during a project, but the best time to think about how to handle your data is before the project even starts [@michener2012].
+A few hours of thought about how the data will be documented, structured, and shared at the beginning of a project can prevent the need to restructure data or recall old information.
+This will make it faster and easier to share your data when you are ready.
 By following these practices we can assure that the data collected in ecology and evolution can be used to its full potential to improve our understanding of biological systems. 
 
 
@@ -430,7 +433,7 @@ Acknowledgments
 ---------------
 Thanks to Karthik Ram for organizing this special section and inviting us to contribute.
 Carly Strasser and Kara Woo recommended important references and David Harris and Carly Strasser provided valuable feedback on null values, all via Twitter.
-Carl Boettiger, Matt Davis, Daniel Hocking, Heinz Pampel, Karthik Ram, Thiago Silva, Carly Strasser, Tom Webb, and @beroe (Twitter handle) provided value comments on the manuscript.
+Carl Boettiger, Matt Davis, Daniel Hocking, Heinz Pampel, Karthik Ram, Thiago Silva, Carly Strasser, Tom Webb, and @beroe (Twitter handle) provided valuable comments on the manuscript.
 Many of these comments were part of the informal review process facilitated by posting this manuscript as a preprint.
 The writing of this paper was supported by a CAREER grant from the U.S. National Science Foundation (DEB 0953694) to EPW.
 

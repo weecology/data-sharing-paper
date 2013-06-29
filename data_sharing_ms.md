@@ -53,7 +53,7 @@ Data sharing provides substantial benefits to the scientific community [@fienber
 For the scientific community it allows 1) the results of existing analyses to be reproduced and improved upon [@fienberg1985; @poisot2013],
 2) data to be combined in meta-analyses to reach general conclusions [@fienberg1985],
 3) new approaches to be applied to the data and new questions asked using it [@fienberg1985], and
-4) approaches to scientific inquiry that couldn't even be considered without broad scale data sharing [@hampton2013].
+4) approaches to scientific inquiry that could not be considered without broad scale data sharing [@hampton2013].
 As a result, data sharing is increasingly required by funding agencies (@poisot2013; e.g., [NSF](http://www.nsf.gov/bfa/dias/policy/dmp.jsp), [NIH](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html), [NSERC](http://www.nserc-crsng.gc.ca/Professors-Professeurs/FinancialAdminGuide-GuideAdminFinancier/Responsibilities-Responsabilites_eng.asp), [FWF](http://www.fwf.ac.at/en/public_relations/oai/index.html)), journals [@whitlock2010], and potentially by law (e.g. [FASTR](http://doyle.house.gov/sites/doyle.house.gov/files/documents/2013%2002%2014%20DOYLE%20FASTR%20FINAL.pdf), [OSTP Policy](http://www.whitehouse.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf)).
 For data collectors it provides the potential for
 1) credit for publication of data products  [@poisot2013],
@@ -98,7 +98,7 @@ These standards are designed to provide consistency in metadata across different
 This allows broader and more efficient use of shared data because computers can be relied on to identify (and potentially combine) data from many different datasets for synthetic analyses [@brunt2002; @jones2006].
 While following these standards is valuable, the most important thing is to have metadata at all.
 
-You don't need to spend a lot of extra time to write good metadata.
+You do not need to spend a lot of extra time to write good metadata.
 The easiest way to develop metadata is to start describing your data during the planning and data collection stages.
 This will help you stay organized, make it easier to work with your data after it has been collected, and make eventual publication of the data easier.
 If you decide to take the extra step and follow metadata standards, there are tools designed to make this easier including: [KNB Morpho](http://knb.ecoinformatics.org/morpho portal.jsp), [USGS xtme](http://geology.usgs.gov/tools/metadata/tools/doc/xtme.html), and [FGDC workbook](http://www.fgdc.gov/metadata/documents/workbook_0501_bmk.pdf).
@@ -170,7 +170,7 @@ As with file names, spaces can cause problems for some software and should be av
 
 ### Use standard formats within cells
 
-In addition to using standard table structures it is also important to ensure that the contents of each cell don't cause problems for data management and analysis software. Specifically, we recommend:
+In addition to using standard table structures it is also important to ensure that the contents of each cell do not cause problems for data management and analysis software. Specifically, we recommend:
 
 * Be consistent. For example, be consistent in your capitalization of words, choice of delimiters, and naming conventions for variables.
 * Avoid special characters. Most software for storing and analyzing data works best on plain text, and accents and other special characters can make it difficult to import your data [@borer2009; @strasser2012].
@@ -191,7 +191,7 @@ We recommend choosing a null value that is both compatible with most software an
 The null value that is most compatible with the software commonly used by biologists is the blank (i.e., nothing; Table 1).
 Blanks are automatically treated as null values by R, Python, SQL, and Excel.
 They are also easily spotted in a visual examination of the data.
-Note that a blank involves entering nothing, it is not a space, so if you use this option make sure there aren't any hidden spaces.
+Note that a blank involves entering nothing, it is not a space, so if you use this option make sure there are not any hidden spaces.
 There are two potential issues with blanks that should be considered:
 
 1. It can be difficult to know if a value is missing or was overlooked during data entry.
@@ -296,7 +296,7 @@ For site location, you could include a table with the site name or code followed
 
 Data, just like any other scientific product, should undergo some level of quality control [@reichman2011].
 This is true regardless of whether you plan to share the data because quality control will make it easier to analyze your own data and decrease the chance of making mistakes.
-However, it is particularly important for data that will be shared because scientists using the data won't be familiar with quirks in the data and how to work around them.
+However, it is particularly important for data that will be shared because scientists using the data will not be familiar with quirks in the data and how to work around them.
 
 At its most basic, quality control can consist of a few quick sanity checks of the data.
 More advanced quality control can include automated checks on data as it is entered and double-entry of data [@lampe1998; @michener2012; @paulsen2012].
@@ -312,7 +312,7 @@ For example:
 
 These checks can be performed by carefully looking at the data or can be automated using common programming and analysis tools like R or Python.
 
-Then ask someone else to look over your metadata and data and provide you with feedback about anything they didn't understand.
+Then, ask someone else to look over your metadata and data and provide you with feedback about anything they did not understand.
 In the same way that friendly reviews of papers can help catch mistakes and identify confusing sections of papers, a friendly review of data can help identify problems and things that are unclear in the data and metadata.
 
 

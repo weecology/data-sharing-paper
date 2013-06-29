@@ -72,7 +72,7 @@ As a result, it is increasingly beneficial to the individual researcher to share
 -------------------
 
 The first key to using data is understanding it. 
-Metadata is information about the data including how it was collected, what the units of measurement are, and descriptions of how to best use the data.
+Metadata is information about the data including how it was collected, what the units of measurement are, and descriptions of how to best use the data [@michener2012].
 Clear metadata makes it easier to figure out if a dataset is appropriate for a project.
 It also makes data easier to use by both the original investigators and by other scientists by making it easy to figure out how to work with the data.
 Without clear metadata, datasets can be overlooked or not used due to the difficulty of understanding the data [@fraser1999; @zimmerman2003], 
@@ -93,7 +93,7 @@ Directory Interchange Format [DIF](http://gcmd.gsfc.nasa.gov/add/difguide/index.
 Darwin Core [DWC](http://rs.tdwg.org/dwc/) [@wieczorek2012],
 Dublin Core Metadata Initiative [DCMI](http://dublincore.org/metadata-basics/),
 Federal Geographic Data Committee [FGDC](http://www.fgdc.gov/metadata/geospatial-metadata-standards)
-[@reichman2011; @whitlock2011].
+[@reichman2011; @whitlock2011; @michener2012].
 These standards are designed to provide consistency in metadata across different datasets and also to allow computers to interpret the metadata automatically (i.e., to make them "machine readable").
 This allows broader and more efficient use of shared data because computers can be relied on to identify (and potentially combine) data from many different datasets for synthetic analyses [@brunt2002; @jones2006].
 While following these standards is valuable, the most important thing is to have metadata at all.
@@ -299,7 +299,7 @@ This is true regardless of whether you plan to share the data because quality co
 However, it is particularly important for data that will be shared because scientists using the data won't be familiar with quirks in the data and how to work around them.
 
 At its most basic, quality control can consist of a few quick sanity checks of the data.
-More advanced quality control can include automated checks on data as it is entered and double-entry of data [@lampe1998; @paulsen2012].
+More advanced quality control can include automated checks on data as it is entered and double-entry of data [@lampe1998; @michener2012; @paulsen2012].
 This additional effort can be time consuming, but is valuable because it increases data accuracy by catching typographical errors, reader/recorder error, out-of-range values, and questionable data in general [@lampe1998; @paulsen2012]. 
 
 Before sharing your data we recommend performing a quick "data review".

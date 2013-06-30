@@ -63,7 +63,7 @@ For data collectors it provides the potential for
 Despite these potential benefits to the community, individual incentives have historically been insufficient to encourage widespread data sharing.
 Reluctance to share data is largely due to concerns about 1) competition for publications based on the shared data, 2) a lack of recognition for sharing data, and 3) a perception that sharing data is technically difficult and time consuming [@palmer2004; @parr2005; @hampton2013].
 However, changes in how data is treated and shared have increasingly ameliorated these issues.
-First, many data sharing initiatives allow for data embargoes or limitations on direct competition that allow authors develop their publications and thus avoid competition for deriving publications from the data.
+First, many data sharing initiatives allow for data embargoes or limitations on direct competition that allow authors to develop their publications and thus avoid competition for deriving publications from the data.
 Second, as mentioned above, datasets are now considered citable entities and data providers receive recognition in the form of increased citation metrics and credit on CVs and grant applications [@piwowar2007; @piwowar2013; @poisot2013].
 Finally, data archives have become increasingly common and easy to use [@parr2005; @hampton2013], and in some cases sharing data requires no more effort than uploading a file to a website.
 As a result, it is increasingly beneficial to the individual researcher to share data.
@@ -85,7 +85,7 @@ Good metadata should provide the following information [@michener1997; @zimmerma
 * How to find and access the data.
 * Suggestions on the suitability of the data for answering specific questions.
 * Warnings about known problems or inconsistencies in the data, e.g., general descriptions of data limitations or a column in a table to indicate the quality of individual data points.
-* Information to check that the data are properly imported, such as the number of rows and columns in the dataset and the total sum of numerical columns.
+* Information to check that the data are properly imported, e.g., the number of rows and columns in the dataset and the total sum of numerical columns.
 
 Just like any other scientific publication, metadata should be logically organized, complete, and clear enough to enable interpretation and use of the data [@zimmerman2007].
 Specific metadata standards exist (_e.g.,_ Ecological Metadata Language [EML](http://knb.ecoinformatics.org/software/eml/), 

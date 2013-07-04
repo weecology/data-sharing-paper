@@ -55,7 +55,7 @@ For the scientific community it allows 1) the results of existing analyses to be
 3) new approaches to be applied to the data and new questions asked using it [@fienberg1985], and
 4) approaches to scientific inquiry that could not be considered without broad scale data sharing [@hampton2013].
 As a result, data sharing is increasingly required by funding agencies [@poisot2013, e.g., [NSF](http://www.nsf.gov/bfa/dias/policy/dmp.jsp), [NIH](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-03-032.html), [NSERC](http://www.nserc-crsng.gc.ca/Professors-Professeurs/FinancialAdminGuide-GuideAdminFinancier/Responsibilities-Responsabilites_eng.asp), [FWF](http://www.fwf.ac.at/en/public_relations/oai/index.html)], journals [@whitlock2010], and potentially by law (e.g. [FASTR](http://doyle.house.gov/sites/doyle.house.gov/files/documents/2013%2002%2014%20DOYLE%20FASTR%20FINAL.pdf), [OSTP Policy](http://www.whitehouse.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf)).
-For data collectors, data sharing provides greater potential for receiving credit for publication of data products [@poisot2013] and can increase citation metrics [@piwowar2007; @piwowar2013]. Likewise, data that are well-documented  and standardized make future reuse easier for the original investigator.
+For data collectors, data sharing provides credit for publication of data products [@poisot2013] and can increase citation metrics [@piwowar2007; @piwowar2013]. In addition, data that are well-documented and standardized make future reuse easier for the original investigator.
 
 Despite these potential benefits to the community, individual incentives have historically been insufficient to encourage widespread data sharing.
 Reluctance to share data is largely due to concerns about 1) competition for publications based on the shared data, 2) a lack of recognition for sharing data, and 3) a perception that sharing data is technically difficult and time consuming [@palmer2004; @parr2005; @hampton2013].
@@ -72,9 +72,10 @@ The first key to using data is understanding it.
 Metadata is information about the data including how it was collected, what the units of measurement are, and descriptions of how to best use the data [@michener2012].
 Clear metadata makes it easier to figure out if a dataset is appropriate for a project.
 It also makes data easier to use by both the original investigators and by other scientists by making it easy to figure out how to work with the data.
-Without clear metadata, datasets can be overlooked or go unused due to the difficulty of understanding the data [@fraser1999; @zimmerman2003] and, as a result, can become less useful over time [@michener1997].
+Without clear metadata, datasets can be overlooked or go unused due to the difficulty of understanding the data [@fraser1999; @zimmerman2003].
+Undocumented data also becomes less useful over time as information about the data is gradually lost [@michener1997].
 
-Metadata can take several forms, including descriptive file and column names, a written description of the data, images (i.e.,_ maps, photographs), and specially structured information that can be read by computers (i.e., machine readable). 
+Metadata can take several forms, including descriptive file and column names, a written description of the data, images (i.e., maps, photographs), and specially structured information that can be read by computers (i.e., machine readable metadata). 
 Good metadata should provide the following information [@michener1997; @zimmerman2003; @strasser2012]:
 
 * The what, when, where, and how of data collection.
@@ -84,7 +85,7 @@ Good metadata should provide the following information [@michener1997; @zimmerma
 * Information to check that the data are properly imported, e.g., the number of rows and columns in the dataset and the total sum of numerical columns.
 
 Just like any other scientific publication, metadata should be logically organized, complete, and clear enough to enable interpretation and use of the data [@zimmerman2007].
-Specific metadata standards exist (e.g.,_ Ecological Metadata Language [EML](http://knb.ecoinformatics.org/software/eml/), 
+Specific metadata standards exist (e.g., Ecological Metadata Language [EML](http://knb.ecoinformatics.org/software/eml/), 
 Directory Interchange Format [DIF](http://gcmd.gsfc.nasa.gov/add/difguide/index.html), 
 Darwin Core [DWC](http://rs.tdwg.org/dwc/) [@wieczorek2012],
 Dublin Core Metadata Initiative [DCMI](http://dublincore.org/metadata-basics/),
@@ -92,7 +93,7 @@ Federal Geographic Data Committee [FGDC](http://www.fgdc.gov/metadata/geospatial
 [@reichman2011; @whitlock2011; @michener2012].
 These standards are designed to provide consistency in metadata across different datasets and also to allow computers to interpret the metadata automatically.
 This allows broader and more efficient use of shared data because computers can be relied on to identify (and potentially combine) data from many different datasets for synthetic analyses [@brunt2002; @jones2006].
-While following these standards is valuable, the most important thing in regards to metadata, is simply to have it.
+While following these standards is valuable, the most important thing is having metadata regardless of the specific form.
 
 Writing good metadata does not necessarily require a lot of extra time.
 The easiest way to develop metadata is to start describing your data during the planning and data collection stages.
@@ -132,7 +133,10 @@ Certain kinds of data in ecology and evolution have well established standard fo
 Use these well-defined formats when they exist, because that is what other scientists and most existing software will be able to work with most easily.
 
 Data that does not have a well-defined standard format is often stored in tables.
-To increase reuseability, tabular data should be stored in a format that can be opened by any type of software, i.e. text files. These text files use delimiters to indicate different columns.  Commas are the most commonly used delimiter (i.e., comma-delimited text files with the .csv extension).  Tabs can also be used as a delimiter, although problems can occur in displaying the data correctly when importing data from one program to another.
+To increase reuseability, tabular data should be stored in a format that can be opened by any type of software, i.e. text files.
+These text files use delimiters to indicate different columns. 
+Commas are the most commonly used delimiter (i.e., comma-delimited text files with the .csv extension).
+Tabs can also be used as a delimiter, although problems can occur in displaying the data correctly when importing data from one program to another.
 In contrast to plain text files, proprietary formats such as those used by Microsoft Excel (e.g, .xls, .xlsx) can be difficult to load into other programs.
 In addition, these types of files can become obsolete, eventually making it difficult to open the data files at all if the newer versions of the software no longer support the original format [@borer2009; @strasser2011; @strasser2012].
 
@@ -157,7 +161,7 @@ We provide three simple recommendations to help ensure that tabular data are pro
 
 ![Examples of how to restructure two common issues with tabular data. (a) Each cell should only contain a single value. If more than one value is present then the data should be split into multiple columns. (b) There should be only one column for each type of information. If there are multiple columns then the column header should be stored in one column and the values from each column should be stored in a single column.](Data_formatting.jpg)
 
-While cross-tab data can be easier for data collectors to read and may be appropriate for data collection, this format makes it difficult to link the records with additional data (e.g., the location and environmental conditions at a site) and it cannot be properly used by most common database management and analysis tools (e.g., relational databases, dataframes in R and Python, etc.).
+While cross-tab data can be easier to read and may be appropriate for data collection, this format makes it difficult to link the records with additional data (e.g., the location and environmental conditions at a site) and it cannot be properly used by most common database management and analysis tools (e.g., relational databases, dataframes in R and Python, etc.).
 If tabular data are currently in a cross-tab structure, there are tools to help restructure the data including functions in Excel, R [e.g., melt() function in the R package reshape; @wickham2007], and Python (e.g., melt() function in the Pandas Python module [http://pandas.pydata.org/](http://pandas.pydata.org/)).
 
 In addition to following these basic rules you should also make sure to use descriptive column names [@borer2009].
@@ -166,7 +170,8 @@ As with file names, spaces can cause problems for some software and should be av
 
 ### Use standard formats within cells
 
-In addition to using standard table structures it is also important to ensure that the contents of each cell do not cause problems for data management and analysis software. Specifically, we recommend that you:
+In addition to using standard table structures it is also important to ensure that the contents of each cell do not cause problems for data management and analysis software.
+Specifically, we recommend that you:
 
 * Be consistent. For example, be consistent in your capitalization of words, choice of delimiters, and naming conventions for variables.
 * Avoid special characters. Most software for storing and analyzing data works best on plain text, and accents and other special characters can make it difficult to import your data [@borer2009; @strasser2012].
@@ -179,8 +184,10 @@ While these standard approaches make it easier to use your data, the most import
 5. Use good null values
 -----------------------
 
-Most tabular ecological and evolutionary datasets contain missing or empty data values.
-Working with this kind of "null" data can be difficult, especially when the null values are indicated in problematic ways. For example, cells where spaces are used to indicate blanks could be interpreted by software as holding values or characters. Though there are many ways to indicate a missing/empty value and very little agreement on which approach to use, we recommend choosing a null value that is both compatible with most software and unlikely to cause errors in analyses (Table 1).
+Most ecological and evolutionary datasets contain missing or empty data values.
+Working with this kind of "null" data can be difficult, especially when the null values are indicated in problematic ways.
+There are many ways to indicate a missing/empty value and little agreement on which approach to use.
+We recommend choosing a null value that is both compatible with most software and unlikely to cause errors in analyses (Table 1).
 
 The null value that is most compatible with the software commonly used by biologists is the blank (i.e., nothing; Table 1).
 Blanks are automatically treated as null values by R, Python, SQL, and Excel.
@@ -315,15 +322,15 @@ In the same way that friendly reviews of papers can help catch mistakes and iden
 
 For data sharing to be effective, data should be easy to find, accessible, and stored where it will be preserved for a long time [@kowalczyk2011].
 To make your data (and associated code) visible and easily accessible, and to ensure a permanent link to a well maintained website, we suggest depositing your data in one of the major well-established repositories.
-This guarantees that the data will be available in the same location for a long time, in contrast to personal and institutional websites that do not guarantee the long-term persistence.
+This guarantees that the data will be available in the same location for a long time, in contrast to personal and institutional websites that do not guarantee long-term persistence.
 There are repositories available for sharing almost any type of biological or environmental data.
-Repositories that host specific data types, such as molecular sequences (e.g., DDBJ, GenBank, MG-RAST), are often highly standardized in data type, format, and quality control measures.
+Repositories that host specific data types, such as molecular sequences (e.g., DDBJ, GenBank, MG-RAST), are often highly standardized in data type, format, and quality control.
 Other repositories host a wide array of data types and are less standardized (e.g., Dryad, KNB, PANGAEA).
 In addition to the repositories focused on the natural sciences there are also all-purpose repositories where data of any kind can be shared (e.g., figshare). 
 
 When choosing a repository you should consider where other researchers in your discipline are sharing their data.
 This helps to quickly identify the community's standard approach to sharing and increases the likelihood that other scientists will discover your data.
-In particular, if there is a centralized repository for a specific kind of data (e.g., GenBank for sequence data) then you should use it.
+In particular, if there is a centralized repository for a specific kind of data (e.g., GenBank for sequence data) then it should be used.q
 
 In cases where there is no *de facto* standard, it is worth considering differences among repositories in terms of use, data rights, and licensing (Table 3) and whether your funding agency or journal has explicit requirements or restrictions related to repositories.
 We also recommend that you use a repository that allows your dataset to be easily cited.

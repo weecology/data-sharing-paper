@@ -388,17 +388,18 @@ These repositories are not exclusively used by members of specific institutions 
 +-------------+-------+-----+---------+--------+------------+
 
 
-9. Use an established and liberal license 
------------------------------------------
+9. Use an established and open license
+--------------------------------------
 
 Including an explicit license with your data is the best way to let others know exactly what they can and cannot do with the data you shared.
 Following the Panton Principles [http://pantonprinciples.org](http://pantonprinciples.org) we recommend:
 
-1. Using well established licenses in order to clearly communicate the rights and responsibilities of both the people providing the data and the people using it.
-2. Using the most open license possible, because even minor restrictions on data use can have unintended consequences for the reuse of the data [@schofield2009; @poisot2013].
+1. Using well established licenses (or waivers) in order to clearly communicate the rights and responsibilities of both the people providing the data and the people using it.
+2. Using the most open license (or waiver) possible, because even minor restrictions on data use can have unintended consequences for the reuse of the data [@schofield2009; @poisot2013].
 
-The Creative Commons Zero license (CC0) places no restrictions on data use and is considered by many to be one of the best license for sharing data (e.g., [@schofield2009; @poisot2013], [http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/](http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/)).
-Having a clear and open license will increase the chance that other scientists will be comfortable using your data.
+The Creative Commons Zero (CC0) public domain dedication places no restrictions on data use and is considered by many to be one of the best ways to share data (e.g., [@schofield2009; @poisot2013], [http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/](http://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/)).
+Several other licenses and waivers also accomplish these same goals [http://opendefinition.org/licenses/#Data](http://opendefinition.org/licenses/#Data).
+Having a clear and open license (or waiver) will increase the chance that other scientists will be comfortable using your data.
 
 
 Concluding remarks

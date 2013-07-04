@@ -435,7 +435,7 @@ Acknowledgments
 ---------------
 Thanks to Karthik Ram for organizing this special section and inviting us to contribute.
 Carly Strasser and Kara Woo recommended important references and David Harris and Carly Strasser provided valuable feedback on null values, all via Twitter.
-Carl Boettiger, Matt Davis, Daniel Hocking, Heinz Pampel, Karthik Ram, Thiago Silva, Carly Strasser, Tom Webb, and @beroe (Twitter handle) provided valuable comments on the manuscript.
+Carl Boettiger, Matt Davis, Daniel Hocking, Hilmar Lapp, Heinz Pampel, Karthik Ram, Thiago Silva, Carly Strasser, Tom Webb, and @beroe (Twitter handle) provided valuable comments on the manuscript.
 Many of these comments were part of the informal review process facilitated by posting this manuscript as a preprint to PeerJ Preprints.
 The writing of this paper was supported by a CAREER grant from the U.S. National Science Foundation (DEB 0953694) to EPW.
 

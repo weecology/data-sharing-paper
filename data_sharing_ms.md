@@ -75,7 +75,7 @@ It also makes data easier to use by both the original investigators and by other
 Without clear metadata, datasets can be overlooked or go unused due to the difficulty of understanding the data [@fraser1999; @zimmerman2003].
 Undocumented data also becomes less useful over time as information about the data is gradually lost [@michener1997].
 
-Metadata can take several forms, including descriptive file and column names, a written description of the data, images (i.e., maps, photographs), and specially structured information that can be read by computers (i.e., machine readable metadata). 
+Metadata can take several forms, including descriptive file and column names, a written description of the data, images (i.e., maps, photographs), and specially structured information that can be read by computers (either as separate files or part of the data files; i.e., machine readable metadata).
 Good metadata should provide the following information [@michener1997; @zimmerman2003; @strasser2012]:
 
 * The what, when, where, and how of data collection.
@@ -85,12 +85,12 @@ Good metadata should provide the following information [@michener1997; @zimmerma
 * Information to check that the data are properly imported, e.g., the number of rows and columns in the dataset and the total sum of numerical columns.
 
 Just like any other scientific publication, metadata should be logically organized, complete, and clear enough to enable interpretation and use of the data [@zimmerman2007].
-Specific metadata standards exist (e.g., Ecological Metadata Language [EML](http://knb.ecoinformatics.org/software/eml/), 
+There are a number of specific metadata standards for ecological and evolutionary data, including Ecological Metadata Language [EML](http://knb.ecoinformatics.org/software/eml/), 
 Directory Interchange Format [DIF](http://gcmd.gsfc.nasa.gov/add/difguide/index.html), 
-Darwin Core [DWC](http://rs.tdwg.org/dwc/) [@wieczorek2012],
+Darwin Core [DWC](http://rs.tdwg.org/dwc/),
 Dublin Core Metadata Initiative [DCMI](http://dublincore.org/metadata-basics/),
 Federal Geographic Data Committee [FGDC](http://www.fgdc.gov/metadata/geospatial-metadata-standards)
-[@reichman2011; @whitlock2011; @michener2012].
+[@reichman2011; @whitlock2011; @michener2012; @wieczorek2012].
 These standards are designed to provide consistency in metadata across different datasets and also to allow computers to interpret the metadata automatically.
 This allows broader and more efficient use of shared data because computers can be relied on to identify (and potentially combine) data from many different datasets for synthetic analyses [@brunt2002; @jones2006].
 While following these standards is valuable, the most important thing is having metadata regardless of the specific form.
@@ -129,7 +129,7 @@ Good standard formats include the type of file, the overall structure of the dat
 ### Use standard file formats
 
 You should use file formats that are readable by most software and, when possible, are non-proprietary [@borer2009; @strasser2011; @strasser2012].
-Certain kinds of data in ecology and evolution have well established standard formats such as FASTA files for nucleotide or peptide sequences ([http://zhanglab.ccmb.med.umich.edu/FASTA/](http://zhanglab.ccmb.med.umich.edu/FASTA/)) and the Newick files for phylogenetic trees ([http://evolution.genetics.washington.edu/phylip/newicktree.html](http://evolution.genetics.washington.edu/phylip/newicktree.html)).
+Certain kinds of data in ecology and evolution have well established standard formats such as [Genbank files](http://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html) for nucleotide or peptide sequences and the [Nexus files](http://en.wikipedia.org/wiki/Nexus_file) for phylogenetic trees.
 Use these well-defined formats when they exist, because that is what other scientists and most existing software will be able to work with most easily.
 
 Data that does not have a well-defined standard format is often stored in tables.
@@ -202,10 +202,10 @@ There are two potential issues with blanks that should be considered:
 "NA" can also be problematic if it is also used as an abbreviation (e.g., North America, Namibia, _Neotoma albigula_, sodium, etc.).
 We recommend against using numerical values to indicate nulls (e.g., 999, -999, etc.) because they typically require an extra step to remove from analyses and can be accidentally included in calculations.
 We also recommend against using non-standard text indications (e.g., No data, ND, missing, ---) because they can cause issues with software that requires consistent data types within columns).
-Whichever null value that you use, only use one, use it consistently throughout the data set, and indicate it clearly in the metadata. 
+Whichever null value you use, only use one, use it consistently throughout the data set, and indicate it clearly in the metadata. 
 
 Table: Commonly used null values, limitations, compatibility with common software and a recommendation regarding whether or not it is a good option.
-Null values are indicated as being a null value for specific software if they work consistently and correctly with that software.
+Null values are indicated as being compatible with specific software if they work consistently and correctly with that software.
 For example, the null value "NULL" works correctly for certain applications in R, but does not work in others, so it is not presented in the table as R compatible.
 
 +-------+------------------+-------------+--------------+
@@ -226,8 +226,8 @@ For example, the null value "NULL" works correctly for certain applications in R
 |       |behave            |             |              |
 |       |differently.      |             |              |
 +-------+------------------+-------------+--------------+
-|999,   |Not recognized as |             |Avoid         |
-|-999   |null by many      |             |              |
+|-999,  |Not recognized as |             |Avoid         |
+|999    |null by many      |             |              |
 |       |programs without  |             |              |
 |       |user input. Can be|             |              |
 |       |inadvertently     |             |              |
@@ -256,20 +256,22 @@ For example, the null value "NULL" works correctly for certain applications in R
 |NULL   |Can cause problems|SQL          |Good option   |
 |       |with data type    |             |              |
 +-------+------------------+-------------+--------------+
-|None   |Can cause problems|Python       |Avoid         |
+|None   |Uncommon. Can     |Python       |Avoid         |
+|       |cause problems    |             |              |
 |       |with data type    |             |              |
 +-------+------------------+-------------+--------------+
-|No     |Can cause problems|             |Avoid         |
-|data   |with data type,   |             |              |
+|No     |Uncommon. Can     |             |Avoid         |
+|data   |cause problems    |             |              |
+|       |with data type,   |             |              |
 |       |contains a space  |             |              |
 +-------+------------------+-------------+--------------+
-|Missing|Can cause problems|             |Avoid         |
+|Missing|Uncommon. Can     |             |Avoid         |
+|       |cause problems    |             |              |
 |       |with data type    |             |              |
-|       |                  |             |              |
 +-------+------------------+-------------+--------------+
-|-,+,.  |Can cause problems|             |Avoid         |
+|-,+,.  |Uncommon. Can     |             |Avoid         |
+|       |cause problems    |             |              |
 |       |with data type    |             |              |
-|       |                  |             |              |
 +-------+------------------+-------------+--------------+
 
 
@@ -282,7 +284,7 @@ Two of the most common kinds of contextual data in ecology and evolution are tax
 While this type of data is known and recorded in most studies (e.g, in field notebooks, on maps) it is frequently not included with the data.
 In general, if you have collected additional data or notes about a study organism or field site, there is a good chance that it will be useful to someone else, so including it with your data when you share it is a good idea.
 This kind of information can be included either as part of the data itself (e.g., in a new column or an additional table) or can be included in the metadata (e.g., the geographic location of the study site).
-For geographic data it is also important to include the datum (e.g., WGS-84) and sufficient precision (e.g., 4 decimals places if using decimal degress) to allow the data to be combined with other geographic datasets.
+For geographic data it is also important to include the datum (e.g., WGS-84) and sufficient precision (e.g., 4 decimals places if using decimal degrees) to allow the data to be combined with other geographic datasets.
 
 When this data is included in a dataset it is often included as codes or abbreviations (e.g., DS instead of _Dipodomys spectabilis_, or site names instead of geographic coordinates).
 This can be useful for the data collector because it reduces data entry (e.g., typing a 1 into a plot column instead of entering both the latitude and longitude) and redundancy (e.g., a single column for a species ID rather than separate columns for family, genus, and species).
@@ -324,9 +326,9 @@ For data sharing to be effective, data should be easy to find, accessible, and s
 To make your data (and associated code) visible and easily accessible, and to ensure a permanent link to a well maintained website, we suggest depositing your data in one of the major well-established repositories.
 This guarantees that the data will be available in the same location for a long time, in contrast to personal and institutional websites that do not guarantee long-term persistence.
 There are repositories available for sharing almost any type of biological or environmental data.
-Repositories that host specific data types, such as molecular sequences (e.g., DDBJ, GenBank, MG-RAST), are often highly standardized in data type, format, and quality control.
-Other repositories host a wide array of data types and are less standardized (e.g., Dryad, KNB, PANGAEA).
-In addition to the repositories focused on the natural sciences there are also all-purpose repositories where data of any kind can be shared (e.g., figshare). 
+Repositories that host specific data types, such as molecular sequences (e.g., [DDBJ](http://www.ddbj.nig.ac.jp/), [GenBank](http://www.ncbi.nlm.nih.gov/genbank/), [MG-RAST](http://metagenomics.anl.gov/)), are often highly standardized in data type, format, and quality control.
+Other repositories host a wide array of data types and are less standardized (e.g., [Dryad](http://datadryad.org/), [KNB](http://knb.ecoinformatics.org/), [PANGAEA](http://www.pangaea.de/)).
+In addition to the repositories focused on the natural sciences there are also all-purpose repositories where data of any kind can be shared (e.g., [figshare](http://figshare.com/)). 
 
 When choosing a repository you should consider where other researchers in your discipline are sharing their data.
 This helps to quickly identify the community's standard approach to sharing and increases the likelihood that other scientists will discover your data.
@@ -342,6 +344,7 @@ Table: Popular repositories for scientific datasets.
 This table does not include well-known molecular repositories (e.g. GenBank, EMBL, MG-RAST) that have become *de facto* standards in molecular and evolutionary biology.
 Consequently, several of these primarily serve the ecological community.
 These repositories are not exclusively used by members of specific institutions or museums, but accept data from the general scientific community.
+No License indicates optional and non-standard licenses, and Variable Access indicates that only some data is openly available.
 
 +-------------+-------+-----+---------+--------+------------+
 |Repository   |License|DOI  |Metadata |Access  |Notes       |
@@ -378,7 +381,7 @@ These repositories are not exclusively used by members of specific institutions 
 |             |CC     |     |         |        |participate |
 |             |       |     |         |        |in QA/QC    |
 +-------------+-------+-----+---------+--------+------------+
-|figshare     |CC0    |Yes  |Optional |Open    |Also allows |
+|figshare     |CC0    |Yes  |Optional |Variable|Also allows |
 |             |       |     |         |        |deposition  |
 |             |       |     |         |        |of other    |
 |             |       |     |         |        |research    |
